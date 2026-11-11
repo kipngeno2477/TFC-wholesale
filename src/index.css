@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    border-color: #E7E5E4;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FAF9F5;
+  }
+  
+  body {
+    background-color: #FAF9F5;
+    color: #1C1917;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -0.01em;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FAF9F5;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #D6D3D1;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #D4AF37;
+  }
+}
+
+@layer components {
+  .btn-gold {
+    @apply bg-gradient-to-r from-amber-500 via-yellow-500 to-amber-600 text-stone-950 font-bold tracking-wide transition-all duration-300 hover:brightness-105 hover:shadow-gold-glow active:scale-[0.98];
+  }
+
+  .btn-dark {
+    @apply bg-stone-900 text-white hover:bg-stone-800 transition-all duration-300 active:scale-[0.98];
+  }
+
+  .btn-outline-gold {
+    @apply border border-amber-500/80 text-amber-700 hover:bg-amber-500 hover:text-stone-950 transition-all duration-300;
+  }
+
+  .glass-dark {
+    @apply bg-stone-900/90 backdrop-blur-md border border-stone-800;
+  }
+
+  .glass-light {
+    @apply bg-white/90 backdrop-blur-md border border-stone-200/90 shadow-sm;
+  }
+
+  .gold-gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-amber-600 via-amber-500 to-yellow-600;
+  }
+
+  .gold-border-gradient {
+    border-image: linear-gradient(to right, #D4AF37, #F5DF88, #AA820A) 1;
+  }
+}
+
+/* Shimmer animation */
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.animate-shimmer {
+  animation: shimmer 2.5s infinite;
+}

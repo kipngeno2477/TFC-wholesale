@@ -1,0 +1,32 @@
+export const BRANCHES = {
+  nairobi: {
+    id: 'nairobi',
+    name: 'Nairobi Branch',
+    mall: 'Diamond Plaza 1',
+    address: 'Diamond Plaza 1, 2nd Floor, New Wing, Shop 8 / Gate 2',
+    landmark: 'Parklands, Nairobi (also near Imenti House along Tom Mboya Street collection point)',
+    phone: '+254795764548',
+    phoneDisplay: '0795 764 548',
+    whatsapp: '254795764548',
+    alternatePhones: ['+254727224755', '+254729966599'],
+    hours: 'Mon – Sat: 8:30 AM – 7:30 PM | Sun: 10:00 AM – 5:00 PM',
+    mapUrl: 'https://maps.google.com/?q=Diamond+Plaza+1+Parklands+Nairobi',
+    embedMap: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8475283995874!2d36.81977757472488!3d-1.2639433987239567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1725b8109bf5%3A0x7d0db71fa841bfa!2sDiamond%20Plaza!5e0!3m2!1sen!2ske!4v1710000000000!5m2!1sen!2ske',
+    isMain: true,
+  },
+  eldoret: {
+    id: 'eldoret',
+    name: 'Eldoret Branch',
+    mall: 'Seven Sunday Building',
+    address: 'Seven Sunday Building, Shop No. 2, after Chemist, opposite Naivas Sokoni',
+    landmark: 'Opposite Naivas Sokoni, Eldoret CBD',
+    phone: '+254703324600',
+    phoneDisplay: '0703 324 600',
+    whatsapp: '254703324600',
+    alternatePhones: ['+254727224755', '+254729966599'],
+    hours: 'Mon – Sat: 8:00 AM – 7:00 PM | Sun: 10:30 AM – 4:30 PM',
+    mapUrl: 'https://maps.google.com/?q=Naivas+Sokoni+Eldoret',
+    embedMap: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.658252495047!2d35.26786647472395!3d0.5186641994762145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x178101a1db97d7fb%3A0x8673a3aa290ff671!2sNaivas%20Supermarket%20-%20Eldoret%20Sokoni!5e0!3m2!1sen!2ske!4v1710000000000!5m2!1sen!2ske',
+    isMain: false,
+  }
+};
