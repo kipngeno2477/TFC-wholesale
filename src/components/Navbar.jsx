@@ -18,39 +18,28 @@ import { useProducts } from '../context/ProductContext';
 export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAccount }) {
   const { cartCount, wishlistCount } = useCart();
   const { selectedBranchId, setBranch, currentBranch, allBranches } = useBranch();
-  const { searchQuery, setSearchQuery, setSelectedCategory } = useProducts();
+  const { searchQuery, setSearchQuery } = useProducts();
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [branchDropdownOpen, setBranchDropdownOpen] = useState(false);
 
-  const handleNavClick = (pageOrSection, category = null) => {
+  const handleNavClick = (pageOrSection) => {
     setMobileMenuOpen(false);
 
-    if (pageOrSection === 'products') {
-      if (onNavigate) onNavigate('products');
-      if (category) setSelectedCategory(category);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-      return;
-    }
-
-    if (pageOrSection === 'cart') {
-      if (onNavigate) onNavigate('cart');
+    if (['products', 'men', 'women', 'kids', 'bedding', 'sportswear', 'cart'].includes(pageOrSection)) {
+      if (onNavigate) onNavigate(pageOrSection);
       window.scrollTo({ top: 0, behavior: 'smooth' });
       return;
     }
 
     if (pageOrSection === 'home' || pageOrSection === 'hero') {
       if (onNavigate) onNavigate('home');
-      setSelectedCategory('all');
       window.scrollTo({ top: 0, behavior: 'smooth' });
       return;
     }
 
     // Default to home page sections
     if (onNavigate) onNavigate('home');
-    if (category) {
-      setSelectedCategory(category);
-    }
     if (onScrollTo) {
       setTimeout(() => onScrollTo(pageOrSection), 100);
     }
@@ -58,8 +47,8 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
 
   const handleSearchSubmit = (e) => {
     if (e.key === 'Enter' || e.type === 'click') {
-      if (currentPage !== 'products' && onNavigate) {
-        onNavigate('products');
+      if (!['products', 'men', 'women', 'kids', 'bedding', 'sportswear'].includes(currentPage)) {
+        if (onNavigate) onNavigate('products');
       }
     }
   };
@@ -142,7 +131,7 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
       <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-stone-200/90 shadow-sm transition-all">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
           
-          <div className="flex items-center justify-between h-20 sm:h-22 gap-4 lg:gap-8">
+          <div className="flex items-center justify-between h-20 sm:h-22 gap-4 lg:gap-6">
             
             {/* Brand Logo (Left) */}
             <div className="flex items-center shrink-0">
@@ -164,8 +153,8 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
               </button>
             </div>
 
-            {/* Desktop Navigation Links with Reasonable Spacing (No dropdown menu, No wholesale tab) */}
-            <nav className="hidden lg:flex items-center space-x-6 xl:space-x-8 shrink-0">
+            {/* Desktop Navigation Links with Reasonable Spacing (Each Department has its own dedicated page) */}
+            <nav className="hidden lg:flex items-center space-x-5 xl:space-x-7 shrink-0">
               
               <button
                 onClick={() => handleNavClick('home')}
@@ -178,7 +167,7 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
                 Home
               </button>
 
-              {/* Our Products Page (Direct Link - NO dropdown menu as requested) */}
+              {/* Our Products Page (All Products with reference image design) */}
               <button
                 onClick={() => handleNavClick('products')}
                 className={`text-xs xl:text-sm font-bold uppercase tracking-wider transition ${
@@ -190,25 +179,64 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
                 Our Products
               </button>
 
+              {/* Men Dedicated Clothes Page */}
               <button
-                onClick={() => handleNavClick('products', 'male')}
-                className="text-xs xl:text-sm font-bold uppercase tracking-wider text-stone-700 hover:text-teal-600 transition"
+                onClick={() => handleNavClick('men')}
+                className={`text-xs xl:text-sm font-bold uppercase tracking-wider transition ${
+                  currentPage === 'men'
+                    ? 'text-teal-600 font-black'
+                    : 'text-stone-700 hover:text-teal-600'
+                }`}
               >
                 Men
               </button>
 
+              {/* Women Dedicated Clothes Page */}
               <button
-                onClick={() => handleNavClick('products', 'dresses')}
-                className="text-xs xl:text-sm font-bold uppercase tracking-wider text-stone-700 hover:text-teal-600 transition"
+                onClick={() => handleNavClick('women')}
+                className={`text-xs xl:text-sm font-bold uppercase tracking-wider transition ${
+                  currentPage === 'women'
+                    ? 'text-rose-600 font-black'
+                    : 'text-stone-700 hover:text-rose-600'
+                }`}
               >
                 Women
               </button>
 
+              {/* Kids Dedicated Clothes Page */}
               <button
-                onClick={() => handleNavClick('products', 'kids')}
-                className="text-xs xl:text-sm font-bold uppercase tracking-wider text-stone-700 hover:text-teal-600 transition"
+                onClick={() => handleNavClick('kids')}
+                className={`text-xs xl:text-sm font-bold uppercase tracking-wider transition ${
+                  currentPage === 'kids'
+                    ? 'text-amber-600 font-black'
+                    : 'text-stone-700 hover:text-amber-600'
+                }`}
               >
                 Kids
+              </button>
+
+              {/* Bedding Dedicated Home Page */}
+              <button
+                onClick={() => handleNavClick('bedding')}
+                className={`text-xs xl:text-sm font-bold uppercase tracking-wider transition ${
+                  currentPage === 'bedding'
+                    ? 'text-emerald-600 font-black'
+                    : 'text-stone-700 hover:text-emerald-600'
+                }`}
+              >
+                Bedding
+              </button>
+
+              {/* Sportswear Dedicated Page */}
+              <button
+                onClick={() => handleNavClick('sportswear')}
+                className={`text-xs xl:text-sm font-bold uppercase tracking-wider transition ${
+                  currentPage === 'sportswear'
+                    ? 'text-blue-600 font-black'
+                    : 'text-stone-700 hover:text-blue-600'
+                }`}
+              >
+                Sportswear
               </button>
 
               <button
@@ -220,22 +248,22 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
             </nav>
 
             {/* End of Navbar Content: Search Bar, Account Button, Wishlist, Cart Page, WhatsApp */}
-            <div className="flex items-center space-x-3 sm:space-x-4 shrink-0">
+            <div className="flex items-center space-x-2.5 sm:space-x-3.5 shrink-0">
               
               {/* Search Bar (Moved to the end of the navbar content) */}
-              <div className="hidden md:flex relative w-44 lg:w-56 xl:w-64">
+              <div className="hidden md:flex relative w-40 lg:w-48 xl:w-56">
                 <input
                   type="text"
                   placeholder="Search products..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   onKeyDown={handleSearchSubmit}
-                  className="w-full bg-stone-50 hover:bg-stone-100/90 focus:bg-white border border-stone-200/90 rounded-full py-2 pl-3.5 pr-9 text-xs text-stone-900 placeholder-stone-400 focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-500/20 shadow-sm transition-all"
+                  className="w-full bg-stone-50 hover:bg-stone-100/90 focus:bg-white border border-stone-200/90 rounded-full py-2 pl-3.5 pr-8 text-xs text-stone-900 placeholder-stone-400 focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-500/20 shadow-sm transition-all"
                 />
                 <button
                   type="button"
                   onClick={handleSearchSubmit}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-stone-400 hover:text-teal-600 transition"
+                  className="absolute right-2.5 top-1/2 -translate-y-1/2 text-stone-400 hover:text-teal-600 transition"
                   title="Search"
                 >
                   <Search className="w-3.5 h-3.5" />
@@ -371,29 +399,48 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
               >
                 <span>Our Products</span>
                 <span className="text-[10px] bg-orange-100 text-orange-800 px-2 py-0.5 rounded font-black">
-                  ALL STORE ITEMS
+                  170 ITEMS
                 </span>
               </button>
 
               <button
-                onClick={() => handleNavClick('products', 'male')}
-                className="py-2 text-base font-semibold text-stone-800 hover:text-teal-600 text-left"
+                onClick={() => handleNavClick('men')}
+                className="py-2 text-base font-semibold text-stone-800 hover:text-teal-600 text-left flex items-center justify-between"
               >
-                Men's Fashion
+                <span>Men's Clothes & Streetwear</span>
+                <span className="text-xs text-stone-400 font-bold">99 items</span>
               </button>
 
               <button
-                onClick={() => handleNavClick('products', 'dresses')}
-                className="py-2 text-base font-semibold text-stone-800 hover:text-teal-600 text-left"
+                onClick={() => handleNavClick('women')}
+                className="py-2 text-base font-semibold text-stone-800 hover:text-rose-600 text-left flex items-center justify-between"
               >
-                Women's Dresses & Wear
+                <span>Women's Dresses & Boutique</span>
+                <span className="text-xs text-stone-400 font-bold">23 items</span>
               </button>
 
               <button
-                onClick={() => handleNavClick('products', 'kids')}
-                className="py-2 text-base font-semibold text-stone-800 hover:text-teal-600 text-left"
+                onClick={() => handleNavClick('kids')}
+                className="py-2 text-base font-semibold text-stone-800 hover:text-amber-600 text-left flex items-center justify-between"
               >
-                Kids' Shoes & Wear
+                <span>Kids' Wear & Fleeces</span>
+                <span className="text-xs text-stone-400 font-bold">12 items</span>
+              </button>
+
+              <button
+                onClick={() => handleNavClick('bedding')}
+                className="py-2 text-base font-semibold text-stone-800 hover:text-emerald-600 text-left flex items-center justify-between"
+              >
+                <span>Bedding, Duvets & Maasai Shukas</span>
+                <span className="text-xs text-stone-400 font-bold">18 items</span>
+              </button>
+
+              <button
+                onClick={() => handleNavClick('sportswear')}
+                className="py-2 text-base font-semibold text-stone-800 hover:text-blue-600 text-left flex items-center justify-between"
+              >
+                <span>Sportswear & Matchday Jerseys</span>
+                <span className="text-xs text-stone-400 font-bold">12 items</span>
               </button>
 
               <button

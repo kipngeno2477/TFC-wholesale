@@ -1,1307 +1,8140 @@
+// AUTO-GENERATED COMPLETE CATALOG FOR TFC WHOLESALERS (ALL 170 PRODUCTS)
 export const MEGA_CATEGORIES = [
   {
-    id: 'clothing',
-    name: 'Clothing',
+    id: 'mens-wear',
+    name: "Men's Fashion",
     icon: 'Shirt',
-    accentColor: 'text-rose-500 bg-rose-50 border-rose-200',
-    headerIconBg: 'bg-rose-100 text-rose-600',
+    accentColor: 'text-stone-900 bg-stone-100 border-stone-300',
+    headerIconBg: 'bg-stone-900 text-white',
     columns: [
       {
-        title: "Ladies' Wear",
-        categoryId: 'ladies-wear',
-        items: [
-          { name: 'Dresses & Gowns', filter: 'dresses' },
-          { name: 'Blouses & Co-ord Sets', filter: 'blouses' },
-          { name: 'Jeans & Mom Jeans', filter: 'ladies-jeans' },
-          { name: 'Knit Sweaters & Pullovers', filter: 'ladies-sweaters' },
-          { name: 'Leather & Quilted Jackets', filter: 'ladies-jackets' },
-          { name: 'Plus-Size Outfits', filter: 'plus-size' },
-        ],
-      },
-      {
-        title: "Men's Wear",
+        title: 'Trousers & Pants',
         categoryId: 'mens-wear',
         items: [
           { name: 'Executive Khakis & Chinos', filter: 'khakis' },
+          { name: 'Tactical Cargo Pants', filter: 'cargo' },
           { name: 'Heavy Denim Jeans', filter: 'jeans' },
-          { name: 'Formal & Cuban Shirts', filter: 'shirts' },
-          { name: 'Graphic & Plain Heavy Tees', filter: 't-shirts' },
-          { name: 'Leather & Bomber Jackets', filter: 'jackets' },
-          { name: 'Heavyweight Hoodies & Fleeces', filter: 'hoodies' },
         ],
       },
       {
-        title: "Children's Wear",
-        categoryId: 'childrens-wear',
+        title: 'Tops & Shirts',
+        categoryId: 'mens-wear',
         items: [
-          { name: 'Kids Cozy Fleeces', filter: 'kids-fleece' },
-          { name: 'Winter Puffer Jackets', filter: 'kids-jackets' },
-          { name: 'Kids Tracksuits & Joggers', filter: 'kids-tracksuits' },
-          { name: 'Junior Club Jerseys', filter: 'kids-jersey' },
-          { name: 'Toddlers Play Sets', filter: 'toddlers' },
+          { name: 'Heavy Cotton T-Shirts', filter: 't-shirts' },
+          { name: 'Cuban Vacation Shirts', filter: 'shirts' },
+          { name: 'Long Sleeve Sweaters', filter: 'sweaters' },
         ],
       },
       {
-        title: 'Sportswear',
-        categoryId: 'sportswear',
+        title: 'Jackets & Outerwear',
+        categoryId: 'mens-wear',
         items: [
-          { name: 'Arsenal FC Jersey', filter: 'arsenal' },
-          { name: 'Chelsea FC Jersey', filter: 'chelsea' },
-          { name: 'Man City FC Jersey', filter: 'man-city' },
-          { name: 'Man United FC Jersey', filter: 'man-united' },
-          { name: 'Athletic Tracksuits', filter: 'tracksuits' },
-          { name: 'Varsity & Baseball Kits', filter: 'baseball' },
+          { name: 'Vintage Biker Leather Jackets', filter: 'jackets' },
+          { name: 'Fleece Lined Hoodies', filter: 'hoodies' },
+          { name: 'Winter Puffer Down Jackets', filter: 'jackets' },
         ],
       },
     ],
-    viewAllText: 'View All Clothing',
+    viewAllText: "View All Men's Collection",
   },
   {
-    id: 'shoes',
-    name: 'Shoes & Footwear',
-    icon: 'Footprints',
-    accentColor: 'text-indigo-500 bg-indigo-50 border-indigo-200',
-    headerIconBg: 'bg-indigo-100 text-indigo-600',
+    id: 'ladies-wear',
+    name: "Women's Fashion",
+    icon: 'Shirt',
+    accentColor: 'text-rose-600 bg-rose-50 border-rose-200',
+    headerIconBg: 'bg-rose-100 text-rose-600',
     columns: [
       {
-        title: "Men's Footwear",
-        categoryId: 'shoes',
+        title: 'Dresses & Outfits',
+        categoryId: 'ladies-wear',
         items: [
-          { name: 'Sneakers & Streetwear', filter: 'sneakers' },
-          { name: 'Official Leather Shoes', filter: 'official-shoes' },
-          { name: 'Chelsea Boots & Loafers', filter: 'boots' },
+          { name: 'Floral Midi Boutique Dresses', filter: 'dresses' },
+          { name: 'Belted Wide-Leg Jumpsuits', filter: 'jumpsuits' },
+          { name: 'Curvy Plus-Size Gowns', filter: 'plus-size' },
         ],
       },
       {
-        title: "Ladies' Footwear",
-        categoryId: 'shoes',
+        title: 'Denim & Tops',
+        categoryId: 'ladies-wear',
         items: [
-          { name: 'Ladies Chunky Sneakers', filter: 'ladies-sneakers' },
-          { name: 'Block Heels & Pumps', filter: 'heels' },
-          { name: 'Flat Sandals & Mules', filter: 'flats' },
-        ],
-      },
-      {
-        title: 'Sports & Athletic',
-        categoryId: 'shoes',
-        items: [
-          { name: 'Running & Training Shoes', filter: 'running' },
-          { name: 'Football Boots', filter: 'football-boots' },
+          { name: 'Vintage High-Waist Mom Jeans', filter: 'ladies-jeans' },
+          { name: 'Cable-Knit Cozy Sweaters', filter: 'ladies-sweaters' },
+          { name: 'Tailored Leather Jackets', filter: 'ladies-jackets' },
         ],
       },
     ],
-    viewAllText: 'View All Shoes & Footwear',
+    viewAllText: "View All Women's Boutique",
+  },
+  {
+    id: 'childrens-wear',
+    name: "Children's Wear",
+    icon: 'Package',
+    accentColor: 'text-amber-600 bg-amber-50 border-amber-200',
+    headerIconBg: 'bg-amber-100 text-amber-700',
+    columns: [
+      {
+        title: 'Warm Layers',
+        categoryId: 'childrens-wear',
+        items: [
+          { name: 'Skin-Friendly Polar Fleeces', filter: 'kids-fleece' },
+          { name: 'Puffer Winter Jackets', filter: 'kids-jackets' },
+          { name: 'Fleece Hooded Sweatshirts', filter: 'kids-hoodies' },
+        ],
+      },
+      {
+        title: 'Sports & Play',
+        categoryId: 'childrens-wear',
+        items: [
+          { name: 'Athletic Jogger Trackpants', filter: 'kids-tracksuits' },
+          { name: 'Junior Club Matchday Jerseys', filter: 'kids-jerseys' },
+        ],
+      },
+    ],
+    viewAllText: "View All Children's Wear",
   },
   {
     id: 'bedding-home',
     name: 'Bedding & Home',
     icon: 'Home',
-    accentColor: 'text-emerald-500 bg-emerald-50 border-emerald-200',
-    headerIconBg: 'bg-emerald-100 text-emerald-600',
+    accentColor: 'text-emerald-600 bg-emerald-50 border-emerald-200',
+    headerIconBg: 'bg-emerald-100 text-emerald-700',
     columns: [
       {
-        title: 'Duvets & Comforters',
+        title: 'Duvets & Blankets',
         categoryId: 'bedding-home',
         items: [
-          { name: '6x6 Heavyweight Duvets', filter: 'duvets-6x6' },
-          { name: '4x6 Microfiber Duvets', filter: 'duvets-4x6' },
-          { name: 'Royal Embossed Comforters', filter: 'embossed' },
-          { name: 'Reversible Dual-Tone Sets', filter: 'reversible' },
-        ],
-      },
-      {
-        title: 'Bedsheets & Linens',
-        categoryId: 'bedding-home',
-        items: [
-          { name: 'Pure Cotton Bedsheets (4-Pc)', filter: 'bedsheets' },
-          { name: 'Hotel Satin Stripe Sets', filter: 'satin-sheets' },
-          { name: 'Plush Pillows (Pack of 2)', filter: 'pillows' },
-        ],
-      },
-      {
-        title: 'Blankets & Shukas',
-        categoryId: 'bedding-home',
-        items: [
+          { name: '6x6 Microfiber Siliconized Duvets', filter: 'duvets-6x6' },
+          { name: 'Heavy Korean Mink Blankets', filter: 'heavy-blankets' },
           { name: 'Original Kenyan Maasai Shukas', filter: 'maasai-shuka' },
-          { name: 'Heavy Polar Blankets', filter: 'heavy-blankets' },
-          { name: 'Coastal Khanga & Leso Wraps', filter: 'lesos' },
-          { name: 'Velvet Drapery & Material', filter: 'material' },
+        ],
+      },
+      {
+        title: 'Bedsheets & Pillows',
+        categoryId: 'bedding-home',
+        items: [
+          { name: 'Pure Cotton Bedsheet Sets', filter: 'bedsheet-sets' },
+          { name: 'Hotel Siliconized Pillows', filter: 'hotel-pillows' },
+          { name: 'Cotton Coastal Printed Lesos', filter: 'lesos' },
         ],
       },
     ],
     viewAllText: 'View All Bedding & Home',
   },
   {
-    id: 'bags-luggage',
-    name: 'Bags & Accessories',
-    icon: 'Briefcase',
-    accentColor: 'text-amber-500 bg-amber-50 border-amber-200',
-    headerIconBg: 'bg-amber-100 text-amber-600',
+    id: 'sportswear',
+    name: 'Sportswear',
+    icon: 'Zap',
+    accentColor: 'text-blue-600 bg-blue-50 border-blue-200',
+    headerIconBg: 'bg-blue-100 text-blue-700',
     columns: [
       {
-        title: 'Travel & Duffels',
-        categoryId: 'bags-luggage',
+        title: 'Official Club Kits',
+        categoryId: 'sportswear',
         items: [
-          { name: 'Heavy-Duty Travel Duffels', filter: 'duffels' },
-          { name: 'Overnight Luggage Bags', filter: 'weekend-bags' },
-          { name: 'Gym & Holdall Bags', filter: 'gym-bags' },
+          { name: 'Arsenal FC Thai-Grade Jersey', filter: 'arsenal' },
+          { name: 'Chelsea FC Matchday Jersey', filter: 'chelsea' },
+          { name: 'Manchester City Matchday Kit', filter: 'city' },
+          { name: 'Manchester United FC Kit', filter: 'united' },
         ],
       },
       {
-        title: 'Men’s Accessories',
-        categoryId: 'bags-luggage',
+        title: 'Activewear & Outerwear',
+        categoryId: 'sportswear',
         items: [
-          { name: 'Top-Grain Leather Belts', filter: 'belts' },
-          { name: 'Shopkeeper Work Aprons', filter: 'aprons' },
+          { name: 'Athletic Training Tracksuits', filter: 'sports' },
+          { name: 'Varsity Baseball Snap Jackets', filter: 'baseball' },
         ],
       },
     ],
-    viewAllText: 'View All Bags & Accessories',
+    viewAllText: 'View All Sportswear',
   },
   {
     id: 'bales',
-    name: 'Mixed Bales & Wholesale',
+    name: 'Wholesale Bales',
     icon: 'Package',
-    accentColor: 'text-violet-500 bg-violet-50 border-violet-200',
-    headerIconBg: 'bg-violet-100 text-violet-600',
+    accentColor: 'text-purple-600 bg-purple-50 border-purple-200',
+    headerIconBg: 'bg-purple-100 text-purple-700',
     columns: [
       {
-        title: 'Export Grade A Bales',
+        title: 'Direct Factory Bales',
         categoryId: 'bales',
         items: [
-          { name: 'Grade A Duvet Bale (50kg)', filter: 'duvet-bale' },
-          { name: 'Velvet Curtains Bale (45kg)', filter: 'curtains-bale' },
-          { name: 'Heavy Hoodies Bale (45kg)', filter: 'hoodie-bale' },
-          { name: 'Men’s Khakis Bale (45kg)', filter: 'khaki-bale' },
-        ],
-      },
-      {
-        title: 'Reseller Starter Kits',
-        categoryId: 'bales',
-        items: [
-          { name: '30-Piece Graphic Tees Bundle', filter: 'starter-tees' },
-          { name: '15-Piece Fleece & Hoodie Box', filter: 'starter-fleece' },
-          { name: '10-Piece Luxury Duvet Package', filter: 'starter-duvets' },
+          { name: '50kg 6x6 Duvet Factory Bales', filter: 'duve-bales' },
+          { name: '45kg Velvet Curtains Drapes Bale', filter: 'velvet-bales' },
         ],
       },
     ],
-    viewAllText: 'View All Mixed Bales & Wholesale',
+    viewAllText: 'View All Wholesale Deals',
   },
 ];
 
 export const CATEGORIES = [
   { id: 'all', name: 'All Collections' },
-  { id: 'clothing', name: 'Clothing' },
-  { id: 'ladies-wear', name: "Ladies' Wear" },
   { id: 'mens-wear', name: "Men's Fashion" },
+  { id: 'ladies-wear', name: "Women's Boutique" },
   { id: 'childrens-wear', name: "Children's Wear" },
-  { id: 'sportswear', name: 'Sportswear & Jerseys' },
   { id: 'bedding-home', name: 'Bedding & Home' },
+  { id: 'sportswear', name: 'Sportswear & Jerseys' },
   { id: 'bags-luggage', name: 'Bags & Accessories' },
   { id: 'bales', name: 'Mixed Bales & Wholesale' },
-  { id: 'new-arrivals', name: 'New Arrivals' },
 ];
 
 export const INITIAL_PRODUCTS = [
-  // ==========================================
-  // MEN'S WEAR: KHAKIS & CHINOS
-  // ==========================================
   {
-    id: 'tfc-m01',
-    name: 'Executive Slim-Fit Khaki Trousers',
-    category: 'mens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'khakis',
-    retailPrice: 1500,
-    wholesalePrice: 950,
-    wholesaleMoq: 6,
-    badge: 'BEST FOR RESELLERS',
-    isNewArrival: true,
-    isFeatured: true,
-    isBestseller: true,
-    fabric: '98% Cotton with 2% Spandex Stretch',
-    rating: 4.9,
-    reviewsCount: 168,
-    image: '/products-img/khaki.jpeg',
-    gallery: ['/products-img/khaki.jpeg', '/products-img/Men tr.jpeg', '/products-img/spys.jpeg'],
-    sizes: ['30', '32', '34', '36', '38', '40'],
-    colors: [{ name: 'Classic Khaki', hex: '#C3B091' }, { name: 'Black', hex: '#1C1917' }, { name: 'Navy', hex: '#1E293B' }],
-    stock: { nairobi: 180, eldoret: 140 },
-    description: 'Top-grossing khaki trousers in Kenya. Wrinkle-resistant stretch weave with double-reinforced stitching. Superb resale demand.'
+    "id": "tfc-001",
+    "name": "Vintage Double-Rider Biker Leather Jacket (1600 jkt)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jackets",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "Heavyweight Textured PU Leather with Quilted Satin Lining",
+    "rating": 4.5,
+    "reviewsCount": 40,
+    "image": "/products-img/1600 jkt.jpeg",
+    "gallery": [
+      "/products-img/1600 jkt.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Midnight Black",
+        "hex": "#09090B"
+      },
+      {
+        "name": "Vintage Dark Brown",
+        "hex": "#451A03"
+      }
+    ],
+    "stock": {
+      "nairobi": 30,
+      "eldoret": 20
+    },
+    "description": "Heavy-duty front YKK zip, zippered sleeves, studded collar. Maximum street credibility and wind protection."
   },
   {
-    id: 'tfc-m02',
-    name: 'Tactical Multi-Pocket Cargo Pants',
-    category: 'mens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'khakis',
-    retailPrice: 1700,
-    wholesalePrice: 1050,
-    wholesaleMoq: 6,
-    badge: 'STREETWEAR HIT',
-    isNewArrival: true,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: 'Heavy Duty Ripstop Cotton',
-    rating: 4.8,
-    reviewsCount: 139,
-    image: '/products-img/cargo.jpeg',
-    gallery: ['/products-img/cargo.jpeg', '/products-img/grey trao.jpeg', '/products-img/men gagis.jpeg'],
-    sizes: ['30', '32', '34', '36', '38'],
-    colors: [{ name: 'Military Khaki', hex: '#70664B' }, { name: 'Black', hex: '#111111' }, { name: 'Grey', hex: '#6B7280' }],
-    stock: { nairobi: 130, eldoret: 100 },
-    description: 'Streetwear tactical cargos featuring 6 reinforced utility pockets and relaxed tapered fit.'
+    "id": "tfc-002",
+    "name": "Vintage Double-Rider Biker Leather Jacket (2000 jkt)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jackets",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "Heavyweight Textured PU Leather with Quilted Satin Lining",
+    "rating": 4.6,
+    "reviewsCount": 47,
+    "image": "/products-img/2000 jkt.jpeg",
+    "gallery": [
+      "/products-img/2000 jkt.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Midnight Black",
+        "hex": "#09090B"
+      },
+      {
+        "name": "Vintage Dark Brown",
+        "hex": "#451A03"
+      }
+    ],
+    "stock": {
+      "nairobi": 43,
+      "eldoret": 29
+    },
+    "description": "Heavy-duty front YKK zip, zippered sleeves, studded collar. Maximum street credibility and wind protection."
   },
   {
-    id: 'tfc-m03',
-    name: 'Classic Tailored Office Chinos',
-    category: 'mens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'khakis',
-    retailPrice: 1600,
-    wholesalePrice: 1000,
-    wholesaleMoq: 6,
-    badge: 'OFFICE FAVORITE',
-    isNewArrival: false,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: 'Premium Mercerized Cotton Twill',
-    rating: 4.8,
-    reviewsCount: 110,
-    image: '/products-img/men gagis.jpeg',
-    gallery: ['/products-img/men gagis.jpeg', '/products-img/Men tr.jpeg', '/products-img/men tr2.jpeg'],
-    sizes: ['30', '32', '34', '36', '38'],
-    colors: [{ name: 'Beige', hex: '#D2B48C' }, { name: 'Charcoal', hex: '#374151' }],
-    stock: { nairobi: 115, eldoret: 90 },
-    description: 'Smart pleated office chinos engineered for daily corporate wear.'
+    "id": "tfc-003",
+    "name": "Men Modern Streetwear Essential (2000 mzaee)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.7,
+    "reviewsCount": 54,
+    "image": "/products-img/2000 mzaee.jpeg",
+    "gallery": [
+      "/products-img/2000 mzaee.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 56,
+      "eldoret": 38
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
   },
   {
-    id: 'tfc-m04',
-    name: 'Slim Stretch Smart Slacks',
-    category: 'mens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'khakis',
-    retailPrice: 1550,
-    wholesalePrice: 980,
-    wholesaleMoq: 6,
-    badge: 'NEW ARRIVAL',
-    isNewArrival: true,
-    isFeatured: false,
-    isBestseller: false,
-    fabric: 'Stretch Cotton Gabardine',
-    rating: 4.7,
-    reviewsCount: 64,
-    image: '/products-img/spys.jpeg',
-    gallery: ['/products-img/spys.jpeg', '/products-img/spyse .jpeg', '/products-img/spysee.jpeg'],
-    sizes: ['30', '32', '34', '36'],
-    colors: [{ name: 'Dark Navy', hex: '#1E293B' }, { name: 'Tan', hex: '#D7C4A5' }],
-    stock: { nairobi: 140, eldoret: 85 },
-    description: 'Tailored slim trousers with hidden elastic comfort waistband.'
+    "id": "tfc-004",
+    "name": "Camp Collar Cuban Vacation & Casual Shirt (800 shrt)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "shirts",
+    "retailPrice": 1200,
+    "wholesalePrice": 750,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "100% Breathable Viscose & Egyptian Cotton",
+    "rating": 4.8,
+    "reviewsCount": 61,
+    "image": "/products-img/800 shrt.jpeg",
+    "gallery": [
+      "/products-img/800 shrt.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Abstract Print",
+        "hex": "#D97706"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      }
+    ],
+    "stock": {
+      "nairobi": 69,
+      "eldoret": 47
+    },
+    "description": "Relaxed retro collar with boxy silhouette. Silky breathable drape for sunny days and weekend vibes."
   },
   {
-    id: 'tfc-m05',
-    name: 'Charcoal Executive Formal Trousers',
-    category: 'mens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'khakis',
-    retailPrice: 1600,
-    wholesalePrice: 1000,
-    wholesaleMoq: 6,
-    badge: 'EXECUTIVE',
-    isNewArrival: false,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: 'Poly-Viscose Wrinkle-Free Blend',
-    rating: 4.9,
-    reviewsCount: 88,
-    image: '/products-img/grey trao.jpeg',
-    gallery: ['/products-img/grey trao.jpeg', '/products-img/men tr2.jpeg'],
-    sizes: ['32', '34', '36', '38', '40'],
-    colors: [{ name: 'Heather Grey', hex: '#64748B' }, { name: 'Black', hex: '#111111' }],
-    stock: { nairobi: 95, eldoret: 70 },
-    description: 'Sharp crease formal trousers for boardrooms and executive meetings.'
-  },
-
-  // ==========================================
-  // MEN'S WEAR: DENIM JEANS
-  // ==========================================
-  {
-    id: 'tfc-m06',
-    name: 'Straight-Cut Heavy Raw Denim Jeans',
-    category: 'mens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'jeans',
-    retailPrice: 1800,
-    wholesalePrice: 1100,
-    wholesaleMoq: 6,
-    badge: 'HIGH MARGIN',
-    isNewArrival: false,
-    isFeatured: true,
-    isBestseller: true,
-    fabric: '13.5 oz Raw Ring-Spun Cotton Denim',
-    rating: 4.9,
-    reviewsCount: 184,
-    image: '/products-img/men jean.jpeg',
-    gallery: ['/products-img/men jean.jpeg', '/products-img/men jeans.jpeg', '/products-img/denim.jpeg'],
-    sizes: ['30', '32', '34', '36', '38'],
-    colors: [{ name: 'Indigo Blue', hex: '#1C3F6E' }, { name: 'Dark Black', hex: '#18181B' }],
-    stock: { nairobi: 200, eldoret: 150 },
-    description: 'Heavyweight 13.5 oz denim built for long-lasting wear. Reinforced copper rivets and heavy zip fly.'
+    "id": "tfc-005",
+    "name": "Straight-Cut Heavy Indigo Selvedge Denim Jeans (G star)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jeans",
+    "retailPrice": 1800,
+    "wholesalePrice": 1100,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "14.5 oz Raw Ring-Spun Cotton Denim",
+    "rating": 4.9,
+    "reviewsCount": 68,
+    "image": "/products-img/G star.jpeg",
+    "gallery": [
+      "/products-img/G star.jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Raw Indigo Blue",
+        "hex": "#1E3A8A"
+      },
+      {
+        "name": "Stone Washed",
+        "hex": "#60A5FA"
+      },
+      {
+        "name": "Solid Black",
+        "hex": "#000000"
+      }
+    ],
+    "stock": {
+      "nairobi": 82,
+      "eldoret": 56
+    },
+    "description": "Classic 5-pocket denim tailored for durability. Custom copper rivets and reinforced fly."
   },
   {
-    id: 'tfc-m07',
-    name: 'Vintage Washed Stretch Comfort Jeans',
-    category: 'mens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'jeans',
-    retailPrice: 1750,
-    wholesalePrice: 1050,
-    wholesaleMoq: 6,
-    badge: 'TRENDING',
-    isNewArrival: true,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: 'Stretch Ring-Spun Denim',
-    rating: 4.8,
-    reviewsCount: 92,
-    image: '/products-img/denim.jpeg',
-    gallery: ['/products-img/denim.jpeg', '/products-img/mnjns.jpeg', '/products-img/mn n.jpeg'],
-    sizes: ['30', '32', '34', '36'],
-    colors: [{ name: 'Faded Blue', hex: '#60A5FA' }, { name: 'Medium Wash', hex: '#3B82F6' }],
-    stock: { nairobi: 120, eldoret: 80 },
-    description: 'Authentic stone-washed look with 2% spandex for all-day comfort.'
+    "id": "tfc-006",
+    "name": "Vintage Double-Rider Biker Leather Jacket (JJack)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jackets",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "Heavyweight Textured PU Leather with Quilted Satin Lining",
+    "rating": 4.5,
+    "reviewsCount": 75,
+    "image": "/products-img/JJack.jpeg",
+    "gallery": [
+      "/products-img/JJack.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Midnight Black",
+        "hex": "#09090B"
+      },
+      {
+        "name": "Vintage Dark Brown",
+        "hex": "#451A03"
+      }
+    ],
+    "stock": {
+      "nairobi": 95,
+      "eldoret": 65
+    },
+    "description": "Heavy-duty front YKK zip, zippered sleeves, studded collar. Maximum street credibility and wind protection."
   },
   {
-    id: 'tfc-m08',
-    name: 'Slim Tapered Deep Indigo Jeans',
-    category: 'mens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'jeans',
-    retailPrice: 1800,
-    wholesalePrice: 1100,
-    wholesaleMoq: 6,
-    badge: 'BESTSELLER',
-    isNewArrival: false,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: '100% Rigid Denim',
-    rating: 4.8,
-    reviewsCount: 76,
-    image: '/products-img/mn3.jpeg',
-    gallery: ['/products-img/mn3.jpeg', '/products-img/jeans.jpeg', '/products-img/je real.jpeg'],
-    sizes: ['30', '32', '34', '36', '38'],
-    colors: [{ name: 'Deep Indigo', hex: '#1E3A8A' }],
-    stock: { nairobi: 110, eldoret: 85 },
-    description: 'Classic clean cut without distressing. Perfect for smart-casual wear.'
-  },
-
-  // ==========================================
-  // MEN'S WEAR: SHIRTS & POLOS
-  // ==========================================
-  {
-    id: 'tfc-m09',
-    name: 'Classic Cuban Collar Casual Shirt',
-    category: 'mens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'shirts',
-    retailPrice: 1300,
-    wholesalePrice: 800,
-    wholesaleMoq: 6,
-    badge: 'SUMMER HIT',
-    isNewArrival: true,
-    isFeatured: true,
-    isBestseller: true,
-    fabric: 'Textured Breathable Rayon-Linen',
-    rating: 4.8,
-    reviewsCount: 112,
-    image: '/products-img/cuban.jpeg',
-    gallery: ['/products-img/cuban.jpeg', '/products-img/800 shrt.jpeg', '/products-img/shirts off.jpeg'],
-    sizes: ['M', 'L', 'XL', '2XL'],
-    colors: [{ name: 'Cream', hex: '#FDFBF7' }, { name: 'Sage', hex: '#849B89' }],
-    stock: { nairobi: 140, eldoret: 95 },
-    description: 'Airy Cuban collar shirt cut from soft linen-rayon. Perfect for weekend vibes.'
-  },
-  {
-    id: 'tfc-m10',
-    name: 'Executive Slim Formal Office Shirt',
-    category: 'mens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'shirts',
-    retailPrice: 1400,
-    wholesalePrice: 850,
-    wholesaleMoq: 6,
-    badge: 'OFFICE STAPLE',
-    isNewArrival: false,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: '100% Egyptian Cotton Poplin',
-    rating: 4.9,
-    reviewsCount: 145,
-    image: '/products-img/officialls.jpeg',
-    gallery: ['/products-img/officialls.jpeg', '/products-img/official.jpeg', '/products-img/longsleeve.jpeg'],
-    sizes: ['15', '15.5', '16', '16.5', '17'],
-    colors: [{ name: 'Crisp White', hex: '#FFFFFF' }, { name: 'Sky Blue', hex: '#BAE6FD' }, { name: 'Soft Pink', hex: '#FCE7F3' }],
-    stock: { nairobi: 190, eldoret: 140 },
-    description: 'Crisp, easy-iron dress shirt tailored for professionals. Stiff spread collar.'
+    "id": "tfc-007",
+    "name": "Chic Floral A-Line Midi Boutique Dress (Ld dress)",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "dresses",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "Premium Georgette Chiffon with Full Lining",
+    "rating": 4.6,
+    "reviewsCount": 82,
+    "image": "/products-img/Ld dress.jpeg",
+    "gallery": [
+      "/products-img/Ld dress.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 108,
+      "eldoret": 74
+    },
+    "description": "Flattering tie-waist silhouette with tiered ruffle hem. Elegant day-to-night styling for Kenyan ladies."
   },
   {
-    id: 'tfc-m11',
-    name: 'Fine Oxford Button-Down Long Sleeve',
-    category: 'mens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'shirts',
-    retailPrice: 1350,
-    wholesalePrice: 820,
-    wholesaleMoq: 6,
-    badge: 'CLASSIC',
-    isNewArrival: false,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: 'Heavy Combed Oxford Cotton',
-    rating: 4.8,
-    reviewsCount: 98,
-    image: '/products-img/longsleeve.jpeg',
-    gallery: ['/products-img/longsleeve.jpeg', '/products-img/longsleve.jpeg', '/products-img/long sl.jpeg'],
-    sizes: ['M', 'L', 'XL', '2XL'],
-    colors: [{ name: 'Light Blue', hex: '#93C5FD' }, { name: 'White', hex: '#FFFFFF' }],
-    stock: { nairobi: 130, eldoret: 90 },
-    description: 'Durable heavyweight Oxford cloth button-down with chest pocket.'
+    "id": "tfc-008",
+    "name": "Authentic Kenyan Cotton Printed Lesos / Khanga [Pair] (Lesos)",
+    "category": "bedding-home",
+    "parentCategory": "bedding-home",
+    "subCategory": "lesos",
+    "retailPrice": 950,
+    "wholesalePrice": 650,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "100% Pure Combed Cotton",
+    "rating": 4.7,
+    "reviewsCount": 89,
+    "image": "/products-img/Lesos.jpeg",
+    "gallery": [
+      "/products-img/Lesos.jpeg"
+    ],
+    "sizes": [
+      "Standard Coastal Pair (2 Pieces)"
+    ],
+    "colors": [
+      {
+        "name": "Multi-Pattern",
+        "hex": "#B45309"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#1D4ED8"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#881337"
+      },
+      {
+        "name": "Neutral Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 121,
+      "eldoret": 83
+    },
+    "description": "Traditional Swahili proverbs border with vibrant sunburst prints. Super soft touch and versatile use."
   },
   {
-    id: 'tfc-m12',
-    name: 'Pastel Executive Dress Shirts (Collection)',
-    category: 'mens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'shirts',
-    retailPrice: 1400,
-    wholesalePrice: 850,
-    wholesaleMoq: 6,
-    badge: 'NEW COLORS',
-    isNewArrival: true,
-    isFeatured: false,
-    isBestseller: false,
-    fabric: 'Silky Poly-Cotton Broadcloth',
-    rating: 4.7,
-    reviewsCount: 52,
-    image: '/products-img/off cream.jpeg',
-    gallery: ['/products-img/off cream.jpeg', '/products-img/off white.jpeg', '/products-img/off black.jpeg', '/products-img/off pink.jpeg', '/products-img/off pur.jpeg'],
-    sizes: ['M', 'L', 'XL', '2XL'],
-    colors: [{ name: 'Ivory Cream', hex: '#FEF3C7' }, { name: 'Lilac', hex: '#E9D5FF' }, { name: 'Rose', hex: '#FBCFE8' }],
-    stock: { nairobi: 160, eldoret: 110 },
-    description: 'Rich pastel palette dress shirts with French placket and convertible cuffs.'
-  },
-
-  // ==========================================
-  // MEN'S WEAR: JACKETS & LEATHER
-  // ==========================================
-  {
-    id: 'tfc-m13',
-    name: 'Vintage Biker Leather Jacket',
-    category: 'mens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'jackets',
-    retailPrice: 3800,
-    wholesalePrice: 2400,
-    wholesaleMoq: 3,
-    badge: 'PREMIUM GRADE A',
-    isNewArrival: false,
-    isFeatured: true,
-    isBestseller: true,
-    fabric: 'Finished PU Leather with Quilted Satin Lining',
-    rating: 4.9,
-    reviewsCount: 104,
-    image: '/products-img/leather jkt.jpeg',
-    gallery: ['/products-img/leather jkt.jpeg', '/products-img/blak leather.jpeg', '/products-img/leather jjkktt.jpeg', '/products-img/leather jck.jpeg'],
-    sizes: ['M', 'L', 'XL', '2XL'],
-    colors: [{ name: 'Jet Black', hex: '#0A0A0A' }, { name: 'Vintage Brown', hex: '#451A03' }],
-    stock: { nairobi: 85, eldoret: 60 },
-    description: 'Heavy-gauge antique brass zippers, windproof cuffs, and satin lining. High margin piece.'
+    "id": "tfc-009",
+    "name": "Men Modern Streetwear Essential (MN wear)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.8,
+    "reviewsCount": 96,
+    "image": "/products-img/MN wear.jpeg",
+    "gallery": [
+      "/products-img/MN wear.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 134,
+      "eldoret": 92
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
   },
   {
-    id: 'tfc-m14',
-    name: 'All-Weather Puffer Bomber Jacket',
-    category: 'mens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'jackets',
-    retailPrice: 2800,
-    wholesalePrice: 1800,
-    wholesaleMoq: 4,
-    badge: 'WINTER FAVORITE',
-    isNewArrival: true,
-    isFeatured: true,
-    isBestseller: true,
-    fabric: 'Water-Resistant Thermal Quilted Nylon',
-    rating: 4.8,
-    reviewsCount: 88,
-    image: '/products-img/2000 jkt.jpeg',
-    gallery: ['/products-img/2000 jkt.jpeg', '/products-img/1600 jkt.jpeg', '/products-img/jacket for men.jpeg', '/products-img/jackts.jpeg'],
-    sizes: ['M', 'L', 'XL', '2XL'],
-    colors: [{ name: 'Matte Black', hex: '#18181B' }, { name: 'Cream Sand', hex: '#E7DEC8' }],
-    stock: { nairobi: 110, eldoret: 80 },
-    description: 'Engineered for cool mornings and drizzle. Ribbed storm cuffs and thermal insulated baffles.'
+    "id": "tfc-010",
+    "name": "Executive Slim-Fit Stretch Khaki Chinos (Men tr)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "khakis",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "98% Cotton with 2% Spandex Comfort Flex",
+    "rating": 4.9,
+    "reviewsCount": 103,
+    "image": "/products-img/Men tr.jpeg",
+    "gallery": [
+      "/products-img/Men tr.jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Classic Khaki",
+        "hex": "#C3B091"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1917"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#374151"
+      }
+    ],
+    "stock": {
+      "nairobi": 147,
+      "eldoret": 101
+    },
+    "description": "Kenya #1 bestseller khaki trousers. Double-needle stitch construction, wrinkle-resistant twill weave."
   },
   {
-    id: 'tfc-m15',
-    name: 'Executive Wool-Blend Winter Trench Coat',
-    category: 'mens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'jackets',
-    retailPrice: 4200,
-    wholesalePrice: 2800,
-    wholesaleMoq: 3,
-    badge: 'LUXURY COAT',
-    isNewArrival: true,
-    isFeatured: false,
-    isBestseller: false,
-    fabric: 'Heavy Wool-Poly Blend with Satin Lining',
-    rating: 4.9,
-    reviewsCount: 42,
-    image: '/products-img/2000 mzaee.jpeg',
-    gallery: ['/products-img/2000 mzaee.jpeg', '/products-img/smart jkt.jpeg', '/products-img/heavy.jpeg'],
-    sizes: ['M', 'L', 'XL', '2XL'],
-    colors: [{ name: 'Charcoal Black', hex: '#111111' }, { name: 'Camel Tan', hex: '#C29B38' }],
-    stock: { nairobi: 60, eldoret: 45 },
-    description: 'Substantial heavy winter trench coat for upscale formal events and cold seasons.'
+    "id": "tfc-011",
+    "name": "Men Modern Streetwear Essential (Mmmn ja)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.5,
+    "reviewsCount": 110,
+    "image": "/products-img/Mmmn ja.jpeg",
+    "gallery": [
+      "/products-img/Mmmn ja.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 160,
+      "eldoret": 110
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
   },
   {
-    id: 'tfc-m16',
-    name: 'Denim Trucker Sherpa Jacket',
-    category: 'mens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'jackets',
-    retailPrice: 2900,
-    wholesalePrice: 1900,
-    wholesaleMoq: 4,
-    badge: 'COLD WEATHER',
-    isNewArrival: false,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: 'Heavy Cotton Denim with Sherpa Fleece Lining',
-    rating: 4.8,
-    reviewsCount: 65,
-    image: '/products-img/JJack.jpeg',
-    gallery: ['/products-img/JJack.jpeg', '/products-img/jaket.jpeg', '/products-img/cream jkt.jpeg'],
-    sizes: ['M', 'L', 'XL', '2XL'],
-    colors: [{ name: 'Classic Blue', hex: '#2563EB' }],
-    stock: { nairobi: 75, eldoret: 55 },
-    description: 'Rugged denim jacket lined with warm faux-sherpa fleece for maximum warmth.'
-  },
-
-  // ==========================================
-  // MEN'S WEAR: HOODIES & FLEECES
-  // ==========================================
-  {
-    id: 'tfc-m17',
-    name: 'Heavyweight Streetwear Fleece Hoodie (380 GSM)',
-    category: 'mens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'hoodies',
-    retailPrice: 2200,
-    wholesalePrice: 1400,
-    wholesaleMoq: 5,
-    badge: 'HOT WHOLESALE SELLER',
-    isNewArrival: true,
-    isFeatured: true,
-    isBestseller: true,
-    fabric: '380 GSM Heavy Brushed Fleece',
-    rating: 4.9,
-    reviewsCount: 215,
-    image: '/products-img/hoodie.jpeg',
-    gallery: ['/products-img/hoodie.jpeg', '/products-img/haramball hoode.jpeg', '/products-img/hhoods.jpeg', '/products-img/hoods.jpeg'],
-    sizes: ['M', 'L', 'XL', '2XL'],
-    colors: [{ name: 'Onyx Black', hex: '#111111' }, { name: 'Grey', hex: '#6B7280' }, { name: 'Sand', hex: '#D7C4A5' }],
-    stock: { nairobi: 160, eldoret: 110 },
-    description: 'Substantial 380 GSM heavyweight hoodie. Kangaroo pocket and double-lined hood.'
+    "id": "tfc-012",
+    "name": "Men Modern Streetwear Essential (Whatsapp)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.6,
+    "reviewsCount": 117,
+    "image": "/products-img/Whatsapp.jpeg",
+    "gallery": [
+      "/products-img/Whatsapp.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 33,
+      "eldoret": 119
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
   },
   {
-    id: 'tfc-m18',
-    name: 'Thermal Quarter-Zip Polar Fleece Pullover',
-    category: 'mens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'hoodies',
-    retailPrice: 1600,
-    wholesalePrice: 1000,
-    wholesaleMoq: 6,
-    badge: 'COLD WEATHER HIT',
-    isNewArrival: true,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: 'Anti-Pill Micro Polar Fleece',
-    rating: 4.7,
-    reviewsCount: 78,
-    image: '/products-img/fleece.jpeg',
-    gallery: ['/products-img/fleece.jpeg', '/products-img/flece.jpeg', '/products-img/fleecee.jpeg', '/products-img/quarer sweater.jpeg'],
-    sizes: ['M', 'L', 'XL', '2XL'],
-    colors: [{ name: 'Forest Green', hex: '#1B3B2B' }, { name: 'Navy', hex: '#0F172A' }],
-    stock: { nairobi: 110, eldoret: 90 },
-    description: 'Ultra-lightweight warmth with zero bulk. Premium anti-pill polar fleece with YKK quarter-zip.'
+    "id": "tfc-013",
+    "name": "Soft Cable-Knit Oversized Autumn Sweater (adies sw)",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "ladies-sweaters",
+    "retailPrice": 1350,
+    "wholesalePrice": 850,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Cashmere-Touch Acrylic Blend",
+    "rating": 4.7,
+    "reviewsCount": 124,
+    "image": "/products-img/adies sw.jpeg",
+    "gallery": [
+      "/products-img/adies sw.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 46,
+      "eldoret": 128
+    },
+    "description": "Ultra cozy chunky knit with ribbed hemline. Non-scratchy texture that pairs effortlessly with denim."
   },
   {
-    id: 'tfc-m19',
-    name: 'Oversized Street Graphic T-Shirt',
-    category: 'mens-wear',
-    parentCategory: 'clothing',
-    subCategory: 't-shirts',
-    retailPrice: 950,
-    wholesalePrice: 600,
-    wholesaleMoq: 6,
-    badge: 'VIRAL TEES',
-    isNewArrival: true,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: '240 GSM 100% Combed Cotton',
-    rating: 4.8,
-    reviewsCount: 160,
-    image: '/products-img/tshirts.jpeg',
-    gallery: ['/products-img/tshirts.jpeg', '/products-img/tsho.jpeg', '/products-img/tisho.jpeg', '/products-img/black plain.jpeg', '/products-img/printed.jpeg'],
-    sizes: ['M', 'L', 'XL', '2XL'],
-    colors: [{ name: 'Black', hex: '#111111' }, { name: 'White', hex: '#FFFFFF' }],
-    stock: { nairobi: 220, eldoret: 160 },
-    description: 'Drop-shoulder boxy fit graphic tee with high-density puff print.'
-  },
-
-  // ==========================================
-  // LADIES' WEAR
-  // ==========================================
-  {
-    id: 'tfc-w01',
-    name: 'Smart Casual Elegant Midi Dress',
-    category: 'ladies-wear',
-    parentCategory: 'clothing',
-    subCategory: 'dresses',
-    retailPrice: 1800,
-    wholesalePrice: 1100,
-    wholesaleMoq: 6,
-    badge: 'BOUTIQUE FAVORITE',
-    isNewArrival: true,
-    isFeatured: true,
-    isBestseller: true,
-    fabric: 'Smooth Breathable Poly-Cotton Crepe',
-    rating: 4.9,
-    reviewsCount: 142,
-    image: '/products-img/smart dress.jpeg',
-    gallery: ['/products-img/smart dress.jpeg', '/products-img/dresses.jpeg', '/products-img/dressses.jpeg', '/products-img/dress.jpeg', '/products-img/Ld dress.jpeg'],
-    sizes: ['S', 'M', 'L', 'XL'],
-    colors: [{ name: 'Floral Red', hex: '#991B1B' }, { name: 'Black', hex: '#111111' }],
-    stock: { nairobi: 120, eldoret: 85 },
-    description: 'Flattering silhouette tailored for church, executive office, and dinner outings.'
+    "id": "tfc-014",
+    "name": "Heavyweight 380 GSM Streetwear Fleece Hoodie (alo)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "hoodies",
+    "retailPrice": 1800,
+    "wholesalePrice": 1200,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "380 GSM Cotton-Poly Heavy French Terry / Brushed Fleece",
+    "rating": 4.8,
+    "reviewsCount": 131,
+    "image": "/products-img/alo.jpeg",
+    "gallery": [
+      "/products-img/alo.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Onyx Black",
+        "hex": "#111827"
+      },
+      {
+        "name": "Oatmeal Melange",
+        "hex": "#E5E7EB"
+      },
+      {
+        "name": "Forest Green",
+        "hex": "#064E3B"
+      }
+    ],
+    "stock": {
+      "nairobi": 59,
+      "eldoret": 27
+    },
+    "description": "Ultra-thick boxy silhouette with double-layer hood and metal eyelets. Resists cold wind completely."
   },
   {
-    id: 'tfc-w02',
-    name: 'High-Waist Vintage Ladies Mom Jeans',
-    category: 'ladies-wear',
-    parentCategory: 'clothing',
-    subCategory: 'ladies-jeans',
-    retailPrice: 1600,
-    wholesalePrice: 1000,
-    wholesaleMoq: 6,
-    badge: 'VIRAL ON TIKTOK',
-    isNewArrival: true,
-    isFeatured: true,
-    isBestseller: true,
-    fabric: '100% Rigid Heavy Cotton Denim',
-    rating: 4.9,
-    reviewsCount: 198,
-    image: '/products-img/mumy jeans.jpeg',
-    gallery: ['/products-img/mumy jeans.jpeg', '/products-img/jeans.jpeg'],
-    sizes: ['26', '28', '30', '32', '34'],
-    colors: [{ name: 'Light Blue', hex: '#93C5FD' }, { name: 'Indigo', hex: '#3B82F6' }],
-    stock: { nairobi: 175, eldoret: 130 },
-    description: 'Top trending women’s denim fit. High-rise cinch waist that elongates legs with a relaxed tapered ankle.'
+    "id": "tfc-015",
+    "name": "Heavy-Duty Waxed Canvas Barista & Workshop Apron",
+    "category": "bags-luggage",
+    "parentCategory": "bags-luggage",
+    "subCategory": "canvas-aprons",
+    "retailPrice": 950,
+    "wholesalePrice": 600,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "16 oz Waterproof Waxed Cotton Canvas",
+    "rating": 4.9,
+    "reviewsCount": 138,
+    "image": "/products-img/apron.jpeg",
+    "gallery": [
+      "/products-img/apron.jpeg"
+    ],
+    "sizes": [
+      "One Size Fits All"
+    ],
+    "colors": [
+      {
+        "name": "Olive Green",
+        "hex": "#365314"
+      },
+      {
+        "name": "Khaki Tan",
+        "hex": "#78350F"
+      }
+    ],
+    "stock": {
+      "nairobi": 72,
+      "eldoret": 36
+    },
+    "description": "Cross-back genuine leather strap design relieves neck strain. Equipped with phone and tool holster pockets."
   },
   {
-    id: 'tfc-w03',
-    name: 'Cozy Oversized Cable-Knit Sweater',
-    category: 'ladies-wear',
-    parentCategory: 'clothing',
-    subCategory: 'ladies-sweaters',
-    retailPrice: 1500,
-    wholesalePrice: 950,
-    wholesaleMoq: 5,
-    badge: 'RESTOCKED',
-    isNewArrival: false,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: 'Ultra-Soft Chenille Acrylic-Cotton',
-    rating: 4.8,
-    reviewsCount: 110,
-    image: '/products-img/ladies sw.jpeg',
-    gallery: ['/products-img/ladies sw.jpeg', '/products-img/ladies swaer.jpeg', '/products-img/ladies sww.jpeg', '/products-img/adies sw.jpeg'],
-    sizes: ['Free Size (Fits S - XL)'],
-    colors: [{ name: 'Almond', hex: '#EFDECD' }, { name: 'Pink', hex: '#FBCFE8' }],
-    stock: { nairobi: 110, eldoret: 90 },
-    description: 'Buttery soft knit texture with drop-shoulder cut. Keeps you incredibly cozy.'
+    "id": "tfc-016",
+    "name": "Arsenal FC Thai-Grade Matchday Kit 2024/25",
+    "category": "sportswear",
+    "parentCategory": "clothing",
+    "subCategory": "jerseys",
+    "retailPrice": 1200,
+    "wholesalePrice": 750,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "AEROREADY Ventilated Micro-Mesh",
+    "rating": 4.5,
+    "reviewsCount": 145,
+    "image": "/products-img/arsenal jersry.jpeg",
+    "gallery": [
+      "/products-img/arsenal jersry.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Home Kit Colors",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Away Kit Colors",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Third Kit",
+        "hex": "#CA8A04"
+      }
+    ],
+    "stock": {
+      "nairobi": 85,
+      "eldoret": 45
+    },
+    "description": "Official replica jersey with heat-applied crest, breathable mesh underarms, and authentic player tags."
   },
   {
-    id: 'tfc-w04',
-    name: 'Women’s Tailored Fitted Leather Jacket',
-    category: 'ladies-wear',
-    parentCategory: 'clothing',
-    subCategory: 'ladies-jackets',
-    retailPrice: 3500,
-    wholesalePrice: 2200,
-    wholesaleMoq: 3,
-    badge: 'LUXURY FINISH',
-    isNewArrival: true,
-    isFeatured: false,
-    isBestseller: false,
-    fabric: 'Supple PU Vegan Leather with Silky Lining',
-    rating: 4.8,
-    reviewsCount: 52,
-    image: '/products-img/ladies leather.jpeg',
-    gallery: ['/products-img/ladies leather.jpeg', '/products-img/leather lad.jpeg', '/products-img/wm jck.jpeg'],
-    sizes: ['S', 'M', 'L', 'XL'],
-    colors: [{ name: 'Black', hex: '#0A0A0A' }, { name: 'Burgundy', hex: '#800020' }],
-    stock: { nairobi: 70, eldoret: 50 },
-    description: 'Sleek feminine tailoring with asymmetrical front zip, silver hardware, and contoured waistline.'
+    "id": "tfc-017",
+    "name": "Waterproof 45L Duffel Travel Bag with Shoe Pocket",
+    "category": "bags-luggage",
+    "parentCategory": "bags-luggage",
+    "subCategory": "travel-duffels",
+    "retailPrice": 2200,
+    "wholesalePrice": 1450,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "900D Oxford Ballistic Polyester with TPU Coating",
+    "rating": 4.6,
+    "reviewsCount": 152,
+    "image": "/products-img/bags.jpeg",
+    "gallery": [
+      "/products-img/bags.jpeg"
+    ],
+    "sizes": [
+      "One Size Fits All"
+    ],
+    "colors": [
+      {
+        "name": "Matte Black",
+        "hex": "#1C1917"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Army Green",
+        "hex": "#14532D"
+      }
+    ],
+    "stock": {
+      "nairobi": 98,
+      "eldoret": 54
+    },
+    "description": "Cabin-friendly travel companion with dedicated vented compartment for gym sneakers and shoes."
   },
   {
-    id: 'tfc-w05',
-    name: 'Chic Belted Wide-Leg Jumpsuit',
-    category: 'ladies-wear',
-    parentCategory: 'clothing',
-    subCategory: 'dresses',
-    retailPrice: 2000,
-    wholesalePrice: 1250,
-    wholesaleMoq: 5,
-    badge: 'NEW DROP',
-    isNewArrival: true,
-    isFeatured: false,
-    isBestseller: false,
-    fabric: 'Textured Linen Crepe',
-    rating: 4.7,
-    reviewsCount: 44,
-    image: '/products-img/jumpsuit.jpeg',
-    gallery: ['/products-img/jumpsuit.jpeg', '/products-img/Ld dress.jpeg'],
-    sizes: ['M', 'L', 'XL', '2XL'],
-    colors: [{ name: 'Mustard Gold', hex: '#EAB308' }, { name: 'Black', hex: '#111111' }],
-    stock: { nairobi: 80, eldoret: 60 },
-    description: 'One-piece perfection with a removable fabric tie belt and flattering wide-leg cut.'
+    "id": "tfc-018",
+    "name": "Men Modern Streetwear Essential (base)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.7,
+    "reviewsCount": 159,
+    "image": "/products-img/base.jpeg",
+    "gallery": [
+      "/products-img/base.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 111,
+      "eldoret": 63
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
   },
   {
-    id: 'tfc-w06',
-    name: 'Curvy Plus-Size Chic Outfits & Dresses',
-    category: 'ladies-wear',
-    parentCategory: 'clothing',
-    subCategory: 'plus-size',
-    retailPrice: 2200,
-    wholesalePrice: 1400,
-    wholesaleMoq: 4,
-    badge: 'PLUS SIZE',
-    isNewArrival: true,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: 'Stretch Rayon Spandex Knit',
-    rating: 4.9,
-    reviewsCount: 85,
-    image: '/products-img/big mma.jpeg',
-    gallery: ['/products-img/big mma.jpeg', '/products-img/lds wr.jpeg', '/products-img/lds clt.jpeg', '/products-img/lds v.jpeg'],
-    sizes: ['XL', '2XL', '3XL', '4XL'],
-    colors: [{ name: 'Navy Floral', hex: '#1E3A8A' }, { name: 'Wine', hex: '#881337' }],
-    stock: { nairobi: 95, eldoret: 75 },
-    description: 'Tailored for curvy women. Beautiful drape and stretch comfort for everyday luxury.'
-  },
-
-  // ==========================================
-  // CHILDREN'S WEAR
-  // ==========================================
-  {
-    id: 'tfc-k01',
-    name: 'Kids Heavy Warm Fleece Pullover',
-    category: 'childrens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'kids-fleece',
-    retailPrice: 850,
-    wholesalePrice: 500,
-    wholesaleMoq: 8,
-    badge: 'MAMA’S CHOICE',
-    isNewArrival: true,
-    isFeatured: true,
-    isBestseller: true,
-    fabric: 'Soft Thermal Polar Fleece',
-    rating: 4.9,
-    reviewsCount: 164,
-    image: '/products-img/flece kid.jpeg',
-    gallery: ['/products-img/flece kid.jpeg', '/products-img/flece kids.jpeg', '/products-img/kids flss.jpeg', '/products-img/ids flees.jpeg', '/products-img/kids fl.jpeg'],
-    sizes: ['2-4 Yrs', '4-6 Yrs', '6-8 Yrs', '8-10 Yrs', '10-12 Yrs'],
-    colors: [{ name: 'Sky Blue', hex: '#38BDF8' }, { name: 'Pink', hex: '#F472B6' }, { name: 'Navy', hex: '#1E3A8A' }],
-    stock: { nairobi: 240, eldoret: 180 },
-    description: 'Keep the little ones warm without itchiness. Gentle, skin-friendly polar fleece.'
+    "id": "tfc-019",
+    "name": "Varsity Snap-Button Retro Baseball Jacket",
+    "category": "sportswear",
+    "parentCategory": "clothing",
+    "subCategory": "varsity-jackets",
+    "retailPrice": 2200,
+    "wholesalePrice": 1500,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Wool-Blend Body with PU Leather Contrast Sleeves",
+    "rating": 4.8,
+    "reviewsCount": 166,
+    "image": "/products-img/baseball.jpeg",
+    "gallery": [
+      "/products-img/baseball.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Home Kit Colors",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Away Kit Colors",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Third Kit",
+        "hex": "#CA8A04"
+      }
+    ],
+    "stock": {
+      "nairobi": 124,
+      "eldoret": 72
+    },
+    "description": "Vintage college athletics jacket with ribbed striped collar, cuffs and welt pockets."
   },
   {
-    id: 'tfc-k02',
-    name: 'Children’s Hooded Puffer Winter Jacket',
-    category: 'childrens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'kids-jackets',
-    retailPrice: 1500,
-    wholesalePrice: 900,
-    wholesaleMoq: 6,
-    badge: 'TOP SELLER',
-    isNewArrival: true,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: 'Waterproof Polyester with Cotton Padding',
-    rating: 4.8,
-    reviewsCount: 92,
-    image: '/products-img/kids jackets.jpeg',
-    gallery: ['/products-img/kids jackets.jpeg', '/products-img/kids hood.jpeg', '/products-img/kids hoodie.jpeg', '/products-img/kid .jpeg'],
-    sizes: ['3-5 Yrs', '6-8 Yrs', '9-12 Yrs'],
-    colors: [{ name: 'Red', hex: '#DC2626' }, { name: 'Blue', hex: '#2563EB' }],
-    stock: { nairobi: 130, eldoret: 95 },
-    description: 'Thickly padded warm puffer coat with cozy fleece lining and windproof hood.'
+    "id": "tfc-020",
+    "name": "Pure Cotton 4-Piece Fitted Bedsheet Set (bdsheet)",
+    "category": "bedding-home",
+    "parentCategory": "bedding-home",
+    "subCategory": "bedsheet-sets",
+    "retailPrice": 1600,
+    "wholesalePrice": 1100,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Breathable Turkish Glazed Cotton",
+    "rating": 4.9,
+    "reviewsCount": 173,
+    "image": "/products-img/bdsheet.jpeg",
+    "gallery": [
+      "/products-img/bdsheet.jpeg"
+    ],
+    "sizes": [
+      "6x6 Standard",
+      "5x6 Medium",
+      "Super King 7x7"
+    ],
+    "colors": [
+      {
+        "name": "Multi-Pattern",
+        "hex": "#B45309"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#1D4ED8"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#881337"
+      },
+      {
+        "name": "Neutral Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 137,
+      "eldoret": 81
+    },
+    "description": "Includes 1 deep-pocket fitted sheet, 1 flat sheet and 2 matching pillowcases. Fade resistant after countless washes."
   },
   {
-    id: 'tfc-k03',
-    name: 'Kids Athletic Tracksuit & Jogger Set',
-    category: 'childrens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'kids-tracksuits',
-    retailPrice: 1200,
-    wholesalePrice: 750,
-    wholesaleMoq: 6,
-    badge: 'PLAYWEAR PACK',
-    isNewArrival: false,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: 'Cotton Poly Terry Cloth',
-    rating: 4.8,
-    reviewsCount: 83,
-    image: '/products-img/kids trao.jpeg',
-    gallery: ['/products-img/kids trao.jpeg', '/products-img/chld wrs.jpeg', '/products-img/kds.jpeg'],
-    sizes: ['4-6 Yrs', '6-8 Yrs', '8-10 Yrs'],
-    colors: [{ name: 'Grey', hex: '#9CA3AF' }, { name: 'Navy', hex: '#1E3A8A' }],
-    stock: { nairobi: 150, eldoret: 110 },
-    description: 'Durable 2-piece set including a zip sweatshirt and matching ribbed joggers.'
+    "id": "tfc-021",
+    "name": "Pure Cotton 4-Piece Fitted Bedsheet Set (bedshheetss)",
+    "category": "bedding-home",
+    "parentCategory": "bedding-home",
+    "subCategory": "bedsheet-sets",
+    "retailPrice": 1600,
+    "wholesalePrice": 1100,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Breathable Turkish Glazed Cotton",
+    "rating": 4.5,
+    "reviewsCount": 180,
+    "image": "/products-img/bedshheetss.jpeg",
+    "gallery": [
+      "/products-img/bedshheetss.jpeg"
+    ],
+    "sizes": [
+      "6x6 Standard",
+      "5x6 Medium",
+      "Super King 7x7"
+    ],
+    "colors": [
+      {
+        "name": "Multi-Pattern",
+        "hex": "#B45309"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#1D4ED8"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#881337"
+      },
+      {
+        "name": "Neutral Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 150,
+      "eldoret": 90
+    },
+    "description": "Includes 1 deep-pocket fitted sheet, 1 flat sheet and 2 matching pillowcases. Fade resistant after countless washes."
   },
   {
-    id: 'tfc-k04',
-    name: 'Junior Football Club Match Kit',
-    category: 'childrens-wear',
-    parentCategory: 'clothing',
-    subCategory: 'kids-jersey',
-    retailPrice: 1100,
-    wholesalePrice: 700,
-    wholesaleMoq: 6,
-    badge: 'KIDS FAVORITE',
-    isNewArrival: true,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: 'Breathable Dry-Fit Polyester',
-    rating: 4.9,
-    reviewsCount: 71,
-    image: '/products-img/kids jersey.jpeg',
-    gallery: ['/products-img/kids jersey.jpeg'],
-    sizes: ['4-6 Yrs', '7-9 Yrs', '10-13 Yrs'],
-    colors: [{ name: 'Club Edition', hex: '#DC2626' }],
-    stock: { nairobi: 140, eldoret: 100 },
-    description: 'Authentic junior club jersey and shorts combo for young soccer fans.'
-  },
-
-  // ==========================================
-  // SPORTSWEAR & CLUB JERSEYS
-  // ==========================================
-  {
-    id: 'tfc-s01',
-    name: 'Arsenal FC Official Season Player Jersey',
-    category: 'sportswear',
-    parentCategory: 'clothing',
-    subCategory: 'arsenal',
-    retailPrice: 1500,
-    wholesalePrice: 950,
-    wholesaleMoq: 6,
-    badge: 'FAN FAVORITE',
-    isNewArrival: true,
-    isFeatured: true,
-    isBestseller: true,
-    fabric: 'Aeroready Moisture-Wicking Performance Fabric',
-    rating: 5.0,
-    reviewsCount: 280,
-    image: '/products-img/arsenal jersry.jpeg',
-    gallery: ['/products-img/arsenal jersry.jpeg', '/products-img/jerseys.jpeg'],
-    sizes: ['S', 'M', 'L', 'XL', '2XL'],
-    colors: [{ name: 'Gunners Red & White', hex: '#DC2626' }],
-    stock: { nairobi: 200, eldoret: 160 },
-    description: 'Premium Thai-grade Arsenal replica jersey with heat-applied crest and authentic sleeve trims.'
-  },
-  {
-    id: 'tfc-s02',
-    name: 'Chelsea FC Official Season Jersey',
-    category: 'sportswear',
-    parentCategory: 'clothing',
-    subCategory: 'chelsea',
-    retailPrice: 1500,
-    wholesalePrice: 950,
-    wholesaleMoq: 6,
-    badge: 'TOP SELLER',
-    isNewArrival: true,
-    isFeatured: true,
-    isBestseller: true,
-    fabric: 'Dri-FIT Breathe Technology',
-    rating: 4.9,
-    reviewsCount: 195,
-    image: '/products-img/chelsea jsy.jpeg',
-    gallery: ['/products-img/chelsea jsy.jpeg', '/products-img/chelsea .jpeg'],
-    sizes: ['S', 'M', 'L', 'XL', '2XL'],
-    colors: [{ name: 'Royal Blue & Gold', hex: '#1D4ED8' }],
-    stock: { nairobi: 180, eldoret: 130 },
-    description: 'High-grade Chelsea FC stadium jersey with holographic club badge.'
+    "id": "tfc-022",
+    "name": "Curvy Elegant Plus-Size Occasion Gown",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "plus-size",
+    "retailPrice": 1900,
+    "wholesalePrice": 1250,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "Sculpting Stretch Scuba Crepe",
+    "rating": 4.6,
+    "reviewsCount": 187,
+    "image": "/products-img/big mma.jpeg",
+    "gallery": [
+      "/products-img/big mma.jpeg"
+    ],
+    "sizes": [
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL",
+      "5XL"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 163,
+      "eldoret": 99
+    },
+    "description": "Specifically cut for full-figured queens with wrap V-neck and ruched tummy camouflage detailing."
   },
   {
-    id: 'tfc-s03',
-    name: 'Manchester City Championship Jersey',
-    category: 'sportswear',
-    parentCategory: 'clothing',
-    subCategory: 'man-city',
-    retailPrice: 1500,
-    wholesalePrice: 950,
-    wholesaleMoq: 6,
-    badge: 'CHAMPIONS EDITION',
-    isNewArrival: true,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: 'Ultra-Weave Dry Fit Micro-Mesh',
-    rating: 4.8,
-    reviewsCount: 172,
-    image: '/products-img/city jersey.jpeg',
-    gallery: ['/products-img/city jersey.jpeg', '/products-img/man city.jpeg'],
-    sizes: ['S', 'M', 'L', 'XL', '2XL'],
-    colors: [{ name: 'Sky Blue & White', hex: '#60A5FA' }],
-    stock: { nairobi: 160, eldoret: 120 },
-    description: 'Official Manchester City home/away edition with championship sleeve patches.'
+    "id": "tfc-023",
+    "name": "Heavyweight 240 GSM Pure Combed Cotton Tee (black plain)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "t-shirts",
+    "retailPrice": 800,
+    "wholesalePrice": 480,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% 240 GSM Carded Cotton Jersey",
+    "rating": 4.7,
+    "reviewsCount": 194,
+    "image": "/products-img/black plain.jpeg",
+    "gallery": [
+      "/products-img/black plain.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Core Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Bright White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Heather Grey",
+        "hex": "#9CA3AF"
+      }
+    ],
+    "stock": {
+      "nairobi": 36,
+      "eldoret": 108
+    },
+    "description": "Heavy drop-shoulder streetwear cut. Double-stitched tight collar that never sags after laundering."
   },
   {
-    id: 'tfc-s04',
-    name: 'Manchester United Official Matchday Jersey',
-    category: 'sportswear',
-    parentCategory: 'clothing',
-    subCategory: 'man-united',
-    retailPrice: 1500,
-    wholesalePrice: 950,
-    wholesaleMoq: 6,
-    badge: 'CLASSIC RED DEVILS',
-    isNewArrival: true,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: 'Aeroready Sweat-Wicking Polyester',
-    rating: 4.9,
-    reviewsCount: 240,
-    image: '/products-img/united jersey.jpeg',
-    gallery: ['/products-img/united jersey.jpeg', '/products-img/jesey.jpeg', '/products-img/jesrsey.jpeg'],
-    sizes: ['S', 'M', 'L', 'XL', '2XL'],
-    colors: [{ name: 'Crimson Red', hex: '#B91C1C' }],
-    stock: { nairobi: 190, eldoret: 150 },
-    description: 'Iconic Manchester United kit with high-definition woven crest.'
+    "id": "tfc-024",
+    "name": "Quarter-Zip Thermal Ribbed Knit Pullover (black swe)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "sweaters",
+    "retailPrice": 1400,
+    "wholesalePrice": 900,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Cotton-Wool Thermal Blend",
+    "rating": 4.8,
+    "reviewsCount": 201,
+    "image": "/products-img/black swe.jpeg",
+    "gallery": [
+      "/products-img/black swe.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Charcoal Grey",
+        "hex": "#374151"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Camel",
+        "hex": "#B45309"
+      }
+    ],
+    "stock": {
+      "nairobi": 49,
+      "eldoret": 117
+    },
+    "description": "Executive smart-casual layer. Quarter metal zip collar looks great over collared shirts or tees."
   },
   {
-    id: 'tfc-s05',
-    name: 'Athletic Dry-Fit Performance Tracksuit Set',
-    category: 'sportswear',
-    parentCategory: 'clothing',
-    subCategory: 'tracksuits',
-    retailPrice: 2800,
-    wholesalePrice: 1750,
-    wholesaleMoq: 4,
-    badge: 'GYM & TRAVEL',
-    isNewArrival: true,
-    isFeatured: true,
-    isBestseller: false,
-    fabric: 'Double-Knit Polyester Elastane',
-    rating: 4.8,
-    reviewsCount: 118,
-    image: '/products-img/sports.jpeg',
-    gallery: ['/products-img/sports.jpeg', '/products-img/baseball.jpeg', '/products-img/base.jpeg'],
-    sizes: ['M', 'L', 'XL', '2XL'],
-    colors: [{ name: 'Triple Black', hex: '#111111' }, { name: 'Navy & White', hex: '#1E3A8A' }],
-    stock: { nairobi: 110, eldoret: 85 },
-    description: 'Slim-fitting athletic track set with full zip jacket and tapered training pants.'
-  },
-
-  // ==========================================
-  // BEDDING & HOME
-  // ==========================================
-  {
-    id: 'tfc-b01',
-    name: 'Luxury Reversible 6x6 Heavyweight Duvet',
-    category: 'bedding-home',
-    parentCategory: 'bedding-home',
-    subCategory: 'duvets-6x6',
-    retailPrice: 2500,
-    wholesalePrice: 1650,
-    wholesaleMoq: 4,
-    badge: 'WHOLESALE BUNDLE',
-    isNewArrival: true,
-    isFeatured: true,
-    isBestseller: true,
-    fabric: '400 GSM Siliconized Hollowfiber with Peach-Skin Shell',
-    rating: 5.0,
-    reviewsCount: 312,
-    image: '/products-img/duvet.jpeg',
-    gallery: ['/products-img/duvet.jpeg', '/products-img/duve 1.jpeg', '/products-img/duve 2.jpeg', '/products-img/sp duve.jpeg', '/products-img/duve 4.jpeg', '/products-img/duve3.jpeg'],
-    sizes: ['6x6 King Size', '5x6 Queen Size', '4x6 Standard'],
-    colors: [{ name: 'Navy & Silver Reversible', hex: '#1E3A8A' }, { name: 'Burgundy & Rose', hex: '#881337' }],
-    stock: { nairobi: 220, eldoret: 180 },
-    description: 'Our viral 6x6 heavyweight duvet. Diamond quilted to prevent fiber shifting and dual-tone reversible sides.'
+    "id": "tfc-025",
+    "name": "Vintage Double-Rider Biker Leather Jacket (blak leather)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jackets",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Heavyweight Textured PU Leather with Quilted Satin Lining",
+    "rating": 4.9,
+    "reviewsCount": 208,
+    "image": "/products-img/blak leather.jpeg",
+    "gallery": [
+      "/products-img/blak leather.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Midnight Black",
+        "hex": "#09090B"
+      },
+      {
+        "name": "Vintage Dark Brown",
+        "hex": "#451A03"
+      }
+    ],
+    "stock": {
+      "nairobi": 62,
+      "eldoret": 126
+    },
+    "description": "Heavy-duty front YKK zip, zippered sleeves, studded collar. Maximum street credibility and wind protection."
   },
   {
-    id: 'tfc-b02',
-    name: 'Original Kenyan Maasai Shuka Traditional Blanket',
-    category: 'bedding-home',
-    parentCategory: 'bedding-home',
-    subCategory: 'maasai-shuka',
-    retailPrice: 900,
-    wholesalePrice: 550,
-    wholesaleMoq: 8,
-    badge: 'AUTHENTIC KENYAN',
-    isNewArrival: false,
-    isFeatured: true,
-    isBestseller: true,
-    fabric: '100% Heavy Brushed Acrylic Yarn',
-    rating: 4.9,
-    reviewsCount: 260,
-    image: '/products-img/maaasai sheet.jpeg',
-    gallery: ['/products-img/maaasai sheet.jpeg', '/products-img/maasai.jpeg', '/products-img/masai.jpeg'],
-    sizes: ['Standard 200cm x 150cm'],
-    colors: [{ name: 'Red & Blue Plaid', hex: '#DC2626' }, { name: 'Red & Black Check', hex: '#991B1B' }],
-    stock: { nairobi: 350, eldoret: 280 },
-    description: 'Genuine Kenyan Maasai shuka. Thick, vibrant, and versatile for cold nights, safari travel, and decor.'
+    "id": "tfc-026",
+    "name": "Heavyweight Embossed Korean Mink Blanket (blankets)",
+    "category": "bedding-home",
+    "parentCategory": "bedding-home",
+    "subCategory": "heavy-blankets",
+    "retailPrice": 3200,
+    "wholesalePrice": 2300,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Double-Ply 6kg Silky Heavy Mink Acrylic",
+    "rating": 4.5,
+    "reviewsCount": 215,
+    "image": "/products-img/blankets.jpeg",
+    "gallery": [
+      "/products-img/blankets.jpeg"
+    ],
+    "sizes": [
+      "6x6 Standard",
+      "5x6 Medium",
+      "Super King 7x7"
+    ],
+    "colors": [
+      {
+        "name": "Multi-Pattern",
+        "hex": "#B45309"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#1D4ED8"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#881337"
+      },
+      {
+        "name": "Neutral Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 75,
+      "eldoret": 25
+    },
+    "description": "Super thick winter blanket with floral jacquard embossing. Luxuriously soft and provides ultimate warmth."
   },
   {
-    id: 'tfc-b03',
-    name: 'Pure Cotton Fitted Bedsheet Set (4-Piece)',
-    category: 'bedding-home',
-    parentCategory: 'bedding-home',
-    subCategory: 'bedsheets',
-    retailPrice: 1400,
-    wholesalePrice: 850,
-    wholesaleMoq: 6,
-    badge: 'HOT RETAIL ITEM',
-    isNewArrival: true,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: '100% Breathable Combed Cotton',
-    rating: 4.8,
-    reviewsCount: 147,
-    image: '/products-img/bdsheet.jpeg',
-    gallery: ['/products-img/bdsheet.jpeg', '/products-img/bedshheetss.jpeg'],
-    sizes: ['6x6 King', '5x6 Queen', '4x6 Twin'],
-    colors: [{ name: 'Floral Garden', hex: '#F43F5E' }, { name: 'Geometric Grey', hex: '#64748B' }],
-    stock: { nairobi: 180, eldoret: 140 },
-    description: 'Includes 1 deep-pocket elasticated fitted sheet, 1 flat top sheet, and 2 pillowcases.'
+    "id": "tfc-027",
+    "name": "Tactical Multi-Pocket Streetwear Cargo Pants (cargo)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "khakis",
+    "retailPrice": 1700,
+    "wholesalePrice": 1050,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Heavy Duty Ripstop Cotton with Elastic Stretch",
+    "rating": 4.6,
+    "reviewsCount": 42,
+    "image": "/products-img/cargo.jpeg",
+    "gallery": [
+      "/products-img/cargo.jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Classic Khaki",
+        "hex": "#C3B091"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1917"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#374151"
+      }
+    ],
+    "stock": {
+      "nairobi": 88,
+      "eldoret": 34
+    },
+    "description": "Deep bellows cargo pockets with reinforced bar-tacks. Popular among bikers, streetwear fans and delivery crews."
   },
   {
-    id: 'tfc-b04',
-    name: 'Hotel Grade Plush Microfiber Pillows (Pack of 2)',
-    category: 'bedding-home',
-    parentCategory: 'bedding-home',
-    subCategory: 'pillows',
-    retailPrice: 1200,
-    wholesalePrice: 750,
-    wholesaleMoq: 6,
-    badge: 'EXTRA FLUFFY',
-    isNewArrival: false,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: '1000g Virgin Microfiber with Cotton Casing',
-    rating: 4.8,
-    reviewsCount: 115,
-    image: '/products-img/pillows.jpeg',
-    gallery: ['/products-img/pillows.jpeg', '/products-img/pillows 2.jpeg'],
-    sizes: ['Standard 50cm x 75cm'],
-    colors: [{ name: 'Crisp White', hex: '#FFFFFF' }],
-    stock: { nairobi: 200, eldoret: 150 },
-    description: '5-star hotel comfort at an unbelievable price. Double-stitched piping edges.'
+    "id": "tfc-028",
+    "name": "Chelsea FC Official Home/Away Player Jersey",
+    "category": "sportswear",
+    "parentCategory": "clothing",
+    "subCategory": "jerseys",
+    "retailPrice": 1200,
+    "wholesalePrice": 750,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Dri-FIT ADV Breathable Double-Knit",
+    "rating": 4.7,
+    "reviewsCount": 49,
+    "image": "/products-img/chelsea .jpeg",
+    "gallery": [
+      "/products-img/chelsea .jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Home Kit Colors",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Away Kit Colors",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Third Kit",
+        "hex": "#CA8A04"
+      }
+    ],
+    "stock": {
+      "nairobi": 101,
+      "eldoret": 43
+    },
+    "description": "Stamford Bridge matchday edition with iridescent crest detailing and sweat-evaporating athletic fit."
   },
   {
-    id: 'tfc-b05',
-    name: 'Heavy Thermal Embossed Polar Blanket',
-    category: 'bedding-home',
-    parentCategory: 'bedding-home',
-    subCategory: 'heavy-blankets',
-    retailPrice: 2200,
-    wholesalePrice: 1450,
-    wholesaleMoq: 4,
-    badge: 'WINTER WARMTH',
-    isNewArrival: false,
-    isFeatured: false,
-    isBestseller: false,
-    fabric: 'Double-Layer Korean Cloud Fleece 500 GSM',
-    rating: 4.9,
-    reviewsCount: 89,
-    image: '/products-img/blankets.jpeg',
-    gallery: ['/products-img/blankets.jpeg', '/products-img/sugars.jpeg'],
-    sizes: ['Double 200cm x 240cm'],
-    colors: [{ name: 'Royal Maroon', hex: '#831843' }, { name: 'Bronze', hex: '#B45309' }],
-    stock: { nairobi: 120, eldoret: 90 },
-    description: 'Super-thick Korean-style embossed blanket with luxurious velvety touch.'
+    "id": "tfc-029",
+    "name": "Chelsea FC Official Home/Away Player Jersey",
+    "category": "sportswear",
+    "parentCategory": "clothing",
+    "subCategory": "jerseys",
+    "retailPrice": 1200,
+    "wholesalePrice": 750,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "Dri-FIT ADV Breathable Double-Knit",
+    "rating": 4.8,
+    "reviewsCount": 56,
+    "image": "/products-img/chelsea jsy.jpeg",
+    "gallery": [
+      "/products-img/chelsea jsy.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Home Kit Colors",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Away Kit Colors",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Third Kit",
+        "hex": "#CA8A04"
+      }
+    ],
+    "stock": {
+      "nairobi": 114,
+      "eldoret": 52
+    },
+    "description": "Stamford Bridge matchday edition with iridescent crest detailing and sweat-evaporating athletic fit."
   },
   {
-    id: 'tfc-b06',
-    name: 'Coastal Kenyan Leso & Khanga Wraps (Pair)',
-    category: 'bedding-home',
-    parentCategory: 'bedding-home',
-    subCategory: 'lesos',
-    retailPrice: 800,
-    wholesalePrice: 480,
-    wholesaleMoq: 8,
-    badge: 'AUTHENTIC',
-    isNewArrival: false,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: '100% Breathable Cotton with Swahili Sayings',
-    rating: 4.8,
-    reviewsCount: 130,
-    image: '/products-img/Lesos.jpeg',
-    gallery: ['/products-img/Lesos.jpeg'],
-    sizes: ['Pair (2 Pieces)'],
-    colors: [{ name: 'Vibrant Swahili Plaid', hex: '#E11D48' }],
-    stock: { nairobi: 180, eldoret: 130 },
-    description: 'Authentic 2-piece Coastal Leso wraps with traditional Swahili proverbs.'
-  },
-
-  // ==========================================
-  // BAGS & ACCESSORIES
-  // ==========================================
-  {
-    id: 'tfc-a01',
-    name: 'Heavy-Duty Waterproof Travel Duffel & Gym Bag',
-    category: 'bags-luggage',
-    parentCategory: 'bags-luggage',
-    subCategory: 'duffels',
-    retailPrice: 2000,
-    wholesalePrice: 1250,
-    wholesaleMoq: 5,
-    badge: 'TRAVEL READY',
-    isNewArrival: true,
-    isFeatured: true,
-    isBestseller: true,
-    fabric: 'Waterproof 900D Oxford Fabric with Shoe Compartment',
-    rating: 4.9,
-    reviewsCount: 134,
-    image: '/products-img/bags.jpeg',
-    gallery: ['/products-img/bags.jpeg', '/products-img/lgbg.jpeg'],
-    sizes: ['Large 45L Capacity'],
-    colors: [{ name: 'Stealth Black', hex: '#111111' }, { name: 'Grey', hex: '#4B5563' }],
-    stock: { nairobi: 140, eldoret: 100 },
-    description: 'Spacious overnight holdall equipped with dedicated ventilated shoe pocket.'
-  },
-  {
-    id: 'tfc-a02',
-    name: 'Men’s Genuine Top-Grain Leather Belts',
-    category: 'bags-luggage',
-    parentCategory: 'bags-luggage',
-    subCategory: 'belts',
-    retailPrice: 800,
-    wholesalePrice: 450,
-    wholesaleMoq: 10,
-    badge: '100% LEATHER',
-    isNewArrival: false,
-    isFeatured: false,
-    isBestseller: true,
-    fabric: 'Top-Grain Solid Cowhide Leather',
-    rating: 4.8,
-    reviewsCount: 156,
-    image: '/products-img/za mshipi.jpeg',
-    gallery: ['/products-img/za mshipi.jpeg'],
-    sizes: ['110cm', '120cm', '130cm'],
-    colors: [{ name: 'Dark Tan', hex: '#78350F' }, { name: 'Black', hex: '#111111' }],
-    stock: { nairobi: 260, eldoret: 210 },
-    description: 'Solid full-grain cowhide leather belts with auto-locking ratchet and pin buckles.'
+    "id": "tfc-030",
+    "name": "Children Designer Playwear Outfit (chld wrs)",
+    "category": "childrens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "kids-wear",
+    "retailPrice": 850,
+    "wholesalePrice": 550,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Breathable Combed Cotton",
+    "rating": 4.9,
+    "reviewsCount": 63,
+    "image": "/products-img/chld wrs.jpeg",
+    "gallery": [
+      "/products-img/chld wrs.jpeg"
+    ],
+    "sizes": [
+      "2-3 Yrs",
+      "4-5 Yrs",
+      "6-7 Yrs",
+      "8-10 Yrs",
+      "11-13 Yrs"
+    ],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#2563EB"
+      },
+      {
+        "name": "Red",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#EAB308"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      }
+    ],
+    "stock": {
+      "nairobi": 127,
+      "eldoret": 61
+    },
+    "description": "Durable everyday playwear set built for active kids, colorfast and machine washable."
   },
   {
-    id: 'tfc-a03',
-    name: 'Heavy Duty Utility & Shopkeeper Canvas Aprons',
-    category: 'bags-luggage',
-    parentCategory: 'bags-luggage',
-    subCategory: 'aprons',
-    retailPrice: 700,
-    wholesalePrice: 400,
-    wholesaleMoq: 10,
-    badge: 'WORKWEAR HIT',
-    isNewArrival: false,
-    isFeatured: false,
-    isBestseller: false,
-    fabric: '16 oz Waxed Cotton Canvas',
-    rating: 4.7,
-    reviewsCount: 48,
-    image: '/products-img/apron.jpeg',
-    gallery: ['/products-img/apron.jpeg'],
-    sizes: ['One Size Fits All'],
-    colors: [{ name: 'Black', hex: '#18181B' }],
-    stock: { nairobi: 110, eldoret: 80 },
-    description: 'Heavy duty workshop and retail shopkeeper aprons with multi-pocket tool pouches.'
-  },
-
-  // ==========================================
-  // MIXED BALES & WHOLESALE PACKAGES
-  // ==========================================
-  {
-    id: 'tfc-bale01',
-    name: 'Grade A Luxury Duvet Wholesale Bale (50kg)',
-    category: 'bales',
-    parentCategory: 'bales',
-    subCategory: 'duvet-bale',
-    retailPrice: 28000,
-    wholesalePrice: 22000,
-    wholesaleMoq: 1,
-    badge: 'MAX PROFIT BALE',
-    isNewArrival: true,
-    isFeatured: true,
-    isBestseller: true,
-    fabric: '50kg Pressed Bale of Microfiber & Embossed Duvets',
-    rating: 5.0,
-    reviewsCount: 189,
-    image: '/products-img/duve bales.jpeg',
-    gallery: ['/products-img/duve bales.jpeg', '/products-img/duvetss.jpeg', '/products-img/sp duve bleu.jpeg'],
-    sizes: ['50kg Compressed Export Bale'],
-    colors: [{ name: 'Factory Sealed Bale', hex: '#D4AF37' }],
-    stock: { nairobi: 40, eldoret: 30 },
-    description: 'Direct factory-imported Grade A duvet bale containing 18-22 high-end reversible duvets.'
+    "id": "tfc-031",
+    "name": "Manchester City FC Sky Blue Matchday Kit",
+    "category": "sportswear",
+    "parentCategory": "clothing",
+    "subCategory": "jerseys",
+    "retailPrice": 1200,
+    "wholesalePrice": 750,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "dryCELL Performance Poly-Pique",
+    "rating": 4.5,
+    "reviewsCount": 70,
+    "image": "/products-img/city jersey.jpeg",
+    "gallery": [
+      "/products-img/city jersey.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Home Kit Colors",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Away Kit Colors",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Third Kit",
+        "hex": "#CA8A04"
+      }
+    ],
+    "stock": {
+      "nairobi": 140,
+      "eldoret": 70
+    },
+    "description": "Etihad Stadium champion edition with 0161 Manchester telephone area code collar homage."
   },
   {
-    id: 'tfc-bale02',
-    name: 'Premium Velvet Curtains & Drapes Bale (45kg)',
-    category: 'bales',
-    parentCategory: 'bales',
-    subCategory: 'curtains-bale',
-    retailPrice: 24000,
-    wholesalePrice: 18500,
-    wholesaleMoq: 1,
-    badge: 'GRADE A IMPORTS',
-    isNewArrival: true,
-    isFeatured: true,
-    isBestseller: true,
-    fabric: 'Heavy Crushed & Plain Velvet Fabric',
-    rating: 4.9,
-    reviewsCount: 96,
-    image: '/products-img/velvet bales.jpeg',
-    gallery: ['/products-img/velvet bales.jpeg', '/products-img/material.jpeg'],
-    sizes: ['45kg Export Bale'],
-    colors: [{ name: 'Assorted Rich Tones', hex: '#4C1D95' }],
-    stock: { nairobi: 35, eldoret: 25 },
-    description: 'European velvet drapery bale. Highly demanded in Nairobi and Eldoret home makeover boutiques.'
+    "id": "tfc-032",
+    "name": "Men Modern Streetwear Essential (coth clo)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.6,
+    "reviewsCount": 77,
+    "image": "/products-img/coth clo.jpeg",
+    "gallery": [
+      "/products-img/coth clo.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 153,
+      "eldoret": 79
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
   },
   {
-    id: 'tfc-bale03',
-    name: 'Reseller Starter Bale: 30 Pcs Mixed Heavy Tees',
-    category: 'bales',
-    parentCategory: 'bales',
-    subCategory: 'starter-tees',
-    retailPrice: 22500,
-    wholesalePrice: 16500,
-    wholesaleMoq: 1,
-    badge: 'STARTER BUNDLE',
-    isNewArrival: false,
-    isFeatured: true,
-    isBestseller: true,
-    fabric: '240-280 GSM Heavy Combed Cotton',
-    rating: 4.9,
-    reviewsCount: 220,
-    image: '/products-img/plains.jpeg',
-    gallery: ['/products-img/plains.jpeg', '/products-img/tshirts.jpeg', '/products-img/black plain.jpeg'],
-    sizes: ['Assortment M, L, XL, 2XL'],
-    colors: [{ name: 'Mixed Top Colors', hex: '#111111' }],
-    stock: { nairobi: 60, eldoret: 45 },
-    description: 'Curated 30-piece box of our fastest selling streetwear and plain heavy cotton t-shirts.'
+    "id": "tfc-033",
+    "name": "Men Modern Streetwear Essential (cp wr)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.7,
+    "reviewsCount": 84,
+    "image": "/products-img/cp wr.jpeg",
+    "gallery": [
+      "/products-img/cp wr.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 166,
+      "eldoret": 88
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
   },
+  {
+    "id": "tfc-034",
+    "name": "Vintage Double-Rider Biker Leather Jacket (cream jkt)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jackets",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Heavyweight Textured PU Leather with Quilted Satin Lining",
+    "rating": 4.8,
+    "reviewsCount": 91,
+    "image": "/products-img/cream jkt.jpeg",
+    "gallery": [
+      "/products-img/cream jkt.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Midnight Black",
+        "hex": "#09090B"
+      },
+      {
+        "name": "Vintage Dark Brown",
+        "hex": "#451A03"
+      }
+    ],
+    "stock": {
+      "nairobi": 39,
+      "eldoret": 97
+    },
+    "description": "Heavy-duty front YKK zip, zippered sleeves, studded collar. Maximum street credibility and wind protection."
+  },
+  {
+    "id": "tfc-035",
+    "name": "Camp Collar Cuban Vacation & Casual Shirt (cuban)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "shirts",
+    "retailPrice": 1200,
+    "wholesalePrice": 750,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Breathable Viscose & Egyptian Cotton",
+    "rating": 4.9,
+    "reviewsCount": 98,
+    "image": "/products-img/cuban.jpeg",
+    "gallery": [
+      "/products-img/cuban.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Abstract Print",
+        "hex": "#D97706"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      }
+    ],
+    "stock": {
+      "nairobi": 52,
+      "eldoret": 106
+    },
+    "description": "Relaxed retro collar with boxy silhouette. Silky breathable drape for sunny days and weekend vibes."
+  },
+  {
+    "id": "tfc-036",
+    "name": "Straight-Cut Heavy Indigo Selvedge Denim Jeans (denim)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jeans",
+    "retailPrice": 1800,
+    "wholesalePrice": 1100,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "14.5 oz Raw Ring-Spun Cotton Denim",
+    "rating": 4.5,
+    "reviewsCount": 105,
+    "image": "/products-img/denim.jpeg",
+    "gallery": [
+      "/products-img/denim.jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Raw Indigo Blue",
+        "hex": "#1E3A8A"
+      },
+      {
+        "name": "Stone Washed",
+        "hex": "#60A5FA"
+      },
+      {
+        "name": "Solid Black",
+        "hex": "#000000"
+      }
+    ],
+    "stock": {
+      "nairobi": 65,
+      "eldoret": 115
+    },
+    "description": "Classic 5-pocket denim tailored for durability. Custom copper rivets and reinforced fly."
+  },
+  {
+    "id": "tfc-037",
+    "name": "Chic Floral A-Line Midi Boutique Dress (dress)",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "dresses",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Premium Georgette Chiffon with Full Lining",
+    "rating": 4.6,
+    "reviewsCount": 112,
+    "image": "/products-img/dress.jpeg",
+    "gallery": [
+      "/products-img/dress.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 78,
+      "eldoret": 124
+    },
+    "description": "Flattering tie-waist silhouette with tiered ruffle hem. Elegant day-to-night styling for Kenyan ladies."
+  },
+  {
+    "id": "tfc-038",
+    "name": "Chic Floral A-Line Midi Boutique Dress (dresses)",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "dresses",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Premium Georgette Chiffon with Full Lining",
+    "rating": 4.7,
+    "reviewsCount": 119,
+    "image": "/products-img/dresses.jpeg",
+    "gallery": [
+      "/products-img/dresses.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 91,
+      "eldoret": 23
+    },
+    "description": "Flattering tie-waist silhouette with tiered ruffle hem. Elegant day-to-night styling for Kenyan ladies."
+  },
+  {
+    "id": "tfc-039",
+    "name": "Chic Floral A-Line Midi Boutique Dress (dresss)",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "dresses",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Premium Georgette Chiffon with Full Lining",
+    "rating": 4.8,
+    "reviewsCount": 126,
+    "image": "/products-img/dresss.jpeg",
+    "gallery": [
+      "/products-img/dresss.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 104,
+      "eldoret": 32
+    },
+    "description": "Flattering tie-waist silhouette with tiered ruffle hem. Elegant day-to-night styling for Kenyan ladies."
+  },
+  {
+    "id": "tfc-040",
+    "name": "Chic Floral A-Line Midi Boutique Dress (dressses)",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "dresses",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Premium Georgette Chiffon with Full Lining",
+    "rating": 4.9,
+    "reviewsCount": 133,
+    "image": "/products-img/dressses.jpeg",
+    "gallery": [
+      "/products-img/dressses.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 117,
+      "eldoret": 41
+    },
+    "description": "Flattering tie-waist silhouette with tiered ruffle hem. Elegant day-to-night styling for Kenyan ladies."
+  },
+  {
+    "id": "tfc-041",
+    "name": "6x6 Siliconized Microfiber Heavyweight Duvet (duve 1)",
+    "category": "bedding-home",
+    "parentCategory": "bedding-home",
+    "subCategory": "duvets-6x6",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "500 GSM Siliconized Hollowfiber Filling with Peach-Skin Microfiber Cover",
+    "rating": 4.5,
+    "reviewsCount": 140,
+    "image": "/products-img/duve 1.jpeg",
+    "gallery": [
+      "/products-img/duve 1.jpeg"
+    ],
+    "sizes": [
+      "6x6 Standard",
+      "5x6 Medium",
+      "Super King 7x7"
+    ],
+    "colors": [
+      {
+        "name": "Multi-Pattern",
+        "hex": "#B45309"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#1D4ED8"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#881337"
+      },
+      {
+        "name": "Neutral Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 130,
+      "eldoret": 50
+    },
+    "description": "Ultra-fluffy hotel grade all-season warmth. Box-stitch quilting prevents shifting. Reversible dual-tone aesthetics."
+  },
+  {
+    "id": "tfc-042",
+    "name": "6x6 Siliconized Microfiber Heavyweight Duvet (duve 2)",
+    "category": "bedding-home",
+    "parentCategory": "bedding-home",
+    "subCategory": "duvets-6x6",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "500 GSM Siliconized Hollowfiber Filling with Peach-Skin Microfiber Cover",
+    "rating": 4.6,
+    "reviewsCount": 147,
+    "image": "/products-img/duve 2.jpeg",
+    "gallery": [
+      "/products-img/duve 2.jpeg"
+    ],
+    "sizes": [
+      "6x6 Standard",
+      "5x6 Medium",
+      "Super King 7x7"
+    ],
+    "colors": [
+      {
+        "name": "Multi-Pattern",
+        "hex": "#B45309"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#1D4ED8"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#881337"
+      },
+      {
+        "name": "Neutral Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 143,
+      "eldoret": 59
+    },
+    "description": "Ultra-fluffy hotel grade all-season warmth. Box-stitch quilting prevents shifting. Reversible dual-tone aesthetics."
+  },
+  {
+    "id": "tfc-043",
+    "name": "6x6 Siliconized Microfiber Heavyweight Duvet (duve 4)",
+    "category": "bedding-home",
+    "parentCategory": "bedding-home",
+    "subCategory": "duvets-6x6",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "500 GSM Siliconized Hollowfiber Filling with Peach-Skin Microfiber Cover",
+    "rating": 4.7,
+    "reviewsCount": 154,
+    "image": "/products-img/duve 4.jpeg",
+    "gallery": [
+      "/products-img/duve 4.jpeg"
+    ],
+    "sizes": [
+      "6x6 Standard",
+      "5x6 Medium",
+      "Super King 7x7"
+    ],
+    "colors": [
+      {
+        "name": "Multi-Pattern",
+        "hex": "#B45309"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#1D4ED8"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#881337"
+      },
+      {
+        "name": "Neutral Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 156,
+      "eldoret": 68
+    },
+    "description": "Ultra-fluffy hotel grade all-season warmth. Box-stitch quilting prevents shifting. Reversible dual-tone aesthetics."
+  },
+  {
+    "id": "tfc-044",
+    "name": "50kg Direct Factory 6x6 Duvet Export Bale",
+    "category": "bales",
+    "parentCategory": "bales",
+    "subCategory": "wholesale-bales",
+    "retailPrice": 28000,
+    "wholesalePrice": 24500,
+    "wholesaleMoq": 1,
+    "badge": "HOT WHOLESALE DEAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Grade A Compressed Factory Bales (approx 18-20 pcs)",
+    "rating": 4.8,
+    "reviewsCount": 161,
+    "image": "/products-img/duve bales.jpeg",
+    "gallery": [
+      "/products-img/duve bales.jpeg"
+    ],
+    "sizes": [
+      "50kg Compressed Export Bale"
+    ],
+    "colors": [
+      {
+        "name": "Multi-Pattern",
+        "hex": "#B45309"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#1D4ED8"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#881337"
+      },
+      {
+        "name": "Neutral Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 169,
+      "eldoret": 77
+    },
+    "description": "Direct container import from Dubai & China. High profit margin for bedding retailers in Nairobi, Eldoret, Kisumu and Mombasa."
+  },
+  {
+    "id": "tfc-045",
+    "name": "6x6 Siliconized Microfiber Heavyweight Duvet (duve3)",
+    "category": "bedding-home",
+    "parentCategory": "bedding-home",
+    "subCategory": "duvets-6x6",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "500 GSM Siliconized Hollowfiber Filling with Peach-Skin Microfiber Cover",
+    "rating": 4.9,
+    "reviewsCount": 168,
+    "image": "/products-img/duve3.jpeg",
+    "gallery": [
+      "/products-img/duve3.jpeg"
+    ],
+    "sizes": [
+      "6x6 Standard",
+      "5x6 Medium",
+      "Super King 7x7"
+    ],
+    "colors": [
+      {
+        "name": "Multi-Pattern",
+        "hex": "#B45309"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#1D4ED8"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#881337"
+      },
+      {
+        "name": "Neutral Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 42,
+      "eldoret": 86
+    },
+    "description": "Ultra-fluffy hotel grade all-season warmth. Box-stitch quilting prevents shifting. Reversible dual-tone aesthetics."
+  },
+  {
+    "id": "tfc-046",
+    "name": "6x6 Siliconized Microfiber Heavyweight Duvet (duvet)",
+    "category": "bedding-home",
+    "parentCategory": "bedding-home",
+    "subCategory": "duvets-6x6",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "500 GSM Siliconized Hollowfiber Filling with Peach-Skin Microfiber Cover",
+    "rating": 4.5,
+    "reviewsCount": 175,
+    "image": "/products-img/duvet.jpeg",
+    "gallery": [
+      "/products-img/duvet.jpeg"
+    ],
+    "sizes": [
+      "6x6 Standard",
+      "5x6 Medium",
+      "Super King 7x7"
+    ],
+    "colors": [
+      {
+        "name": "Multi-Pattern",
+        "hex": "#B45309"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#1D4ED8"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#881337"
+      },
+      {
+        "name": "Neutral Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 55,
+      "eldoret": 95
+    },
+    "description": "Ultra-fluffy hotel grade all-season warmth. Box-stitch quilting prevents shifting. Reversible dual-tone aesthetics."
+  },
+  {
+    "id": "tfc-047",
+    "name": "6x6 Siliconized Microfiber Heavyweight Duvet (duvetss)",
+    "category": "bedding-home",
+    "parentCategory": "bedding-home",
+    "subCategory": "duvets-6x6",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "500 GSM Siliconized Hollowfiber Filling with Peach-Skin Microfiber Cover",
+    "rating": 4.6,
+    "reviewsCount": 182,
+    "image": "/products-img/duvetss.jpeg",
+    "gallery": [
+      "/products-img/duvetss.jpeg"
+    ],
+    "sizes": [
+      "6x6 Standard",
+      "5x6 Medium",
+      "Super King 7x7"
+    ],
+    "colors": [
+      {
+        "name": "Multi-Pattern",
+        "hex": "#B45309"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#1D4ED8"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#881337"
+      },
+      {
+        "name": "Neutral Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 68,
+      "eldoret": 104
+    },
+    "description": "Ultra-fluffy hotel grade all-season warmth. Box-stitch quilting prevents shifting. Reversible dual-tone aesthetics."
+  },
+  {
+    "id": "tfc-048",
+    "name": "6x6 Siliconized Microfiber Heavyweight Duvet (dvtt)",
+    "category": "bedding-home",
+    "parentCategory": "bedding-home",
+    "subCategory": "duvets-6x6",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "500 GSM Siliconized Hollowfiber Filling with Peach-Skin Microfiber Cover",
+    "rating": 4.7,
+    "reviewsCount": 189,
+    "image": "/products-img/dvtt.jpeg",
+    "gallery": [
+      "/products-img/dvtt.jpeg"
+    ],
+    "sizes": [
+      "6x6 Standard",
+      "5x6 Medium",
+      "Super King 7x7"
+    ],
+    "colors": [
+      {
+        "name": "Multi-Pattern",
+        "hex": "#B45309"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#1D4ED8"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#881337"
+      },
+      {
+        "name": "Neutral Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 81,
+      "eldoret": 113
+    },
+    "description": "Ultra-fluffy hotel grade all-season warmth. Box-stitch quilting prevents shifting. Reversible dual-tone aesthetics."
+  },
+  {
+    "id": "tfc-049",
+    "name": "6x6 Siliconized Microfiber Heavyweight Duvet (dvtx)",
+    "category": "bedding-home",
+    "parentCategory": "bedding-home",
+    "subCategory": "duvets-6x6",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "500 GSM Siliconized Hollowfiber Filling with Peach-Skin Microfiber Cover",
+    "rating": 4.8,
+    "reviewsCount": 196,
+    "image": "/products-img/dvtx.jpeg",
+    "gallery": [
+      "/products-img/dvtx.jpeg"
+    ],
+    "sizes": [
+      "6x6 Standard",
+      "5x6 Medium",
+      "Super King 7x7"
+    ],
+    "colors": [
+      {
+        "name": "Multi-Pattern",
+        "hex": "#B45309"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#1D4ED8"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#881337"
+      },
+      {
+        "name": "Neutral Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 94,
+      "eldoret": 122
+    },
+    "description": "Ultra-fluffy hotel grade all-season warmth. Box-stitch quilting prevents shifting. Reversible dual-tone aesthetics."
+  },
+  {
+    "id": "tfc-050",
+    "name": "Men Modern Streetwear Essential (fash)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.9,
+    "reviewsCount": 203,
+    "image": "/products-img/fash.jpeg",
+    "gallery": [
+      "/products-img/fash.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 107,
+      "eldoret": 21
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-051",
+    "name": "Kids Cozy Polar Fleece Pullover (flece kid)",
+    "category": "childrens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "kids-fleece",
+    "retailPrice": 750,
+    "wholesalePrice": 480,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Ultra-Soft Anti-Pilling Microfleece",
+    "rating": 4.5,
+    "reviewsCount": 210,
+    "image": "/products-img/flece kid.jpeg",
+    "gallery": [
+      "/products-img/flece kid.jpeg"
+    ],
+    "sizes": [
+      "2-3 Yrs",
+      "4-5 Yrs",
+      "6-7 Yrs",
+      "8-10 Yrs",
+      "11-13 Yrs"
+    ],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#2563EB"
+      },
+      {
+        "name": "Red",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#EAB308"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      }
+    ],
+    "stock": {
+      "nairobi": 120,
+      "eldoret": 30
+    },
+    "description": "Gentle on children sensitive skin, thick thermal insulation for chilly Kenyan mornings and school wear."
+  },
+  {
+    "id": "tfc-052",
+    "name": "Kids Cozy Polar Fleece Pullover (flece kids)",
+    "category": "childrens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "kids-fleece",
+    "retailPrice": 750,
+    "wholesalePrice": 480,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Ultra-Soft Anti-Pilling Microfleece",
+    "rating": 4.6,
+    "reviewsCount": 217,
+    "image": "/products-img/flece kids.jpeg",
+    "gallery": [
+      "/products-img/flece kids.jpeg"
+    ],
+    "sizes": [
+      "2-3 Yrs",
+      "4-5 Yrs",
+      "6-7 Yrs",
+      "8-10 Yrs",
+      "11-13 Yrs"
+    ],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#2563EB"
+      },
+      {
+        "name": "Red",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#EAB308"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      }
+    ],
+    "stock": {
+      "nairobi": 133,
+      "eldoret": 39
+    },
+    "description": "Gentle on children sensitive skin, thick thermal insulation for chilly Kenyan mornings and school wear."
+  },
+  {
+    "id": "tfc-053",
+    "name": "Heavyweight 380 GSM Streetwear Fleece Hoodie (flece)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "hoodies",
+    "retailPrice": 1800,
+    "wholesalePrice": 1200,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "380 GSM Cotton-Poly Heavy French Terry / Brushed Fleece",
+    "rating": 4.7,
+    "reviewsCount": 44,
+    "image": "/products-img/flece.jpeg",
+    "gallery": [
+      "/products-img/flece.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Onyx Black",
+        "hex": "#111827"
+      },
+      {
+        "name": "Oatmeal Melange",
+        "hex": "#E5E7EB"
+      },
+      {
+        "name": "Forest Green",
+        "hex": "#064E3B"
+      }
+    ],
+    "stock": {
+      "nairobi": 146,
+      "eldoret": 48
+    },
+    "description": "Ultra-thick boxy silhouette with double-layer hood and metal eyelets. Resists cold wind completely."
+  },
+  {
+    "id": "tfc-054",
+    "name": "Heavyweight 380 GSM Streetwear Fleece Hoodie (fleece)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "hoodies",
+    "retailPrice": 1800,
+    "wholesalePrice": 1200,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "380 GSM Cotton-Poly Heavy French Terry / Brushed Fleece",
+    "rating": 4.8,
+    "reviewsCount": 51,
+    "image": "/products-img/fleece.jpeg",
+    "gallery": [
+      "/products-img/fleece.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Onyx Black",
+        "hex": "#111827"
+      },
+      {
+        "name": "Oatmeal Melange",
+        "hex": "#E5E7EB"
+      },
+      {
+        "name": "Forest Green",
+        "hex": "#064E3B"
+      }
+    ],
+    "stock": {
+      "nairobi": 159,
+      "eldoret": 57
+    },
+    "description": "Ultra-thick boxy silhouette with double-layer hood and metal eyelets. Resists cold wind completely."
+  },
+  {
+    "id": "tfc-055",
+    "name": "Heavyweight 380 GSM Streetwear Fleece Hoodie (fleecee)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "hoodies",
+    "retailPrice": 1800,
+    "wholesalePrice": 1200,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "380 GSM Cotton-Poly Heavy French Terry / Brushed Fleece",
+    "rating": 4.9,
+    "reviewsCount": 58,
+    "image": "/products-img/fleecee.jpeg",
+    "gallery": [
+      "/products-img/fleecee.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Onyx Black",
+        "hex": "#111827"
+      },
+      {
+        "name": "Oatmeal Melange",
+        "hex": "#E5E7EB"
+      },
+      {
+        "name": "Forest Green",
+        "hex": "#064E3B"
+      }
+    ],
+    "stock": {
+      "nairobi": 32,
+      "eldoret": 66
+    },
+    "description": "Ultra-thick boxy silhouette with double-layer hood and metal eyelets. Resists cold wind completely."
+  },
+  {
+    "id": "tfc-056",
+    "name": "Men Modern Streetwear Essential (fleeece)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.5,
+    "reviewsCount": 65,
+    "image": "/products-img/fleeece.jpeg",
+    "gallery": [
+      "/products-img/fleeece.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 45,
+      "eldoret": 75
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-057",
+    "name": "Men Modern Streetwear Essential (fleese)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.6,
+    "reviewsCount": 72,
+    "image": "/products-img/fleese.jpeg",
+    "gallery": [
+      "/products-img/fleese.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 58,
+      "eldoret": 84
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-058",
+    "name": "Executive Slim-Fit Stretch Khaki Chinos (grey trao)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "khakis",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "98% Cotton with 2% Spandex Comfort Flex",
+    "rating": 4.7,
+    "reviewsCount": 79,
+    "image": "/products-img/grey trao.jpeg",
+    "gallery": [
+      "/products-img/grey trao.jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Classic Khaki",
+        "hex": "#C3B091"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1917"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#374151"
+      }
+    ],
+    "stock": {
+      "nairobi": 71,
+      "eldoret": 93
+    },
+    "description": "Kenya #1 bestseller khaki trousers. Double-needle stitch construction, wrinkle-resistant twill weave."
+  },
+  {
+    "id": "tfc-059",
+    "name": "Quarter-Zip Thermal Ribbed Knit Pullover (half sweater)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "sweaters",
+    "retailPrice": 1400,
+    "wholesalePrice": 900,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Cotton-Wool Thermal Blend",
+    "rating": 4.8,
+    "reviewsCount": 86,
+    "image": "/products-img/half sweater.jpeg",
+    "gallery": [
+      "/products-img/half sweater.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Charcoal Grey",
+        "hex": "#374151"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Camel",
+        "hex": "#B45309"
+      }
+    ],
+    "stock": {
+      "nairobi": 84,
+      "eldoret": 102
+    },
+    "description": "Executive smart-casual layer. Quarter metal zip collar looks great over collared shirts or tees."
+  },
+  {
+    "id": "tfc-060",
+    "name": "Haramball Kenya Football Heavyweight Pullover",
+    "category": "sportswear",
+    "parentCategory": "clothing",
+    "subCategory": "sportswear-hoodies",
+    "retailPrice": 1800,
+    "wholesalePrice": 1200,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "380 GSM Cotton-Poly Brushed Fleece",
+    "rating": 4.9,
+    "reviewsCount": 93,
+    "image": "/products-img/haramball hoode.jpeg",
+    "gallery": [
+      "/products-img/haramball hoode.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Home Kit Colors",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Away Kit Colors",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Third Kit",
+        "hex": "#CA8A04"
+      }
+    ],
+    "stock": {
+      "nairobi": 97,
+      "eldoret": 111
+    },
+    "description": "Celebrate Kenyan local football culture with this heavyweight collector hoodie."
+  },
+  {
+    "id": "tfc-061",
+    "name": "Heavyweight 380 GSM Streetwear Fleece Hoodie (heavy)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "hoodies",
+    "retailPrice": 1800,
+    "wholesalePrice": 1200,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "380 GSM Cotton-Poly Heavy French Terry / Brushed Fleece",
+    "rating": 4.5,
+    "reviewsCount": 100,
+    "image": "/products-img/heavy.jpeg",
+    "gallery": [
+      "/products-img/heavy.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Onyx Black",
+        "hex": "#111827"
+      },
+      {
+        "name": "Oatmeal Melange",
+        "hex": "#E5E7EB"
+      },
+      {
+        "name": "Forest Green",
+        "hex": "#064E3B"
+      }
+    ],
+    "stock": {
+      "nairobi": 110,
+      "eldoret": 120
+    },
+    "description": "Ultra-thick boxy silhouette with double-layer hood and metal eyelets. Resists cold wind completely."
+  },
+  {
+    "id": "tfc-062",
+    "name": "Heavyweight 380 GSM Streetwear Fleece Hoodie (hhoods)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "hoodies",
+    "retailPrice": 1800,
+    "wholesalePrice": 1200,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "380 GSM Cotton-Poly Heavy French Terry / Brushed Fleece",
+    "rating": 4.6,
+    "reviewsCount": 107,
+    "image": "/products-img/hhoods.jpeg",
+    "gallery": [
+      "/products-img/hhoods.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Onyx Black",
+        "hex": "#111827"
+      },
+      {
+        "name": "Oatmeal Melange",
+        "hex": "#E5E7EB"
+      },
+      {
+        "name": "Forest Green",
+        "hex": "#064E3B"
+      }
+    ],
+    "stock": {
+      "nairobi": 123,
+      "eldoret": 129
+    },
+    "description": "Ultra-thick boxy silhouette with double-layer hood and metal eyelets. Resists cold wind completely."
+  },
+  {
+    "id": "tfc-063",
+    "name": "Men Modern Streetwear Essential (hod mnb)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.7,
+    "reviewsCount": 114,
+    "image": "/products-img/hod mnb.jpeg",
+    "gallery": [
+      "/products-img/hod mnb.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 136,
+      "eldoret": 28
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-064",
+    "name": "Heavyweight 380 GSM Streetwear Fleece Hoodie (hoodie)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "hoodies",
+    "retailPrice": 1800,
+    "wholesalePrice": 1200,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "380 GSM Cotton-Poly Heavy French Terry / Brushed Fleece",
+    "rating": 4.8,
+    "reviewsCount": 121,
+    "image": "/products-img/hoodie.jpeg",
+    "gallery": [
+      "/products-img/hoodie.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Onyx Black",
+        "hex": "#111827"
+      },
+      {
+        "name": "Oatmeal Melange",
+        "hex": "#E5E7EB"
+      },
+      {
+        "name": "Forest Green",
+        "hex": "#064E3B"
+      }
+    ],
+    "stock": {
+      "nairobi": 149,
+      "eldoret": 37
+    },
+    "description": "Ultra-thick boxy silhouette with double-layer hood and metal eyelets. Resists cold wind completely."
+  },
+  {
+    "id": "tfc-065",
+    "name": "Heavyweight 380 GSM Streetwear Fleece Hoodie (hoods)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "hoodies",
+    "retailPrice": 1800,
+    "wholesalePrice": 1200,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "380 GSM Cotton-Poly Heavy French Terry / Brushed Fleece",
+    "rating": 4.9,
+    "reviewsCount": 128,
+    "image": "/products-img/hoods.jpeg",
+    "gallery": [
+      "/products-img/hoods.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Onyx Black",
+        "hex": "#111827"
+      },
+      {
+        "name": "Oatmeal Melange",
+        "hex": "#E5E7EB"
+      },
+      {
+        "name": "Forest Green",
+        "hex": "#064E3B"
+      }
+    ],
+    "stock": {
+      "nairobi": 162,
+      "eldoret": 46
+    },
+    "description": "Ultra-thick boxy silhouette with double-layer hood and metal eyelets. Resists cold wind completely."
+  },
+  {
+    "id": "tfc-066",
+    "name": "Men Modern Streetwear Essential (ids flees)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.5,
+    "reviewsCount": 135,
+    "image": "/products-img/ids flees.jpeg",
+    "gallery": [
+      "/products-img/ids flees.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 35,
+      "eldoret": 55
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-067",
+    "name": "Vintage Double-Rider Biker Leather Jacket (jacket for men)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jackets",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Heavyweight Textured PU Leather with Quilted Satin Lining",
+    "rating": 4.6,
+    "reviewsCount": 142,
+    "image": "/products-img/jacket for men.jpeg",
+    "gallery": [
+      "/products-img/jacket for men.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Midnight Black",
+        "hex": "#09090B"
+      },
+      {
+        "name": "Vintage Dark Brown",
+        "hex": "#451A03"
+      }
+    ],
+    "stock": {
+      "nairobi": 48,
+      "eldoret": 64
+    },
+    "description": "Heavy-duty front YKK zip, zippered sleeves, studded collar. Maximum street credibility and wind protection."
+  },
+  {
+    "id": "tfc-068",
+    "name": "Vintage Double-Rider Biker Leather Jacket (jackts)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jackets",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Heavyweight Textured PU Leather with Quilted Satin Lining",
+    "rating": 4.7,
+    "reviewsCount": 149,
+    "image": "/products-img/jackts.jpeg",
+    "gallery": [
+      "/products-img/jackts.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Midnight Black",
+        "hex": "#09090B"
+      },
+      {
+        "name": "Vintage Dark Brown",
+        "hex": "#451A03"
+      }
+    ],
+    "stock": {
+      "nairobi": 61,
+      "eldoret": 73
+    },
+    "description": "Heavy-duty front YKK zip, zippered sleeves, studded collar. Maximum street credibility and wind protection."
+  },
+  {
+    "id": "tfc-069",
+    "name": "Vintage Double-Rider Biker Leather Jacket (jaket)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jackets",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Heavyweight Textured PU Leather with Quilted Satin Lining",
+    "rating": 4.8,
+    "reviewsCount": 156,
+    "image": "/products-img/jaket.jpeg",
+    "gallery": [
+      "/products-img/jaket.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Midnight Black",
+        "hex": "#09090B"
+      },
+      {
+        "name": "Vintage Dark Brown",
+        "hex": "#451A03"
+      }
+    ],
+    "stock": {
+      "nairobi": 74,
+      "eldoret": 82
+    },
+    "description": "Heavy-duty front YKK zip, zippered sleeves, studded collar. Maximum street credibility and wind protection."
+  },
+  {
+    "id": "tfc-070",
+    "name": "Straight-Cut Heavy Indigo Selvedge Denim Jeans (je real)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jeans",
+    "retailPrice": 1800,
+    "wholesalePrice": 1100,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "14.5 oz Raw Ring-Spun Cotton Denim",
+    "rating": 4.9,
+    "reviewsCount": 163,
+    "image": "/products-img/je real.jpeg",
+    "gallery": [
+      "/products-img/je real.jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Raw Indigo Blue",
+        "hex": "#1E3A8A"
+      },
+      {
+        "name": "Stone Washed",
+        "hex": "#60A5FA"
+      },
+      {
+        "name": "Solid Black",
+        "hex": "#000000"
+      }
+    ],
+    "stock": {
+      "nairobi": 87,
+      "eldoret": 91
+    },
+    "description": "Classic 5-pocket denim tailored for durability. Custom copper rivets and reinforced fly."
+  },
+  {
+    "id": "tfc-071",
+    "name": "Straight-Cut Heavy Indigo Selvedge Denim Jeans (jeans)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jeans",
+    "retailPrice": 1800,
+    "wholesalePrice": 1100,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "14.5 oz Raw Ring-Spun Cotton Denim",
+    "rating": 4.5,
+    "reviewsCount": 170,
+    "image": "/products-img/jeans.jpeg",
+    "gallery": [
+      "/products-img/jeans.jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Raw Indigo Blue",
+        "hex": "#1E3A8A"
+      },
+      {
+        "name": "Stone Washed",
+        "hex": "#60A5FA"
+      },
+      {
+        "name": "Solid Black",
+        "hex": "#000000"
+      }
+    ],
+    "stock": {
+      "nairobi": 100,
+      "eldoret": 100
+    },
+    "description": "Classic 5-pocket denim tailored for durability. Custom copper rivets and reinforced fly."
+  },
+  {
+    "id": "tfc-072",
+    "name": "Athletic Training Dry-Fit Performance Jersey (jerseys)",
+    "category": "sportswear",
+    "parentCategory": "clothing",
+    "subCategory": "training-tracksuits",
+    "retailPrice": 1200,
+    "wholesalePrice": 750,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "High-Wick Athletic Polyester",
+    "rating": 4.6,
+    "reviewsCount": 177,
+    "image": "/products-img/jerseys.jpeg",
+    "gallery": [
+      "/products-img/jerseys.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Home Kit Colors",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Away Kit Colors",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Third Kit",
+        "hex": "#CA8A04"
+      }
+    ],
+    "stock": {
+      "nairobi": 113,
+      "eldoret": 109
+    },
+    "description": "Engineered for gym workouts, jogging and five-a-side matches. Dries 3x faster than cotton."
+  },
+  {
+    "id": "tfc-073",
+    "name": "Athletic Training Dry-Fit Performance Jersey (jesey)",
+    "category": "sportswear",
+    "parentCategory": "clothing",
+    "subCategory": "training-tracksuits",
+    "retailPrice": 1200,
+    "wholesalePrice": 750,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "High-Wick Athletic Polyester",
+    "rating": 4.7,
+    "reviewsCount": 184,
+    "image": "/products-img/jesey.jpeg",
+    "gallery": [
+      "/products-img/jesey.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Home Kit Colors",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Away Kit Colors",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Third Kit",
+        "hex": "#CA8A04"
+      }
+    ],
+    "stock": {
+      "nairobi": 126,
+      "eldoret": 118
+    },
+    "description": "Engineered for gym workouts, jogging and five-a-side matches. Dries 3x faster than cotton."
+  },
+  {
+    "id": "tfc-074",
+    "name": "Athletic Training Dry-Fit Performance Jersey (jesrsey)",
+    "category": "sportswear",
+    "parentCategory": "clothing",
+    "subCategory": "training-tracksuits",
+    "retailPrice": 1200,
+    "wholesalePrice": 750,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "High-Wick Athletic Polyester",
+    "rating": 4.8,
+    "reviewsCount": 191,
+    "image": "/products-img/jesrsey.jpeg",
+    "gallery": [
+      "/products-img/jesrsey.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Home Kit Colors",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Away Kit Colors",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Third Kit",
+        "hex": "#CA8A04"
+      }
+    ],
+    "stock": {
+      "nairobi": 139,
+      "eldoret": 127
+    },
+    "description": "Engineered for gym workouts, jogging and five-a-side matches. Dries 3x faster than cotton."
+  },
+  {
+    "id": "tfc-075",
+    "name": "Tailored Belted Wide-Leg Casual Jumpsuit",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jumpsuits",
+    "retailPrice": 1800,
+    "wholesalePrice": 1150,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Heavy Crepe Poly-Elastane Stretch",
+    "rating": 4.9,
+    "reviewsCount": 198,
+    "image": "/products-img/jumpsuit.jpeg",
+    "gallery": [
+      "/products-img/jumpsuit.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 152,
+      "eldoret": 26
+    },
+    "description": "High waist belted look, side slash pockets, elegant structured shoulders for office or dinner."
+  },
+  {
+    "id": "tfc-076",
+    "name": "Children Designer Playwear Outfit (kds)",
+    "category": "childrens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "kids-wear",
+    "retailPrice": 850,
+    "wholesalePrice": 550,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% Breathable Combed Cotton",
+    "rating": 4.5,
+    "reviewsCount": 205,
+    "image": "/products-img/kds.jpeg",
+    "gallery": [
+      "/products-img/kds.jpeg"
+    ],
+    "sizes": [
+      "2-3 Yrs",
+      "4-5 Yrs",
+      "6-7 Yrs",
+      "8-10 Yrs",
+      "11-13 Yrs"
+    ],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#2563EB"
+      },
+      {
+        "name": "Red",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#EAB308"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      }
+    ],
+    "stock": {
+      "nairobi": 165,
+      "eldoret": 35
+    },
+    "description": "Durable everyday playwear set built for active kids, colorfast and machine washable."
+  },
+  {
+    "id": "tfc-077",
+    "name": "Executive Slim-Fit Stretch Khaki Chinos (khaki)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "khakis",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "98% Cotton with 2% Spandex Comfort Flex",
+    "rating": 4.6,
+    "reviewsCount": 212,
+    "image": "/products-img/khaki.jpeg",
+    "gallery": [
+      "/products-img/khaki.jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Classic Khaki",
+        "hex": "#C3B091"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1917"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#374151"
+      }
+    ],
+    "stock": {
+      "nairobi": 38,
+      "eldoret": 44
+    },
+    "description": "Kenya #1 bestseller khaki trousers. Double-needle stitch construction, wrinkle-resistant twill weave."
+  },
+  {
+    "id": "tfc-078",
+    "name": "Children Designer Playwear Outfit (kid )",
+    "category": "childrens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "kids-wear",
+    "retailPrice": 850,
+    "wholesalePrice": 550,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "100% Breathable Combed Cotton",
+    "rating": 4.7,
+    "reviewsCount": 219,
+    "image": "/products-img/kid .jpeg",
+    "gallery": [
+      "/products-img/kid .jpeg"
+    ],
+    "sizes": [
+      "2-3 Yrs",
+      "4-5 Yrs",
+      "6-7 Yrs",
+      "8-10 Yrs",
+      "11-13 Yrs"
+    ],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#2563EB"
+      },
+      {
+        "name": "Red",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#EAB308"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      }
+    ],
+    "stock": {
+      "nairobi": 51,
+      "eldoret": 53
+    },
+    "description": "Durable everyday playwear set built for active kids, colorfast and machine washable."
+  },
+  {
+    "id": "tfc-079",
+    "name": "Kids Cozy Polar Fleece Pullover (kids fl)",
+    "category": "childrens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "kids-fleece",
+    "retailPrice": 750,
+    "wholesalePrice": 480,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Ultra-Soft Anti-Pilling Microfleece",
+    "rating": 4.8,
+    "reviewsCount": 46,
+    "image": "/products-img/kids fl.jpeg",
+    "gallery": [
+      "/products-img/kids fl.jpeg"
+    ],
+    "sizes": [
+      "2-3 Yrs",
+      "4-5 Yrs",
+      "6-7 Yrs",
+      "8-10 Yrs",
+      "11-13 Yrs"
+    ],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#2563EB"
+      },
+      {
+        "name": "Red",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#EAB308"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      }
+    ],
+    "stock": {
+      "nairobi": 64,
+      "eldoret": 62
+    },
+    "description": "Gentle on children sensitive skin, thick thermal insulation for chilly Kenyan mornings and school wear."
+  },
+  {
+    "id": "tfc-080",
+    "name": "Kids Cozy Polar Fleece Pullover (kids flss)",
+    "category": "childrens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "kids-fleece",
+    "retailPrice": 750,
+    "wholesalePrice": 480,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Ultra-Soft Anti-Pilling Microfleece",
+    "rating": 4.9,
+    "reviewsCount": 53,
+    "image": "/products-img/kids flss.jpeg",
+    "gallery": [
+      "/products-img/kids flss.jpeg"
+    ],
+    "sizes": [
+      "2-3 Yrs",
+      "4-5 Yrs",
+      "6-7 Yrs",
+      "8-10 Yrs",
+      "11-13 Yrs"
+    ],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#2563EB"
+      },
+      {
+        "name": "Red",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#EAB308"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      }
+    ],
+    "stock": {
+      "nairobi": 77,
+      "eldoret": 71
+    },
+    "description": "Gentle on children sensitive skin, thick thermal insulation for chilly Kenyan mornings and school wear."
+  },
+  {
+    "id": "tfc-081",
+    "name": "Kids Winter Fleece-Lined Hoodie (kids hood)",
+    "category": "childrens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "kids-hoodies",
+    "retailPrice": 950,
+    "wholesalePrice": 620,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "320 GSM Cotton-Poly Thermal Fleece",
+    "rating": 4.5,
+    "reviewsCount": 60,
+    "image": "/products-img/kids hood.jpeg",
+    "gallery": [
+      "/products-img/kids hood.jpeg"
+    ],
+    "sizes": [
+      "2-3 Yrs",
+      "4-5 Yrs",
+      "6-7 Yrs",
+      "8-10 Yrs",
+      "11-13 Yrs"
+    ],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#2563EB"
+      },
+      {
+        "name": "Red",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#EAB308"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      }
+    ],
+    "stock": {
+      "nairobi": 90,
+      "eldoret": 80
+    },
+    "description": "Heavyweight warm hooded sweatshirt with kangaroo pockets and durable ribbed cuffs."
+  },
+  {
+    "id": "tfc-082",
+    "name": "Kids Winter Fleece-Lined Hoodie (kids hoodie)",
+    "category": "childrens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "kids-hoodies",
+    "retailPrice": 950,
+    "wholesalePrice": 620,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "320 GSM Cotton-Poly Thermal Fleece",
+    "rating": 4.6,
+    "reviewsCount": 67,
+    "image": "/products-img/kids hoodie.jpeg",
+    "gallery": [
+      "/products-img/kids hoodie.jpeg"
+    ],
+    "sizes": [
+      "2-3 Yrs",
+      "4-5 Yrs",
+      "6-7 Yrs",
+      "8-10 Yrs",
+      "11-13 Yrs"
+    ],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#2563EB"
+      },
+      {
+        "name": "Red",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#EAB308"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      }
+    ],
+    "stock": {
+      "nairobi": 103,
+      "eldoret": 89
+    },
+    "description": "Heavyweight warm hooded sweatshirt with kangaroo pockets and durable ribbed cuffs."
+  },
+  {
+    "id": "tfc-083",
+    "name": "Kids Puffer Weatherproof Jacket (kids jackets)",
+    "category": "childrens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "kids-jackets",
+    "retailPrice": 1200,
+    "wholesalePrice": 800,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Water-Resistant Shell with Siliconized Polyfill",
+    "rating": 4.7,
+    "reviewsCount": 74,
+    "image": "/products-img/kids jackets.jpeg",
+    "gallery": [
+      "/products-img/kids jackets.jpeg"
+    ],
+    "sizes": [
+      "2-3 Yrs",
+      "4-5 Yrs",
+      "6-7 Yrs",
+      "8-10 Yrs",
+      "11-13 Yrs"
+    ],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#2563EB"
+      },
+      {
+        "name": "Red",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#EAB308"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      }
+    ],
+    "stock": {
+      "nairobi": 116,
+      "eldoret": 98
+    },
+    "description": "Padded winter insulation, hood with chin guard, ideal for outdoor playtime and travel."
+  },
+  {
+    "id": "tfc-084",
+    "name": "Junior Club Matchday Football Jersey (kids jersey)",
+    "category": "childrens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "kids-jerseys",
+    "retailPrice": 800,
+    "wholesalePrice": 500,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Breathable Dry-Fit Moisture Wicking Mesh",
+    "rating": 4.8,
+    "reviewsCount": 81,
+    "image": "/products-img/kids jersey.jpeg",
+    "gallery": [
+      "/products-img/kids jersey.jpeg"
+    ],
+    "sizes": [
+      "2-3 Yrs",
+      "4-5 Yrs",
+      "6-7 Yrs",
+      "8-10 Yrs",
+      "11-13 Yrs"
+    ],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#2563EB"
+      },
+      {
+        "name": "Red",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#EAB308"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      }
+    ],
+    "stock": {
+      "nairobi": 129,
+      "eldoret": 107
+    },
+    "description": "Official style junior football shirt with embroidered club badges and sweat-wicking knit."
+  },
+  {
+    "id": "tfc-085",
+    "name": "Kids Athletic Jogger Trackpants (kids trao)",
+    "category": "childrens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "kids-tracksuits",
+    "retailPrice": 700,
+    "wholesalePrice": 450,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "Elasticated Cotton Interlock",
+    "rating": 4.9,
+    "reviewsCount": 88,
+    "image": "/products-img/kids trao.jpeg",
+    "gallery": [
+      "/products-img/kids trao.jpeg"
+    ],
+    "sizes": [
+      "2-3 Yrs",
+      "4-5 Yrs",
+      "6-7 Yrs",
+      "8-10 Yrs",
+      "11-13 Yrs"
+    ],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#2563EB"
+      },
+      {
+        "name": "Red",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#EAB308"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      }
+    ],
+    "stock": {
+      "nairobi": 142,
+      "eldoret": 116
+    },
+    "description": "Comfortable stretchy waist with drawcord, twin side pockets, resilient knees for active kids."
+  },
+  {
+    "id": "tfc-086",
+    "name": "Men Modern Streetwear Essential (ktj)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.5,
+    "reviewsCount": 95,
+    "image": "/products-img/ktj.jpeg",
+    "gallery": [
+      "/products-img/ktj.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 155,
+      "eldoret": 125
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-087",
+    "name": "Ladies Tailored Biker Faux Leather Jacket (ladies leather)",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "ladies-jackets",
+    "retailPrice": 2600,
+    "wholesalePrice": 1800,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Butter-Soft Viscose-Backed Polyurethane",
+    "rating": 4.6,
+    "reviewsCount": 102,
+    "image": "/products-img/ladies leather.jpeg",
+    "gallery": [
+      "/products-img/ladies leather.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 168,
+      "eldoret": 24
+    },
+    "description": "Silver asymmetrical metal zip hardware, notch lapels, tailored contour stitching for a chic silhouette."
+  },
+  {
+    "id": "tfc-088",
+    "name": "Soft Cable-Knit Oversized Autumn Sweater (ladies sw)",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "ladies-sweaters",
+    "retailPrice": 1350,
+    "wholesalePrice": 850,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Cashmere-Touch Acrylic Blend",
+    "rating": 4.7,
+    "reviewsCount": 109,
+    "image": "/products-img/ladies sw.jpeg",
+    "gallery": [
+      "/products-img/ladies sw.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 41,
+      "eldoret": 33
+    },
+    "description": "Ultra cozy chunky knit with ribbed hemline. Non-scratchy texture that pairs effortlessly with denim."
+  },
+  {
+    "id": "tfc-089",
+    "name": "Soft Cable-Knit Oversized Autumn Sweater (ladies swaer)",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "ladies-sweaters",
+    "retailPrice": 1350,
+    "wholesalePrice": 850,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Cashmere-Touch Acrylic Blend",
+    "rating": 4.8,
+    "reviewsCount": 116,
+    "image": "/products-img/ladies swaer.jpeg",
+    "gallery": [
+      "/products-img/ladies swaer.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 54,
+      "eldoret": 42
+    },
+    "description": "Ultra cozy chunky knit with ribbed hemline. Non-scratchy texture that pairs effortlessly with denim."
+  },
+  {
+    "id": "tfc-090",
+    "name": "Soft Cable-Knit Oversized Autumn Sweater (ladies sww)",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "ladies-sweaters",
+    "retailPrice": 1350,
+    "wholesalePrice": 850,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Cashmere-Touch Acrylic Blend",
+    "rating": 4.9,
+    "reviewsCount": 123,
+    "image": "/products-img/ladies sww.jpeg",
+    "gallery": [
+      "/products-img/ladies sww.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 67,
+      "eldoret": 51
+    },
+    "description": "Ultra cozy chunky knit with ribbed hemline. Non-scratchy texture that pairs effortlessly with denim."
+  },
+  {
+    "id": "tfc-091",
+    "name": "Vintage Double-Rider Biker Leather Jacket (lather jckt)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jackets",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Heavyweight Textured PU Leather with Quilted Satin Lining",
+    "rating": 4.5,
+    "reviewsCount": 130,
+    "image": "/products-img/lather jckt.jpeg",
+    "gallery": [
+      "/products-img/lather jckt.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Midnight Black",
+        "hex": "#09090B"
+      },
+      {
+        "name": "Vintage Dark Brown",
+        "hex": "#451A03"
+      }
+    ],
+    "stock": {
+      "nairobi": 80,
+      "eldoret": 60
+    },
+    "description": "Heavy-duty front YKK zip, zippered sleeves, studded collar. Maximum street credibility and wind protection."
+  },
+  {
+    "id": "tfc-092",
+    "name": "Ladies Contemporary Fashion Outfit (ld wr)",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "dresses",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "Cotton-Linen Breathable Weave",
+    "rating": 4.6,
+    "reviewsCount": 137,
+    "image": "/products-img/ld wr.jpeg",
+    "gallery": [
+      "/products-img/ld wr.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 93,
+      "eldoret": 69
+    },
+    "description": "Refined modern styling with vibrant color retention and soft breathable drape."
+  },
+  {
+    "id": "tfc-093",
+    "name": "Ladies Contemporary Fashion Outfit (lds clt)",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "dresses",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Cotton-Linen Breathable Weave",
+    "rating": 4.7,
+    "reviewsCount": 144,
+    "image": "/products-img/lds clt.jpeg",
+    "gallery": [
+      "/products-img/lds clt.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 106,
+      "eldoret": 78
+    },
+    "description": "Refined modern styling with vibrant color retention and soft breathable drape."
+  },
+  {
+    "id": "tfc-094",
+    "name": "Ladies Contemporary Fashion Outfit (lds d)",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "dresses",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Cotton-Linen Breathable Weave",
+    "rating": 4.8,
+    "reviewsCount": 151,
+    "image": "/products-img/lds d.jpeg",
+    "gallery": [
+      "/products-img/lds d.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 119,
+      "eldoret": 87
+    },
+    "description": "Refined modern styling with vibrant color retention and soft breathable drape."
+  },
+  {
+    "id": "tfc-095",
+    "name": "Ladies Contemporary Fashion Outfit (lds v)",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "dresses",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Cotton-Linen Breathable Weave",
+    "rating": 4.9,
+    "reviewsCount": 158,
+    "image": "/products-img/lds v.jpeg",
+    "gallery": [
+      "/products-img/lds v.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 132,
+      "eldoret": 96
+    },
+    "description": "Refined modern styling with vibrant color retention and soft breathable drape."
+  },
+  {
+    "id": "tfc-096",
+    "name": "Ladies Contemporary Fashion Outfit (lds wr)",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "dresses",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Cotton-Linen Breathable Weave",
+    "rating": 4.5,
+    "reviewsCount": 165,
+    "image": "/products-img/lds wr.jpeg",
+    "gallery": [
+      "/products-img/lds wr.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 145,
+      "eldoret": 105
+    },
+    "description": "Refined modern styling with vibrant color retention and soft breathable drape."
+  },
+  {
+    "id": "tfc-097",
+    "name": "Vintage Double-Rider Biker Leather Jacket (leather jck)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jackets",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Heavyweight Textured PU Leather with Quilted Satin Lining",
+    "rating": 4.6,
+    "reviewsCount": 172,
+    "image": "/products-img/leather jck.jpeg",
+    "gallery": [
+      "/products-img/leather jck.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Midnight Black",
+        "hex": "#09090B"
+      },
+      {
+        "name": "Vintage Dark Brown",
+        "hex": "#451A03"
+      }
+    ],
+    "stock": {
+      "nairobi": 158,
+      "eldoret": 114
+    },
+    "description": "Heavy-duty front YKK zip, zippered sleeves, studded collar. Maximum street credibility and wind protection."
+  },
+  {
+    "id": "tfc-098",
+    "name": "Vintage Double-Rider Biker Leather Jacket (leather jjkktt)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jackets",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Heavyweight Textured PU Leather with Quilted Satin Lining",
+    "rating": 4.7,
+    "reviewsCount": 179,
+    "image": "/products-img/leather jjkktt.jpeg",
+    "gallery": [
+      "/products-img/leather jjkktt.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Midnight Black",
+        "hex": "#09090B"
+      },
+      {
+        "name": "Vintage Dark Brown",
+        "hex": "#451A03"
+      }
+    ],
+    "stock": {
+      "nairobi": 31,
+      "eldoret": 123
+    },
+    "description": "Heavy-duty front YKK zip, zippered sleeves, studded collar. Maximum street credibility and wind protection."
+  },
+  {
+    "id": "tfc-099",
+    "name": "Vintage Double-Rider Biker Leather Jacket (leather jkt)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jackets",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "Heavyweight Textured PU Leather with Quilted Satin Lining",
+    "rating": 4.8,
+    "reviewsCount": 186,
+    "image": "/products-img/leather jkt.jpeg",
+    "gallery": [
+      "/products-img/leather jkt.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Midnight Black",
+        "hex": "#09090B"
+      },
+      {
+        "name": "Vintage Dark Brown",
+        "hex": "#451A03"
+      }
+    ],
+    "stock": {
+      "nairobi": 44,
+      "eldoret": 22
+    },
+    "description": "Heavy-duty front YKK zip, zippered sleeves, studded collar. Maximum street credibility and wind protection."
+  },
+  {
+    "id": "tfc-100",
+    "name": "Ladies Tailored Biker Faux Leather Jacket (leather lad)",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "ladies-jackets",
+    "retailPrice": 2600,
+    "wholesalePrice": 1800,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Butter-Soft Viscose-Backed Polyurethane",
+    "rating": 4.9,
+    "reviewsCount": 193,
+    "image": "/products-img/leather lad.jpeg",
+    "gallery": [
+      "/products-img/leather lad.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 57,
+      "eldoret": 31
+    },
+    "description": "Silver asymmetrical metal zip hardware, notch lapels, tailored contour stitching for a chic silhouette."
+  },
+  {
+    "id": "tfc-101",
+    "name": "Ladies Contemporary Fashion Outfit (lg war)",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "dresses",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Cotton-Linen Breathable Weave",
+    "rating": 4.5,
+    "reviewsCount": 200,
+    "image": "/products-img/lg war.jpeg",
+    "gallery": [
+      "/products-img/lg war.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 70,
+      "eldoret": 40
+    },
+    "description": "Refined modern styling with vibrant color retention and soft breathable drape."
+  },
+  {
+    "id": "tfc-102",
+    "name": "Waterproof 45L Duffel Travel Bag with Shoe Pocket",
+    "category": "bags-luggage",
+    "parentCategory": "bags-luggage",
+    "subCategory": "travel-duffels",
+    "retailPrice": 2200,
+    "wholesalePrice": 1450,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "900D Oxford Ballistic Polyester with TPU Coating",
+    "rating": 4.6,
+    "reviewsCount": 207,
+    "image": "/products-img/lgbg.jpeg",
+    "gallery": [
+      "/products-img/lgbg.jpeg"
+    ],
+    "sizes": [
+      "One Size Fits All"
+    ],
+    "colors": [
+      {
+        "name": "Matte Black",
+        "hex": "#1C1917"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Army Green",
+        "hex": "#14532D"
+      }
+    ],
+    "stock": {
+      "nairobi": 83,
+      "eldoret": 49
+    },
+    "description": "Cabin-friendly travel companion with dedicated vented compartment for gym sneakers and shoes."
+  },
+  {
+    "id": "tfc-103",
+    "name": "Heavyweight 240 GSM Pure Combed Cotton Tee (long sl)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "t-shirts",
+    "retailPrice": 800,
+    "wholesalePrice": 480,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% 240 GSM Carded Cotton Jersey",
+    "rating": 4.7,
+    "reviewsCount": 214,
+    "image": "/products-img/long sl.jpeg",
+    "gallery": [
+      "/products-img/long sl.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Core Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Bright White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Heather Grey",
+        "hex": "#9CA3AF"
+      }
+    ],
+    "stock": {
+      "nairobi": 96,
+      "eldoret": 58
+    },
+    "description": "Heavy drop-shoulder streetwear cut. Double-stitched tight collar that never sags after laundering."
+  },
+  {
+    "id": "tfc-104",
+    "name": "Heavyweight 240 GSM Pure Combed Cotton Tee (longsleeve)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "t-shirts",
+    "retailPrice": 800,
+    "wholesalePrice": 480,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% 240 GSM Carded Cotton Jersey",
+    "rating": 4.8,
+    "reviewsCount": 41,
+    "image": "/products-img/longsleeve.jpeg",
+    "gallery": [
+      "/products-img/longsleeve.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Core Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Bright White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Heather Grey",
+        "hex": "#9CA3AF"
+      }
+    ],
+    "stock": {
+      "nairobi": 109,
+      "eldoret": 67
+    },
+    "description": "Heavy drop-shoulder streetwear cut. Double-stitched tight collar that never sags after laundering."
+  },
+  {
+    "id": "tfc-105",
+    "name": "Heavyweight 240 GSM Pure Combed Cotton Tee (longsleve)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "t-shirts",
+    "retailPrice": 800,
+    "wholesalePrice": 480,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% 240 GSM Carded Cotton Jersey",
+    "rating": 4.9,
+    "reviewsCount": 48,
+    "image": "/products-img/longsleve.jpeg",
+    "gallery": [
+      "/products-img/longsleve.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Core Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Bright White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Heather Grey",
+        "hex": "#9CA3AF"
+      }
+    ],
+    "stock": {
+      "nairobi": 122,
+      "eldoret": 76
+    },
+    "description": "Heavy drop-shoulder streetwear cut. Double-stitched tight collar that never sags after laundering."
+  },
+  {
+    "id": "tfc-106",
+    "name": "Men Modern Streetwear Essential (m4)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.5,
+    "reviewsCount": 55,
+    "image": "/products-img/m4.jpeg",
+    "gallery": [
+      "/products-img/m4.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 135,
+      "eldoret": 85
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-107",
+    "name": "Men Modern Streetwear Essential (m6)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.6,
+    "reviewsCount": 62,
+    "image": "/products-img/m6.jpeg",
+    "gallery": [
+      "/products-img/m6.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 148,
+      "eldoret": 94
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-108",
+    "name": "Men Modern Streetwear Essential (maaasai sheet)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.7,
+    "reviewsCount": 69,
+    "image": "/products-img/maaasai sheet.jpeg",
+    "gallery": [
+      "/products-img/maaasai sheet.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 161,
+      "eldoret": 103
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-109",
+    "name": "Original Kenyan Maasai Shuka Traditional Blanket (maasai)",
+    "category": "bedding-home",
+    "parentCategory": "bedding-home",
+    "subCategory": "maasai-shuka",
+    "retailPrice": 1100,
+    "wholesalePrice": 750,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% Authentic Acrylic Twill Weave",
+    "rating": 4.8,
+    "reviewsCount": 76,
+    "image": "/products-img/maasai.jpeg",
+    "gallery": [
+      "/products-img/maasai.jpeg"
+    ],
+    "sizes": [
+      "200cm x 150cm Traditional"
+    ],
+    "colors": [
+      {
+        "name": "Red/Blue Plaid",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Red/Black",
+        "hex": "#991B1B"
+      },
+      {
+        "name": "Green/Yellow",
+        "hex": "#15803D"
+      }
+    ],
+    "stock": {
+      "nairobi": 34,
+      "eldoret": 112
+    },
+    "description": "Original East African Maasai tribal tartan wrap. Ideal as a warm travel blanket, safari throw, or cultural apparel."
+  },
+  {
+    "id": "tfc-110",
+    "name": "Manchester City FC Sky Blue Matchday Kit",
+    "category": "sportswear",
+    "parentCategory": "clothing",
+    "subCategory": "jerseys",
+    "retailPrice": 1200,
+    "wholesalePrice": 750,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "dryCELL Performance Poly-Pique",
+    "rating": 4.9,
+    "reviewsCount": 83,
+    "image": "/products-img/man city.jpeg",
+    "gallery": [
+      "/products-img/man city.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Home Kit Colors",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Away Kit Colors",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Third Kit",
+        "hex": "#CA8A04"
+      }
+    ],
+    "stock": {
+      "nairobi": 47,
+      "eldoret": 121
+    },
+    "description": "Etihad Stadium champion edition with 0161 Manchester telephone area code collar homage."
+  },
+  {
+    "id": "tfc-111",
+    "name": "Original Kenyan Maasai Shuka Traditional Blanket (masai)",
+    "category": "bedding-home",
+    "parentCategory": "bedding-home",
+    "subCategory": "maasai-shuka",
+    "retailPrice": 1100,
+    "wholesalePrice": 750,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Authentic Acrylic Twill Weave",
+    "rating": 4.5,
+    "reviewsCount": 90,
+    "image": "/products-img/masai.jpeg",
+    "gallery": [
+      "/products-img/masai.jpeg"
+    ],
+    "sizes": [
+      "200cm x 150cm Traditional"
+    ],
+    "colors": [
+      {
+        "name": "Red/Blue Plaid",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Red/Black",
+        "hex": "#991B1B"
+      },
+      {
+        "name": "Green/Yellow",
+        "hex": "#15803D"
+      }
+    ],
+    "stock": {
+      "nairobi": 60,
+      "eldoret": 20
+    },
+    "description": "Original East African Maasai tribal tartan wrap. Ideal as a warm travel blanket, safari throw, or cultural apparel."
+  },
+  {
+    "id": "tfc-112",
+    "name": "Executive Slim-Fit Stretch Khaki Chinos (material)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "khakis",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "98% Cotton with 2% Spandex Comfort Flex",
+    "rating": 4.6,
+    "reviewsCount": 97,
+    "image": "/products-img/material.jpeg",
+    "gallery": [
+      "/products-img/material.jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Classic Khaki",
+        "hex": "#C3B091"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1917"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#374151"
+      }
+    ],
+    "stock": {
+      "nairobi": 73,
+      "eldoret": 29
+    },
+    "description": "Kenya #1 bestseller khaki trousers. Double-needle stitch construction, wrinkle-resistant twill weave."
+  },
+  {
+    "id": "tfc-113",
+    "name": "Tactical Multi-Pocket Streetwear Cargo Pants (men gagis)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "khakis",
+    "retailPrice": 1700,
+    "wholesalePrice": 1050,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "Heavy Duty Ripstop Cotton with Elastic Stretch",
+    "rating": 4.7,
+    "reviewsCount": 104,
+    "image": "/products-img/men gagis.jpeg",
+    "gallery": [
+      "/products-img/men gagis.jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Classic Khaki",
+        "hex": "#C3B091"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1917"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#374151"
+      }
+    ],
+    "stock": {
+      "nairobi": 86,
+      "eldoret": 38
+    },
+    "description": "Deep bellows cargo pockets with reinforced bar-tacks. Popular among bikers, streetwear fans and delivery crews."
+  },
+  {
+    "id": "tfc-114",
+    "name": "Men Modern Streetwear Essential (men jckts)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.8,
+    "reviewsCount": 111,
+    "image": "/products-img/men jckts.jpeg",
+    "gallery": [
+      "/products-img/men jckts.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 99,
+      "eldoret": 47
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-115",
+    "name": "Straight-Cut Heavy Indigo Selvedge Denim Jeans (men jean)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jeans",
+    "retailPrice": 1800,
+    "wholesalePrice": 1100,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "14.5 oz Raw Ring-Spun Cotton Denim",
+    "rating": 4.9,
+    "reviewsCount": 118,
+    "image": "/products-img/men jean.jpeg",
+    "gallery": [
+      "/products-img/men jean.jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Raw Indigo Blue",
+        "hex": "#1E3A8A"
+      },
+      {
+        "name": "Stone Washed",
+        "hex": "#60A5FA"
+      },
+      {
+        "name": "Solid Black",
+        "hex": "#000000"
+      }
+    ],
+    "stock": {
+      "nairobi": 112,
+      "eldoret": 56
+    },
+    "description": "Classic 5-pocket denim tailored for durability. Custom copper rivets and reinforced fly."
+  },
+  {
+    "id": "tfc-116",
+    "name": "Straight-Cut Heavy Indigo Selvedge Denim Jeans (men jeans)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jeans",
+    "retailPrice": 1800,
+    "wholesalePrice": 1100,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "14.5 oz Raw Ring-Spun Cotton Denim",
+    "rating": 4.5,
+    "reviewsCount": 125,
+    "image": "/products-img/men jeans.jpeg",
+    "gallery": [
+      "/products-img/men jeans.jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Raw Indigo Blue",
+        "hex": "#1E3A8A"
+      },
+      {
+        "name": "Stone Washed",
+        "hex": "#60A5FA"
+      },
+      {
+        "name": "Solid Black",
+        "hex": "#000000"
+      }
+    ],
+    "stock": {
+      "nairobi": 125,
+      "eldoret": 65
+    },
+    "description": "Classic 5-pocket denim tailored for durability. Custom copper rivets and reinforced fly."
+  },
+  {
+    "id": "tfc-117",
+    "name": "Executive Slim-Fit Stretch Khaki Chinos (men tr2)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "khakis",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "98% Cotton with 2% Spandex Comfort Flex",
+    "rating": 4.6,
+    "reviewsCount": 132,
+    "image": "/products-img/men tr2.jpeg",
+    "gallery": [
+      "/products-img/men tr2.jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Classic Khaki",
+        "hex": "#C3B091"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1917"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#374151"
+      }
+    ],
+    "stock": {
+      "nairobi": 138,
+      "eldoret": 74
+    },
+    "description": "Kenya #1 bestseller khaki trousers. Double-needle stitch construction, wrinkle-resistant twill weave."
+  },
+  {
+    "id": "tfc-118",
+    "name": "Men Modern Streetwear Essential (mj4)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.7,
+    "reviewsCount": 139,
+    "image": "/products-img/mj4.jpeg",
+    "gallery": [
+      "/products-img/mj4.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 151,
+      "eldoret": 83
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-119",
+    "name": "Men Modern Streetwear Essential (mj6)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.8,
+    "reviewsCount": 146,
+    "image": "/products-img/mj6.jpeg",
+    "gallery": [
+      "/products-img/mj6.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 164,
+      "eldoret": 92
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-120",
+    "name": "Men Modern Streetwear Essential (mjn k)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.9,
+    "reviewsCount": 153,
+    "image": "/products-img/mjn k.jpeg",
+    "gallery": [
+      "/products-img/mjn k.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 37,
+      "eldoret": 101
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-121",
+    "name": "Men Modern Streetwear Essential (mn k)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.5,
+    "reviewsCount": 160,
+    "image": "/products-img/mn k.jpeg",
+    "gallery": [
+      "/products-img/mn k.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 50,
+      "eldoret": 110
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-122",
+    "name": "Men Modern Streetwear Essential (mn n)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.6,
+    "reviewsCount": 167,
+    "image": "/products-img/mn n.jpeg",
+    "gallery": [
+      "/products-img/mn n.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 63,
+      "eldoret": 119
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-123",
+    "name": "Executive Slim-Fit Stretch Khaki Chinos (mn trs)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "khakis",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "98% Cotton with 2% Spandex Comfort Flex",
+    "rating": 4.7,
+    "reviewsCount": 174,
+    "image": "/products-img/mn trs.jpeg",
+    "gallery": [
+      "/products-img/mn trs.jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Classic Khaki",
+        "hex": "#C3B091"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1917"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#374151"
+      }
+    ],
+    "stock": {
+      "nairobi": 76,
+      "eldoret": 128
+    },
+    "description": "Kenya #1 bestseller khaki trousers. Double-needle stitch construction, wrinkle-resistant twill weave."
+  },
+  {
+    "id": "tfc-124",
+    "name": "Men Modern Streetwear Essential (mn3)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.8,
+    "reviewsCount": 181,
+    "image": "/products-img/mn3.jpeg",
+    "gallery": [
+      "/products-img/mn3.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 89,
+      "eldoret": 27
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-125",
+    "name": "Men Modern Streetwear Essential (mnb)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.9,
+    "reviewsCount": 188,
+    "image": "/products-img/mnb.jpeg",
+    "gallery": [
+      "/products-img/mnb.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 102,
+      "eldoret": 36
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-126",
+    "name": "Men Modern Streetwear Essential (mnbv)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.5,
+    "reviewsCount": 195,
+    "image": "/products-img/mnbv.jpeg",
+    "gallery": [
+      "/products-img/mnbv.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 115,
+      "eldoret": 45
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-127",
+    "name": "Men Modern Streetwear Essential (mnjns)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.6,
+    "reviewsCount": 202,
+    "image": "/products-img/mnjns.jpeg",
+    "gallery": [
+      "/products-img/mnjns.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 128,
+      "eldoret": 54
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-128",
+    "name": "Men Modern Streetwear Essential (mnn we)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.7,
+    "reviewsCount": 209,
+    "image": "/products-img/mnn we.jpeg",
+    "gallery": [
+      "/products-img/mnn we.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 141,
+      "eldoret": 63
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-129",
+    "name": "Vintage High-Waist Tapered Denim Mom Jeans",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "ladies-jeans",
+    "retailPrice": 1600,
+    "wholesalePrice": 1050,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Rigid Heavy Cotton Denim",
+    "rating": 4.8,
+    "reviewsCount": 216,
+    "image": "/products-img/mumy jeans.jpeg",
+    "gallery": [
+      "/products-img/mumy jeans.jpeg"
+    ],
+    "sizes": [
+      "26",
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "colors": [
+      {
+        "name": "Light Vintage Wash",
+        "hex": "#93C5FD"
+      },
+      {
+        "name": "Classic Medium Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Washed Black",
+        "hex": "#27272A"
+      }
+    ],
+    "stock": {
+      "nairobi": 154,
+      "eldoret": 72
+    },
+    "description": "The #1 requested ladies jeans cut. High-rise cinch waist that accentuates curves with relaxed tapered legs."
+  },
+  {
+    "id": "tfc-130",
+    "name": "Men Modern Streetwear Essential (mwear)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.9,
+    "reviewsCount": 43,
+    "image": "/products-img/mwear.jpeg",
+    "gallery": [
+      "/products-img/mwear.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 167,
+      "eldoret": 81
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-131",
+    "name": "Men Modern Streetwear Essential (mwn ja)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.5,
+    "reviewsCount": 50,
+    "image": "/products-img/mwn ja.jpeg",
+    "gallery": [
+      "/products-img/mwn ja.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 40,
+      "eldoret": 90
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-132",
+    "name": "Heavyweight 240 GSM Pure Combed Cotton Tee (norml longsleeve)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "t-shirts",
+    "retailPrice": 800,
+    "wholesalePrice": 480,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% 240 GSM Carded Cotton Jersey",
+    "rating": 4.6,
+    "reviewsCount": 57,
+    "image": "/products-img/norml longsleeve.jpeg",
+    "gallery": [
+      "/products-img/norml longsleeve.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Core Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Bright White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Heather Grey",
+        "hex": "#9CA3AF"
+      }
+    ],
+    "stock": {
+      "nairobi": 53,
+      "eldoret": 99
+    },
+    "description": "Heavy drop-shoulder streetwear cut. Double-stitched tight collar that never sags after laundering."
+  },
+  {
+    "id": "tfc-133",
+    "name": "Heavyweight 380 GSM Streetwear Fleece Hoodie (off black)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "hoodies",
+    "retailPrice": 1800,
+    "wholesalePrice": 1200,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "380 GSM Cotton-Poly Heavy French Terry / Brushed Fleece",
+    "rating": 4.7,
+    "reviewsCount": 64,
+    "image": "/products-img/off black.jpeg",
+    "gallery": [
+      "/products-img/off black.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Onyx Black",
+        "hex": "#111827"
+      },
+      {
+        "name": "Oatmeal Melange",
+        "hex": "#E5E7EB"
+      },
+      {
+        "name": "Forest Green",
+        "hex": "#064E3B"
+      }
+    ],
+    "stock": {
+      "nairobi": 66,
+      "eldoret": 108
+    },
+    "description": "Ultra-thick boxy silhouette with double-layer hood and metal eyelets. Resists cold wind completely."
+  },
+  {
+    "id": "tfc-134",
+    "name": "Heavyweight 380 GSM Streetwear Fleece Hoodie (off cream)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "hoodies",
+    "retailPrice": 1800,
+    "wholesalePrice": 1200,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "380 GSM Cotton-Poly Heavy French Terry / Brushed Fleece",
+    "rating": 4.8,
+    "reviewsCount": 71,
+    "image": "/products-img/off cream.jpeg",
+    "gallery": [
+      "/products-img/off cream.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Onyx Black",
+        "hex": "#111827"
+      },
+      {
+        "name": "Oatmeal Melange",
+        "hex": "#E5E7EB"
+      },
+      {
+        "name": "Forest Green",
+        "hex": "#064E3B"
+      }
+    ],
+    "stock": {
+      "nairobi": 79,
+      "eldoret": 117
+    },
+    "description": "Ultra-thick boxy silhouette with double-layer hood and metal eyelets. Resists cold wind completely."
+  },
+  {
+    "id": "tfc-135",
+    "name": "Heavyweight 380 GSM Streetwear Fleece Hoodie (off drk pink)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "hoodies",
+    "retailPrice": 1800,
+    "wholesalePrice": 1200,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "380 GSM Cotton-Poly Heavy French Terry / Brushed Fleece",
+    "rating": 4.9,
+    "reviewsCount": 78,
+    "image": "/products-img/off drk pink.jpeg",
+    "gallery": [
+      "/products-img/off drk pink.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Onyx Black",
+        "hex": "#111827"
+      },
+      {
+        "name": "Oatmeal Melange",
+        "hex": "#E5E7EB"
+      },
+      {
+        "name": "Forest Green",
+        "hex": "#064E3B"
+      }
+    ],
+    "stock": {
+      "nairobi": 92,
+      "eldoret": 126
+    },
+    "description": "Ultra-thick boxy silhouette with double-layer hood and metal eyelets. Resists cold wind completely."
+  },
+  {
+    "id": "tfc-136",
+    "name": "Heavyweight 380 GSM Streetwear Fleece Hoodie (off pink)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "hoodies",
+    "retailPrice": 1800,
+    "wholesalePrice": 1200,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "380 GSM Cotton-Poly Heavy French Terry / Brushed Fleece",
+    "rating": 4.5,
+    "reviewsCount": 85,
+    "image": "/products-img/off pink.jpeg",
+    "gallery": [
+      "/products-img/off pink.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Onyx Black",
+        "hex": "#111827"
+      },
+      {
+        "name": "Oatmeal Melange",
+        "hex": "#E5E7EB"
+      },
+      {
+        "name": "Forest Green",
+        "hex": "#064E3B"
+      }
+    ],
+    "stock": {
+      "nairobi": 105,
+      "eldoret": 25
+    },
+    "description": "Ultra-thick boxy silhouette with double-layer hood and metal eyelets. Resists cold wind completely."
+  },
+  {
+    "id": "tfc-137",
+    "name": "Heavyweight 380 GSM Streetwear Fleece Hoodie (off pur)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "hoodies",
+    "retailPrice": 1800,
+    "wholesalePrice": 1200,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "380 GSM Cotton-Poly Heavy French Terry / Brushed Fleece",
+    "rating": 4.6,
+    "reviewsCount": 92,
+    "image": "/products-img/off pur.jpeg",
+    "gallery": [
+      "/products-img/off pur.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Onyx Black",
+        "hex": "#111827"
+      },
+      {
+        "name": "Oatmeal Melange",
+        "hex": "#E5E7EB"
+      },
+      {
+        "name": "Forest Green",
+        "hex": "#064E3B"
+      }
+    ],
+    "stock": {
+      "nairobi": 118,
+      "eldoret": 34
+    },
+    "description": "Ultra-thick boxy silhouette with double-layer hood and metal eyelets. Resists cold wind completely."
+  },
+  {
+    "id": "tfc-138",
+    "name": "Heavyweight 380 GSM Streetwear Fleece Hoodie (off white)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "hoodies",
+    "retailPrice": 1800,
+    "wholesalePrice": 1200,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "380 GSM Cotton-Poly Heavy French Terry / Brushed Fleece",
+    "rating": 4.7,
+    "reviewsCount": 99,
+    "image": "/products-img/off white.jpeg",
+    "gallery": [
+      "/products-img/off white.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Onyx Black",
+        "hex": "#111827"
+      },
+      {
+        "name": "Oatmeal Melange",
+        "hex": "#E5E7EB"
+      },
+      {
+        "name": "Forest Green",
+        "hex": "#064E3B"
+      }
+    ],
+    "stock": {
+      "nairobi": 131,
+      "eldoret": 43
+    },
+    "description": "Ultra-thick boxy silhouette with double-layer hood and metal eyelets. Resists cold wind completely."
+  },
+  {
+    "id": "tfc-139",
+    "name": "Camp Collar Cuban Vacation & Casual Shirt (official)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "shirts",
+    "retailPrice": 1200,
+    "wholesalePrice": 750,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% Breathable Viscose & Egyptian Cotton",
+    "rating": 4.8,
+    "reviewsCount": 106,
+    "image": "/products-img/official.jpeg",
+    "gallery": [
+      "/products-img/official.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Abstract Print",
+        "hex": "#D97706"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      }
+    ],
+    "stock": {
+      "nairobi": 144,
+      "eldoret": 52
+    },
+    "description": "Relaxed retro collar with boxy silhouette. Silky breathable drape for sunny days and weekend vibes."
+  },
+  {
+    "id": "tfc-140",
+    "name": "Camp Collar Cuban Vacation & Casual Shirt (officialls)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "shirts",
+    "retailPrice": 1200,
+    "wholesalePrice": 750,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Breathable Viscose & Egyptian Cotton",
+    "rating": 4.9,
+    "reviewsCount": 113,
+    "image": "/products-img/officialls.jpeg",
+    "gallery": [
+      "/products-img/officialls.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Abstract Print",
+        "hex": "#D97706"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      }
+    ],
+    "stock": {
+      "nairobi": 157,
+      "eldoret": 61
+    },
+    "description": "Relaxed retro collar with boxy silhouette. Silky breathable drape for sunny days and weekend vibes."
+  },
+  {
+    "id": "tfc-141",
+    "name": "Hotel-Grade Orthopedic Siliconized Pillows [Pair] (pillows 2)",
+    "category": "bedding-home",
+    "parentCategory": "bedding-home",
+    "subCategory": "hotel-pillows",
+    "retailPrice": 1400,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "Hypoallergenic Virgin Microfiber in Striped Cotton Casing",
+    "rating": 4.5,
+    "reviewsCount": 120,
+    "image": "/products-img/pillows 2.jpeg",
+    "gallery": [
+      "/products-img/pillows 2.jpeg"
+    ],
+    "sizes": [
+      "Standard 50x70cm (Pair of 2)"
+    ],
+    "colors": [
+      {
+        "name": "Multi-Pattern",
+        "hex": "#B45309"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#1D4ED8"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#881337"
+      },
+      {
+        "name": "Neutral Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 30,
+      "eldoret": 70
+    },
+    "description": "Ergonomic neck support, bounce-back resilience, machine washable. Guaranteed zero clumping."
+  },
+  {
+    "id": "tfc-142",
+    "name": "Hotel-Grade Orthopedic Siliconized Pillows [Pair] (pillows)",
+    "category": "bedding-home",
+    "parentCategory": "bedding-home",
+    "subCategory": "hotel-pillows",
+    "retailPrice": 1400,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Hypoallergenic Virgin Microfiber in Striped Cotton Casing",
+    "rating": 4.6,
+    "reviewsCount": 127,
+    "image": "/products-img/pillows.jpeg",
+    "gallery": [
+      "/products-img/pillows.jpeg"
+    ],
+    "sizes": [
+      "Standard 50x70cm (Pair of 2)"
+    ],
+    "colors": [
+      {
+        "name": "Multi-Pattern",
+        "hex": "#B45309"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#1D4ED8"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#881337"
+      },
+      {
+        "name": "Neutral Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 43,
+      "eldoret": 79
+    },
+    "description": "Ergonomic neck support, bounce-back resilience, machine washable. Guaranteed zero clumping."
+  },
+  {
+    "id": "tfc-143",
+    "name": "Heavyweight 240 GSM Pure Combed Cotton Tee (plains)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "t-shirts",
+    "retailPrice": 800,
+    "wholesalePrice": 480,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% 240 GSM Carded Cotton Jersey",
+    "rating": 4.7,
+    "reviewsCount": 134,
+    "image": "/products-img/plains.jpeg",
+    "gallery": [
+      "/products-img/plains.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Core Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Bright White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Heather Grey",
+        "hex": "#9CA3AF"
+      }
+    ],
+    "stock": {
+      "nairobi": 56,
+      "eldoret": 88
+    },
+    "description": "Heavy drop-shoulder streetwear cut. Double-stitched tight collar that never sags after laundering."
+  },
+  {
+    "id": "tfc-144",
+    "name": "Heavyweight 240 GSM Pure Combed Cotton Tee (printed)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "t-shirts",
+    "retailPrice": 800,
+    "wholesalePrice": 480,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% 240 GSM Carded Cotton Jersey",
+    "rating": 4.8,
+    "reviewsCount": 141,
+    "image": "/products-img/printed.jpeg",
+    "gallery": [
+      "/products-img/printed.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Core Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Bright White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Heather Grey",
+        "hex": "#9CA3AF"
+      }
+    ],
+    "stock": {
+      "nairobi": 69,
+      "eldoret": 97
+    },
+    "description": "Heavy drop-shoulder streetwear cut. Double-stitched tight collar that never sags after laundering."
+  },
+  {
+    "id": "tfc-145",
+    "name": "Men Modern Streetwear Essential (qlty j)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.9,
+    "reviewsCount": 148,
+    "image": "/products-img/qlty j.jpeg",
+    "gallery": [
+      "/products-img/qlty j.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 82,
+      "eldoret": 106
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-146",
+    "name": "Quarter-Zip Thermal Ribbed Knit Pullover (quarer sweater)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "sweaters",
+    "retailPrice": 1400,
+    "wholesalePrice": 900,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Cotton-Wool Thermal Blend",
+    "rating": 4.5,
+    "reviewsCount": 155,
+    "image": "/products-img/quarer sweater.jpeg",
+    "gallery": [
+      "/products-img/quarer sweater.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Charcoal Grey",
+        "hex": "#374151"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Camel",
+        "hex": "#B45309"
+      }
+    ],
+    "stock": {
+      "nairobi": 95,
+      "eldoret": 115
+    },
+    "description": "Executive smart-casual layer. Quarter metal zip collar looks great over collared shirts or tees."
+  },
+  {
+    "id": "tfc-147",
+    "name": "Men Modern Streetwear Essential (rbc)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.6,
+    "reviewsCount": 162,
+    "image": "/products-img/rbc.jpeg",
+    "gallery": [
+      "/products-img/rbc.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 108,
+      "eldoret": 124
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-148",
+    "name": "Men Modern Streetwear Essential (rtw)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.7,
+    "reviewsCount": 169,
+    "image": "/products-img/rtw.jpeg",
+    "gallery": [
+      "/products-img/rtw.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 121,
+      "eldoret": 23
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-149",
+    "name": "Glossy Puffer Down Windbreaker Winter Jacket (shining)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jackets",
+    "retailPrice": 2500,
+    "wholesalePrice": 1700,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Water-Repellent Glossy Nylon with Microfiber Fill",
+    "rating": 4.8,
+    "reviewsCount": 176,
+    "image": "/products-img/shining.jpeg",
+    "gallery": [
+      "/products-img/shining.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Midnight Black",
+        "hex": "#09090B"
+      },
+      {
+        "name": "Vintage Dark Brown",
+        "hex": "#451A03"
+      }
+    ],
+    "stock": {
+      "nairobi": 134,
+      "eldoret": 32
+    },
+    "description": "Heavy-duty front YKK zip, zippered sleeves, studded collar. Maximum street credibility and wind protection."
+  },
+  {
+    "id": "tfc-150",
+    "name": "Camp Collar Cuban Vacation & Casual Shirt (shirts off)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "shirts",
+    "retailPrice": 1200,
+    "wholesalePrice": 750,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Breathable Viscose & Egyptian Cotton",
+    "rating": 4.9,
+    "reviewsCount": 183,
+    "image": "/products-img/shirts off.jpeg",
+    "gallery": [
+      "/products-img/shirts off.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Abstract Print",
+        "hex": "#D97706"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      }
+    ],
+    "stock": {
+      "nairobi": 147,
+      "eldoret": 41
+    },
+    "description": "Relaxed retro collar with boxy silhouette. Silky breathable drape for sunny days and weekend vibes."
+  },
+  {
+    "id": "tfc-151",
+    "name": "Chic Floral A-Line Midi Boutique Dress (smart dress)",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "dresses",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Premium Georgette Chiffon with Full Lining",
+    "rating": 4.5,
+    "reviewsCount": 190,
+    "image": "/products-img/smart dress.jpeg",
+    "gallery": [
+      "/products-img/smart dress.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 160,
+      "eldoret": 50
+    },
+    "description": "Flattering tie-waist silhouette with tiered ruffle hem. Elegant day-to-night styling for Kenyan ladies."
+  },
+  {
+    "id": "tfc-152",
+    "name": "Vintage Double-Rider Biker Leather Jacket (smart jkt)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "jackets",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Heavyweight Textured PU Leather with Quilted Satin Lining",
+    "rating": 4.6,
+    "reviewsCount": 197,
+    "image": "/products-img/smart jkt.jpeg",
+    "gallery": [
+      "/products-img/smart jkt.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Midnight Black",
+        "hex": "#09090B"
+      },
+      {
+        "name": "Vintage Dark Brown",
+        "hex": "#451A03"
+      }
+    ],
+    "stock": {
+      "nairobi": 33,
+      "eldoret": 59
+    },
+    "description": "Heavy-duty front YKK zip, zippered sleeves, studded collar. Maximum street credibility and wind protection."
+  },
+  {
+    "id": "tfc-153",
+    "name": "Men Modern Streetwear Essential (smart)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "mens-wear",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Premium Cotton Blend",
+    "rating": 4.7,
+    "reviewsCount": 204,
+    "image": "/products-img/smart.jpeg",
+    "gallery": [
+      "/products-img/smart.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Khaki",
+        "hex": "#C3B091"
+      }
+    ],
+    "stock": {
+      "nairobi": 46,
+      "eldoret": 68
+    },
+    "description": "Versatile essential from our Nairobi & Eldoret warehouses. Direct factory pricing for retail and resellers."
+  },
+  {
+    "id": "tfc-154",
+    "name": "6x6 Siliconized Microfiber Heavyweight Duvet (sp duve bleu)",
+    "category": "bedding-home",
+    "parentCategory": "bedding-home",
+    "subCategory": "duvets-6x6",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "500 GSM Siliconized Hollowfiber Filling with Peach-Skin Microfiber Cover",
+    "rating": 4.8,
+    "reviewsCount": 211,
+    "image": "/products-img/sp duve bleu.jpeg",
+    "gallery": [
+      "/products-img/sp duve bleu.jpeg"
+    ],
+    "sizes": [
+      "6x6 Standard",
+      "5x6 Medium",
+      "Super King 7x7"
+    ],
+    "colors": [
+      {
+        "name": "Multi-Pattern",
+        "hex": "#B45309"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#1D4ED8"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#881337"
+      },
+      {
+        "name": "Neutral Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 59,
+      "eldoret": 77
+    },
+    "description": "Ultra-fluffy hotel grade all-season warmth. Box-stitch quilting prevents shifting. Reversible dual-tone aesthetics."
+  },
+  {
+    "id": "tfc-155",
+    "name": "6x6 Siliconized Microfiber Heavyweight Duvet (sp duve)",
+    "category": "bedding-home",
+    "parentCategory": "bedding-home",
+    "subCategory": "duvets-6x6",
+    "retailPrice": 2800,
+    "wholesalePrice": 1950,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "500 GSM Siliconized Hollowfiber Filling with Peach-Skin Microfiber Cover",
+    "rating": 4.9,
+    "reviewsCount": 218,
+    "image": "/products-img/sp duve.jpeg",
+    "gallery": [
+      "/products-img/sp duve.jpeg"
+    ],
+    "sizes": [
+      "6x6 Standard",
+      "5x6 Medium",
+      "Super King 7x7"
+    ],
+    "colors": [
+      {
+        "name": "Multi-Pattern",
+        "hex": "#B45309"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#1D4ED8"
+      },
+      {
+        "name": "Maroon",
+        "hex": "#881337"
+      },
+      {
+        "name": "Neutral Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 72,
+      "eldoret": 86
+    },
+    "description": "Ultra-fluffy hotel grade all-season warmth. Box-stitch quilting prevents shifting. Reversible dual-tone aesthetics."
+  },
+  {
+    "id": "tfc-156",
+    "name": "Athletic Training Dry-Fit Performance Jersey (sports)",
+    "category": "sportswear",
+    "parentCategory": "clothing",
+    "subCategory": "training-tracksuits",
+    "retailPrice": 1200,
+    "wholesalePrice": 750,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "High-Wick Athletic Polyester",
+    "rating": 4.5,
+    "reviewsCount": 45,
+    "image": "/products-img/sports.jpeg",
+    "gallery": [
+      "/products-img/sports.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Home Kit Colors",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Away Kit Colors",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Third Kit",
+        "hex": "#CA8A04"
+      }
+    ],
+    "stock": {
+      "nairobi": 85,
+      "eldoret": 95
+    },
+    "description": "Engineered for gym workouts, jogging and five-a-side matches. Dries 3x faster than cotton."
+  },
+  {
+    "id": "tfc-157",
+    "name": "Tactical Multi-Pocket Streetwear Cargo Pants (spys)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "khakis",
+    "retailPrice": 1700,
+    "wholesalePrice": 1050,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Heavy Duty Ripstop Cotton with Elastic Stretch",
+    "rating": 4.6,
+    "reviewsCount": 52,
+    "image": "/products-img/spys.jpeg",
+    "gallery": [
+      "/products-img/spys.jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Classic Khaki",
+        "hex": "#C3B091"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1917"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#374151"
+      }
+    ],
+    "stock": {
+      "nairobi": 98,
+      "eldoret": 104
+    },
+    "description": "Deep bellows cargo pockets with reinforced bar-tacks. Popular among bikers, streetwear fans and delivery crews."
+  },
+  {
+    "id": "tfc-158",
+    "name": "Tactical Multi-Pocket Streetwear Cargo Pants (spyse )",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "khakis",
+    "retailPrice": 1700,
+    "wholesalePrice": 1050,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Heavy Duty Ripstop Cotton with Elastic Stretch",
+    "rating": 4.7,
+    "reviewsCount": 59,
+    "image": "/products-img/spyse .jpeg",
+    "gallery": [
+      "/products-img/spyse .jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Classic Khaki",
+        "hex": "#C3B091"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1917"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#374151"
+      }
+    ],
+    "stock": {
+      "nairobi": 111,
+      "eldoret": 113
+    },
+    "description": "Deep bellows cargo pockets with reinforced bar-tacks. Popular among bikers, streetwear fans and delivery crews."
+  },
+  {
+    "id": "tfc-159",
+    "name": "Tactical Multi-Pocket Streetwear Cargo Pants (spysee)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "khakis",
+    "retailPrice": 1700,
+    "wholesalePrice": 1050,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Heavy Duty Ripstop Cotton with Elastic Stretch",
+    "rating": 4.8,
+    "reviewsCount": 66,
+    "image": "/products-img/spysee.jpeg",
+    "gallery": [
+      "/products-img/spysee.jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Classic Khaki",
+        "hex": "#C3B091"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1917"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#374151"
+      }
+    ],
+    "stock": {
+      "nairobi": 124,
+      "eldoret": 122
+    },
+    "description": "Deep bellows cargo pockets with reinforced bar-tacks. Popular among bikers, streetwear fans and delivery crews."
+  },
+  {
+    "id": "tfc-160",
+    "name": "Ladies Contemporary Fashion Outfit (sugars)",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "dresses",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "Cotton-Linen Breathable Weave",
+    "rating": 4.9,
+    "reviewsCount": 73,
+    "image": "/products-img/sugars.jpeg",
+    "gallery": [
+      "/products-img/sugars.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 137,
+      "eldoret": 21
+    },
+    "description": "Refined modern styling with vibrant color retention and soft breathable drape."
+  },
+  {
+    "id": "tfc-161",
+    "name": "Quarter-Zip Thermal Ribbed Knit Pullover (sweater)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "sweaters",
+    "retailPrice": 1400,
+    "wholesalePrice": 900,
+    "wholesaleMoq": 6,
+    "badge": "HOT VALUE",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "Cotton-Wool Thermal Blend",
+    "rating": 4.5,
+    "reviewsCount": 80,
+    "image": "/products-img/sweater.jpeg",
+    "gallery": [
+      "/products-img/sweater.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Charcoal Grey",
+        "hex": "#374151"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Camel",
+        "hex": "#B45309"
+      }
+    ],
+    "stock": {
+      "nairobi": 150,
+      "eldoret": 30
+    },
+    "description": "Executive smart-casual layer. Quarter metal zip collar looks great over collared shirts or tees."
+  },
+  {
+    "id": "tfc-162",
+    "name": "Quarter-Zip Thermal Ribbed Knit Pullover (swwrtes)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "sweaters",
+    "retailPrice": 1400,
+    "wholesalePrice": 900,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "Cotton-Wool Thermal Blend",
+    "rating": 4.6,
+    "reviewsCount": 87,
+    "image": "/products-img/swwrtes.jpeg",
+    "gallery": [
+      "/products-img/swwrtes.jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Charcoal Grey",
+        "hex": "#374151"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Camel",
+        "hex": "#B45309"
+      }
+    ],
+    "stock": {
+      "nairobi": 163,
+      "eldoret": 39
+    },
+    "description": "Executive smart-casual layer. Quarter metal zip collar looks great over collared shirts or tees."
+  },
+  {
+    "id": "tfc-163",
+    "name": "Heavyweight 240 GSM Pure Combed Cotton Tee (tisho)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "t-shirts",
+    "retailPrice": 800,
+    "wholesalePrice": 480,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% 240 GSM Carded Cotton Jersey",
+    "rating": 4.7,
+    "reviewsCount": 94,
+    "image": "/products-img/tisho.jpeg",
+    "gallery": [
+      "/products-img/tisho.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Core Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Bright White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Heather Grey",
+        "hex": "#9CA3AF"
+      }
+    ],
+    "stock": {
+      "nairobi": 36,
+      "eldoret": 48
+    },
+    "description": "Heavy drop-shoulder streetwear cut. Double-stitched tight collar that never sags after laundering."
+  },
+  {
+    "id": "tfc-164",
+    "name": "Heavyweight 240 GSM Pure Combed Cotton Tee (tsh)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "t-shirts",
+    "retailPrice": 800,
+    "wholesalePrice": 480,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% 240 GSM Carded Cotton Jersey",
+    "rating": 4.8,
+    "reviewsCount": 101,
+    "image": "/products-img/tsh.jpeg",
+    "gallery": [
+      "/products-img/tsh.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Core Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Bright White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Heather Grey",
+        "hex": "#9CA3AF"
+      }
+    ],
+    "stock": {
+      "nairobi": 49,
+      "eldoret": 57
+    },
+    "description": "Heavy drop-shoulder streetwear cut. Double-stitched tight collar that never sags after laundering."
+  },
+  {
+    "id": "tfc-165",
+    "name": "Heavyweight 240 GSM Pure Combed Cotton Tee (tshirts)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "t-shirts",
+    "retailPrice": 800,
+    "wholesalePrice": 480,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% 240 GSM Carded Cotton Jersey",
+    "rating": 4.9,
+    "reviewsCount": 108,
+    "image": "/products-img/tshirts.jpeg",
+    "gallery": [
+      "/products-img/tshirts.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Core Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Bright White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Heather Grey",
+        "hex": "#9CA3AF"
+      }
+    ],
+    "stock": {
+      "nairobi": 62,
+      "eldoret": 66
+    },
+    "description": "Heavy drop-shoulder streetwear cut. Double-stitched tight collar that never sags after laundering."
+  },
+  {
+    "id": "tfc-166",
+    "name": "Heavyweight 240 GSM Pure Combed Cotton Tee (tsho)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "t-shirts",
+    "retailPrice": 800,
+    "wholesalePrice": 480,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% 240 GSM Carded Cotton Jersey",
+    "rating": 4.5,
+    "reviewsCount": 115,
+    "image": "/products-img/tsho.jpeg",
+    "gallery": [
+      "/products-img/tsho.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Core Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Bright White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Heather Grey",
+        "hex": "#9CA3AF"
+      }
+    ],
+    "stock": {
+      "nairobi": 75,
+      "eldoret": 75
+    },
+    "description": "Heavy drop-shoulder streetwear cut. Double-stitched tight collar that never sags after laundering."
+  },
+  {
+    "id": "tfc-167",
+    "name": "Manchester United FC Red Devils Match Kit",
+    "category": "sportswear",
+    "parentCategory": "clothing",
+    "subCategory": "jerseys",
+    "retailPrice": 1200,
+    "wholesalePrice": 750,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "HEAT.RDY Moisture Absorbing Fabric",
+    "rating": 4.6,
+    "reviewsCount": 122,
+    "image": "/products-img/united jersey.jpeg",
+    "gallery": [
+      "/products-img/united jersey.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "colors": [
+      {
+        "name": "Home Kit Colors",
+        "hex": "#DC2626"
+      },
+      {
+        "name": "Away Kit Colors",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Third Kit",
+        "hex": "#CA8A04"
+      }
+    ],
+    "stock": {
+      "nairobi": 88,
+      "eldoret": 84
+    },
+    "description": "Iconic Old Trafford red jersey with Snapdragon sponsor and classic white/black accents."
+  },
+  {
+    "id": "tfc-168",
+    "name": "45kg Heavy Velvet Drapes & Curtains Factory Bale",
+    "category": "bales",
+    "parentCategory": "bales",
+    "subCategory": "wholesale-bales",
+    "retailPrice": 22000,
+    "wholesalePrice": 19000,
+    "wholesaleMoq": 1,
+    "badge": "WHOLESALE BALES",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "45kg Grade-A Compressed Container Bale",
+    "rating": 4.7,
+    "reviewsCount": 129,
+    "image": "/products-img/velvet bales.jpeg",
+    "gallery": [
+      "/products-img/velvet bales.jpeg"
+    ],
+    "sizes": [
+      "45kg Factory Bale"
+    ],
+    "colors": [
+      {
+        "name": "Assorted Velvet Shades",
+        "hex": "#7C2D12"
+      }
+    ],
+    "stock": {
+      "nairobi": 101,
+      "eldoret": 93
+    },
+    "description": "Complete unopened export bale featuring heavy blackout velvet curtains and shears. Fast reseller turnover."
+  },
+  {
+    "id": "tfc-169",
+    "name": "Ladies Tailored Biker Faux Leather Jacket (wm jck)",
+    "category": "ladies-wear",
+    "parentCategory": "clothing",
+    "subCategory": "ladies-jackets",
+    "retailPrice": 2600,
+    "wholesalePrice": 1800,
+    "wholesaleMoq": 6,
+    "badge": "BESTSELLER",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "Butter-Soft Viscose-Backed Polyurethane",
+    "rating": 4.8,
+    "reviewsCount": 136,
+    "image": "/products-img/wm jck.jpeg",
+    "gallery": [
+      "/products-img/wm jck.jpeg"
+    ],
+    "sizes": [
+      "UK 8",
+      "UK 10",
+      "UK 12",
+      "UK 14",
+      "UK 16",
+      "UK 18"
+    ],
+    "colors": [
+      {
+        "name": "Floral Rose",
+        "hex": "#F43F5E"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Champagne Beige",
+        "hex": "#E7E5E4"
+      },
+      {
+        "name": "Emerald",
+        "hex": "#047857"
+      }
+    ],
+    "stock": {
+      "nairobi": 114,
+      "eldoret": 102
+    },
+    "description": "Silver asymmetrical metal zip hardware, notch lapels, tailored contour stitching for a chic silhouette."
+  },
+  {
+    "id": "tfc-170",
+    "name": "Full-Grain Solid Cowhide Leather Pin-Buckle Belt",
+    "category": "bags-luggage",
+    "parentCategory": "bags-luggage",
+    "subCategory": "leather-belts",
+    "retailPrice": 750,
+    "wholesalePrice": 450,
+    "wholesaleMoq": 6,
+    "badge": "NEW ARRIVAL",
+    "isNewArrival": false,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Genuine 3.8mm Cowhide Leather",
+    "rating": 4.9,
+    "reviewsCount": 143,
+    "image": "/products-img/za mshipi.jpeg",
+    "gallery": [
+      "/products-img/za mshipi.jpeg"
+    ],
+    "sizes": [
+      "One Size Fits All"
+    ],
+    "colors": [
+      {
+        "name": "Deep Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Cognac Brown",
+        "hex": "#78350F"
+      }
+    ],
+    "stock": {
+      "nairobi": 127,
+      "eldoret": 111
+    },
+    "description": "Heavy duty solid brass buckle with scratch-resistant burnished finish. Built to last 10+ years."
+  }
 ];

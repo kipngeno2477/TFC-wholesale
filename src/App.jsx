@@ -8,6 +8,7 @@ import Hero from './components/Hero';
 import TrustBadges from './components/TrustBadges';
 import ProductGrid from './components/ProductGrid';
 import OurProductsPage from './components/OurProductsPage';
+import DepartmentPage from './components/DepartmentPage';
 import CartPage from './components/CartPage';
 import AccountModal from './components/AccountModal';
 import WholesaleSection from './components/WholesaleSection';
@@ -23,11 +24,17 @@ import FloatingWhatsApp from './components/FloatingWhatsApp';
 import AdminDashboard from './components/AdminDashboard';
 
 function MainShopContent() {
-  const [currentPage, setCurrentPage] = useState('home'); // 'home' | 'products' | 'cart'
+  const [currentPage, setCurrentPage] = useState('home'); // 'home' | 'products' | 'men' | 'women' | 'kids' | 'bedding' | 'sportswear' | 'cart'
   const [accountModalOpen, setAccountModalOpen] = useState(false);
   const [adminOpen, setAdminOpen] = useState(false);
   const [checkoutOpen, setCheckoutOpen] = useState(false);
   const { setSelectedCategory } = useProducts();
+
+  const handleNavigate = (page) => {
+    setCurrentPage(page);
+    window.location.hash = page;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   // Hidden admin access (Ctrl+Shift+A or #admin) & Hash navigation
   useEffect(() => {
@@ -39,15 +46,11 @@ function MainShopContent() {
     };
 
     const checkHash = () => {
-      const hash = window.location.hash;
-      if (hash === '#admin' || window.location.search.includes('admin=true')) {
+      const hash = window.location.hash.replace(/^#/, '');
+      if (hash === 'admin' || window.location.search.includes('admin=true')) {
         setAdminOpen(true);
-      } else if (hash === '#products' || hash === '#categories') {
-        setCurrentPage('products');
-      } else if (hash === '#cart') {
-        setCurrentPage('cart');
-      } else if (hash === '#home') {
-        setCurrentPage('home');
+      } else if (['men', 'women', 'kids', 'bedding', 'sportswear', 'products', 'cart', 'home'].includes(hash)) {
+        setCurrentPage(hash);
       }
     };
 
@@ -64,6 +67,7 @@ function MainShopContent() {
   const scrollToSection = (id) => {
     if (currentPage !== 'home') {
       setCurrentPage('home');
+      window.location.hash = 'home';
       setTimeout(() => {
         const el = document.getElementById(id);
         if (el) el.scrollIntoView({ behavior: 'smooth' });
@@ -76,53 +80,62 @@ function MainShopContent() {
 
   const handleExploreBundles = () => {
     setSelectedCategory('bales');
-    setCurrentPage('products');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    handleNavigate('products');
   };
 
   return (
     <div className="min-h-screen bg-[#FAF9F5] text-stone-900 flex flex-col font-sans selection:bg-teal-500 selection:text-white">
       
-      {/* Sticky Luxury Navbar with Integrated Search & Reasonable Spacing */}
+      {/* Sticky Luxury Navbar with Dedicated Department Links & Integrated Search */}
       <Navbar 
         currentPage={currentPage}
-        onNavigate={(page) => {
-          setCurrentPage(page);
-          window.location.hash = page;
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-        }}
+        onNavigate={handleNavigate}
         onScrollTo={scrollToSection}
         onOpenAccount={() => setAccountModalOpen(true)}
       />
 
       <main className="flex-1">
-        {currentPage === 'products' ? (
-          /* Dedicated Our Products Page (Exact match to reference design with orange header & checkbox filters) */
+        {currentPage === 'men' ? (
+          /* Dedicated Men's Fashion & Clothes Page */
+          <DepartmentPage 
+            department="men"
+            onNavigate={handleNavigate}
+          />
+        ) : currentPage === 'women' ? (
+          /* Dedicated Women's Boutique & Clothes Page */
+          <DepartmentPage 
+            department="women"
+            onNavigate={handleNavigate}
+          />
+        ) : currentPage === 'kids' ? (
+          /* Dedicated Children's Wear & Clothes Page */
+          <DepartmentPage 
+            department="kids"
+            onNavigate={handleNavigate}
+          />
+        ) : currentPage === 'bedding' ? (
+          /* Dedicated Bedding, Duvets & Maasai Shukas Page */
+          <DepartmentPage 
+            department="bedding"
+            onNavigate={handleNavigate}
+          />
+        ) : currentPage === 'sportswear' ? (
+          /* Dedicated Sportswear & Club Matchday Jerseys Page */
+          <DepartmentPage 
+            department="sportswear"
+            onNavigate={handleNavigate}
+          />
+        ) : currentPage === 'products' ? (
+          /* Master "Our Products" Catalog Page (170 products with user's orange banner & checkboxes) */
           <OurProductsPage 
-            onNavigateHome={() => {
-              setCurrentPage('home');
-              window.location.hash = 'home';
-              window.scrollTo({ top: 0, behavior: 'smooth' });
-            }}
-            onOpenCart={() => {
-              setCurrentPage('cart');
-              window.location.hash = 'cart';
-              window.scrollTo({ top: 0, behavior: 'smooth' });
-            }}
+            onNavigateHome={() => handleNavigate('home')}
+            onOpenCart={() => handleNavigate('cart')}
           />
         ) : currentPage === 'cart' ? (
           /* Dedicated Shopping Cart Page */
           <CartPage 
-            onNavigateHome={() => {
-              setCurrentPage('home');
-              window.location.hash = 'home';
-              window.scrollTo({ top: 0, behavior: 'smooth' });
-            }}
-            onNavigateProducts={() => {
-              setCurrentPage('products');
-              window.location.hash = 'products';
-              window.scrollTo({ top: 0, behavior: 'smooth' });
-            }}
+            onNavigateHome={() => handleNavigate('home')}
+            onNavigateProducts={() => handleNavigate('products')}
             onProceedToCheckout={() => setCheckoutOpen(true)}
           />
         ) : (
@@ -130,13 +143,15 @@ function MainShopContent() {
           <>
             {/* Hero Section with Real Store Images Carousel */}
             <Hero 
-              onShopClick={() => scrollToSection('products')}
+              onShopClick={() => handleNavigate('products')}
               onWholesaleClick={() => scrollToSection('wholesale')}
               onNavigateCategory={(cat) => {
-                setSelectedCategory(cat);
-                setCurrentPage('products');
-                window.location.hash = 'products';
-                window.scrollTo({ top: 0, behavior: 'smooth' });
+                if (cat === 'mens-wear') handleNavigate('men');
+                else if (cat === 'ladies-wear') handleNavigate('women');
+                else if (cat === 'childrens-wear') handleNavigate('kids');
+                else if (cat === 'bedding-home') handleNavigate('bedding');
+                else if (cat === 'sportswear') handleNavigate('sportswear');
+                else handleNavigate('products');
               }}
             />
 

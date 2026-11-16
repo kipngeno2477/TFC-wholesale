@@ -15,15 +15,14 @@ import { useCart } from '../context/CartContext';
 import { useBranch } from '../context/BranchContext';
 
 const FILTER_CATEGORIES = [
-  { id: 'dresses', label: 'Dresses', parentMatch: ['dresses', 'ladies-wear'] },
-  { id: 'accessories', label: 'Accessories', parentMatch: ['accessories', 'bags-luggage'] },
-  { id: 'shoes', label: 'Shoes', parentMatch: ['shoes'] },
-  { id: 'male', label: 'MALE', parentMatch: ['mens-wear', 'khakis', 'jeans', 'shirts', 'jackets', 'hoodies', 't-shirts'] },
-  { id: 'pallazos', label: 'PALLAZOS & Pants', parentMatch: ['khakis', 'jeans', 'ladies-jeans'] },
-  { id: 'kids', label: 'KIDS SHOES & Wear', parentMatch: ['childrens-wear', 'kids-fleece', 'kids-jackets', 'kids-tracksuits'] },
-  { id: 'bedding', label: 'Bedding & Duvets', parentMatch: ['bedding-home', 'duvets-6x6', 'bedsheets', 'pillows', 'maasai-shuka'] },
-  { id: 'sportswear', label: 'Sportswear', parentMatch: ['sportswear', 'arsenal', 'chelsea', 'man-city', 'man-united', 'tracksuits'] },
-  { id: 'bales', label: 'Mixed Bales', parentMatch: ['bales', 'wholesale-packages'] },
+  { id: 'male', label: 'MALE', parentMatch: ['mens-wear'] },
+  { id: 'dresses', label: 'Dresses & Ladies', parentMatch: ['ladies-wear'] },
+  { id: 'bedding', label: 'Bedding & Duvets', parentMatch: ['bedding-home'] },
+  { id: 'kids', label: 'KIDS SHOES & Wear', parentMatch: ['childrens-wear'] },
+  { id: 'sportswear', label: 'Sportswear & Jerseys', parentMatch: ['sportswear'] },
+  { id: 'accessories', label: 'Accessories & Bags', parentMatch: ['bags-luggage'] },
+  { id: 'bales', label: 'Mixed Bales', parentMatch: ['bales'] },
+  { id: 'pallazos', label: 'PALLAZOS & Cargos', parentMatch: ['khakis', 'cargo', 'jeans'] },
 ];
 
 export default function OurProductsPage({ onNavigateHome, onOpenCart }) {
@@ -90,7 +89,8 @@ export default function OurProductsPage({ onNavigateHome, onOpenCart }) {
         const matchName = p.name.toLowerCase().includes(q);
         const matchDesc = p.description?.toLowerCase().includes(q);
         const matchCat = p.category?.toLowerCase().includes(q);
-        if (!matchName && !matchDesc && !matchCat) return false;
+        const matchSub = p.subCategory?.toLowerCase().includes(q);
+        if (!matchName && !matchDesc && !matchCat && !matchSub) return false;
       }
 
       return true;
@@ -240,7 +240,6 @@ export default function OurProductsPage({ onNavigateHome, onOpenCart }) {
                   const isFavorited = isInWishlist(product.id);
                   const isAdded = addedProductIds.includes(product.id);
                   
-                  // Compute mock discount for display tag (matching the -58%, -80% tags in reference)
                   const discountPct = product.wholesalePrice
                     ? Math.round(((product.retailPrice - product.wholesalePrice) / product.retailPrice) * 100)
                     : 30;
@@ -351,4 +350,3 @@ export default function OurProductsPage({ onNavigateHome, onOpenCart }) {
     </div>
   );
 }
-
