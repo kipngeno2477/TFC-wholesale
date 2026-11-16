@@ -10,7 +10,7 @@ export default defineConfig({
     {
       name: 'serve-products-folder',
       configureServer(server) {
-        server.middlewares.use('/products-img', (req, res, next) => {
+        const serveImage = (req, res, next) => {
           try {
             const rawUrl = req.url ? req.url.split('?')[0] : ''
             const decodedUrl = decodeURIComponent(rawUrl.replace(/^\//, ''))
@@ -21,6 +21,9 @@ export default defineConfig({
             }
             if (!fs.existsSync(filePath)) {
               filePath = path.join(baseDir, 'public', 'products-img', decodedUrl)
+            }
+            if (!fs.existsSync(filePath)) {
+              filePath = path.join(baseDir, 'public', 'products-p-img', decodedUrl)
             }
             if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
               const ext = path.extname(filePath).toLowerCase()
@@ -39,7 +42,9 @@ export default defineConfig({
             console.error('Error serving product image:', e)
           }
           next()
-        })
+        }
+        server.middlewares.use('/products-img', serveImage)
+        server.middlewares.use('/products-p-img', serveImage)
       }
     }
   ],
