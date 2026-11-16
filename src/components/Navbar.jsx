@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { 
-  ShoppingBag, 
-  MapPin, 
-  Phone, 
-  Search, 
-  Menu, 
-  X, 
+import {
+  ShoppingBag,
+  MapPin,
+  Phone,
+  Search,
+  Menu,
+  X,
   ChevronDown,
   Heart,
   User,
@@ -55,33 +55,139 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
 
   return (
     <>
-      {/* 1. Top Announcement & Branch Switcher Bar */}
-      <div className="bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-400 text-xs text-stone-950 border-b border-amber-300 py-2 px-6 sm:px-8 lg:px-12 shadow-sm">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
-          <div className="flex items-center space-x-3 text-center sm:text-left">
-            <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-black bg-stone-950 text-amber-300 shadow-sm">
-              KENYA WHOLESALE & RETAIL
-            </span>
-            <span className="hidden md:inline text-amber-900/40 font-bold">|</span>
-            <span className="font-semibold text-stone-950">
-              Countrywide Parcel Dispatch Daily via Easy Coach, Guardian & Fargo
-            </span>
+      {/* 1. Top Green Announcement Bar with Left-to-Right Moving Contact Ticker */}
+      <div className="bg-gradient-to-r from-emerald-950 via-emerald-800 to-teal-900 text-xs text-white border-b border-emerald-700/60 shadow-sm relative overflow-hidden py-2 px-3 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto flex items-center justify-between gap-3">
+          
+          {/* Left-to-Right Moving Contact Ticker */}
+          <div className="relative flex-1 overflow-hidden h-6 flex items-center group">
+            {/* Subtle fade masks on left and right for smooth appearance */}
+            <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-6 bg-gradient-to-r from-emerald-950 to-transparent z-10" />
+            <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-6 bg-gradient-to-l from-emerald-950/90 to-transparent z-10" />
+
+            {/* Moving ticker ribbon (moves from left to right) */}
+            <div className="animate-marquee-ltr flex items-center space-x-8 text-xs font-medium text-emerald-100 whitespace-nowrap select-none">
+              {/* Loop Block 1 */}
+              <div className="flex items-center space-x-6 shrink-0">
+                <div className="inline-flex items-center space-x-1.5 bg-amber-400 text-stone-950 font-black px-2.5 py-0.5 rounded-full text-[10px] uppercase tracking-wider shadow-sm">
+                  <Sparkles className="w-3 h-3 text-stone-950" />
+                  <span>TFC HOTLINE & CONTACTS</span>
+                </div>
+
+                <a 
+                  href="tel:+254795764548" 
+                  className="flex items-center space-x-1.5 hover:text-amber-300 transition-colors"
+                >
+                  <Phone className="w-3.5 h-3.5 text-amber-300" />
+                  <span>Nairobi (Diamond Plaza 1): <strong className="font-black text-white hover:text-amber-300">0795 764 548</strong></span>
+                </a>
+
+                <span className="text-emerald-400 font-bold">•</span>
+
+                <a 
+                  href="tel:+254703324600" 
+                  className="flex items-center space-x-1.5 hover:text-amber-300 transition-colors"
+                >
+                  <Phone className="w-3.5 h-3.5 text-amber-300" />
+                  <span>Eldoret (Seven Sunday): <strong className="font-black text-white hover:text-amber-300">0703 324 600</strong></span>
+                </a>
+
+                <span className="text-emerald-400 font-bold">•</span>
+
+                <a 
+                  href={`https://wa.me/254795764548?text=${encodeURIComponent("Hello TFC Wholesalers! I'd like to place an order.")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-1.5 hover:text-emerald-200 transition-colors"
+                >
+                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                  <span>WhatsApp Orders: <strong className="font-black text-emerald-300 underline">+254 795 764 548</strong></span>
+                </a>
+
+                <span className="text-emerald-400 font-bold">•</span>
+
+                <span className="flex items-center space-x-1 text-emerald-200">
+                  <span>🚚 Daily Countrywide Parcels: Easy Coach, Guardian & Fargo Express</span>
+                </span>
+
+                <span className="text-emerald-400 font-bold">•</span>
+
+                <span className="text-amber-300 font-semibold">
+                  ⚡ Wholesale Bales & Single Piece Reseller Discounts
+                </span>
+              </div>
+
+              {/* Loop Block 2 (Duplicate for infinite seamless loop) */}
+              <div className="flex items-center space-x-6 shrink-0">
+                <div className="inline-flex items-center space-x-1.5 bg-amber-400 text-stone-950 font-black px-2.5 py-0.5 rounded-full text-[10px] uppercase tracking-wider shadow-sm">
+                  <Sparkles className="w-3 h-3 text-stone-950" />
+                  <span>TFC HOTLINE & CONTACTS</span>
+                </div>
+
+                <a 
+                  href="tel:+254795764548" 
+                  className="flex items-center space-x-1.5 hover:text-amber-300 transition-colors"
+                >
+                  <Phone className="w-3.5 h-3.5 text-amber-300" />
+                  <span>Nairobi (Diamond Plaza 1): <strong className="font-black text-white hover:text-amber-300">0795 764 548</strong></span>
+                </a>
+
+                <span className="text-emerald-400 font-bold">•</span>
+
+                <a 
+                  href="tel:+254703324600" 
+                  className="flex items-center space-x-1.5 hover:text-amber-300 transition-colors"
+                >
+                  <Phone className="w-3.5 h-3.5 text-amber-300" />
+                  <span>Eldoret (Seven Sunday): <strong className="font-black text-white hover:text-amber-300">0703 324 600</strong></span>
+                </a>
+
+                <span className="text-emerald-400 font-bold">•</span>
+
+                <a 
+                  href={`https://wa.me/254795764548?text=${encodeURIComponent("Hello TFC Wholesalers! I'd like to place an order.")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-1.5 hover:text-emerald-200 transition-colors"
+                >
+                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                  <span>WhatsApp Orders: <strong className="font-black text-emerald-300 underline">+254 795 764 548</strong></span>
+                </a>
+
+                <span className="text-emerald-400 font-bold">•</span>
+
+                <span className="flex items-center space-x-1 text-emerald-200">
+                  <span>🚚 Daily Countrywide Parcels: Easy Coach, Guardian & Fargo Express</span>
+                </span>
+
+                <span className="text-emerald-400 font-bold">•</span>
+
+                <span className="text-amber-300 font-semibold">
+                  ⚡ Wholesale Bales & Single Piece Reseller Discounts
+                </span>
+              </div>
+            </div>
           </div>
 
-          <div className="flex items-center space-x-6 text-xs">
+          {/* Right Controls: Branch Switcher & Quick WhatsApp CTA */}
+          <div className="flex items-center space-x-2 sm:space-x-3 shrink-0 z-20 pl-2">
             {/* Branch Switcher Dropdown */}
             <div className="relative">
               <button
                 onClick={() => setBranchDropdownOpen(!branchDropdownOpen)}
-                className="flex items-center space-x-1.5 py-1 px-3 rounded-lg bg-stone-950/10 hover:bg-stone-950/15 border border-stone-950/20 text-stone-950 text-xs font-bold transition shadow-sm"
+                className="flex items-center space-x-1.5 py-1 px-2.5 sm:px-3 rounded-lg bg-emerald-900/90 hover:bg-emerald-850 border border-emerald-600/70 text-white text-xs font-bold transition shadow-sm backdrop-blur-sm"
               >
-                <MapPin className="w-3.5 h-3.5 text-stone-900" />
-                <span className="font-black text-stone-950">{currentBranch.name}</span>
-                <ChevronDown className="w-3 h-3 text-stone-800" />
+                <span className="relative flex h-2 w-2 mr-0.5">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-400" />
+                </span>
+                <MapPin className="w-3.5 h-3.5 text-amber-300" />
+                <span className="font-bold text-white text-[11px] sm:text-xs">{currentBranch.name.split(' ')[0]}</span>
+                <ChevronDown className="w-3 h-3 text-emerald-300" />
               </button>
 
               {branchDropdownOpen && (
-                <div 
+                <div
                   className="absolute right-0 mt-1 w-64 bg-white border border-stone-200 rounded-xl shadow-2xl p-2 z-50 text-left"
                   onMouseLeave={() => setBranchDropdownOpen(false)}
                 >
@@ -97,11 +203,11 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
                       }}
                       className={`w-full text-left p-2.5 rounded-lg transition flex items-start space-x-2.5 my-0.5 ${
                         selectedBranchId === branch.id
-                          ? 'bg-amber-100 border border-amber-300 text-stone-950 font-bold'
+                          ? 'bg-emerald-50 border border-emerald-300 text-stone-950 font-bold'
                           : 'hover:bg-stone-50 text-stone-700'
                       }`}
                     >
-                      <MapPin className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
+                      <MapPin className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
                       <div>
                         <div className="font-bold text-xs text-stone-900">{branch.name}</div>
                         <div className="text-[11px] text-stone-500 leading-tight">{branch.mall}</div>
@@ -118,21 +224,22 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
               href={`https://wa.me/${currentBranch.whatsapp}?text=${encodeURIComponent("Hello TFC Wholesalers! I'm browsing your online store.")}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden lg:flex items-center space-x-1 text-stone-950 hover:text-stone-800 font-bold transition"
+              className="hidden lg:flex items-center space-x-1.5 bg-emerald-600/90 hover:bg-emerald-500 text-white font-bold px-2.5 py-1 rounded-lg border border-emerald-500 text-[11px] transition shadow-sm"
             >
               <span>WhatsApp:</span>
-              <span className="font-black">{currentBranch.phoneDisplay}</span>
+              <span className="text-amber-300 font-black">{currentBranch.phoneDisplay}</span>
             </a>
           </div>
+
         </div>
       </div>
 
       {/* 2. Main Sticky Header with Spacious Layout, Navigation & Search at End */}
       <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-stone-200/90 shadow-sm transition-all">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-          
+
           <div className="flex items-center justify-between h-20 sm:h-22 gap-4 lg:gap-6">
-            
+
             {/* Brand Logo (Left) */}
             <div className="flex items-center shrink-0">
               <button
@@ -155,14 +262,13 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
 
             {/* Desktop Navigation Links with Reasonable Spacing (Each Department has its own dedicated page) */}
             <nav className="hidden lg:flex items-center space-x-5 xl:space-x-7 shrink-0">
-              
+
               <button
                 onClick={() => handleNavClick('home')}
-                className={`text-xs xl:text-sm font-bold uppercase tracking-wider transition ${
-                  currentPage === 'home'
+                className={`text-xs xl:text-sm font-bold uppercase tracking-wider transition ${currentPage === 'home'
                     ? 'text-teal-600 font-black'
                     : 'text-stone-700 hover:text-teal-600'
-                }`}
+                  }`}
               >
                 Home
               </button>
@@ -170,11 +276,10 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
               {/* Our Products Page (All Products with reference image design) */}
               <button
                 onClick={() => handleNavClick('products')}
-                className={`text-xs xl:text-sm font-bold uppercase tracking-wider transition ${
-                  currentPage === 'products'
+                className={`text-xs xl:text-sm font-bold uppercase tracking-wider transition ${currentPage === 'products'
                     ? 'text-orange-600 font-black'
                     : 'text-stone-700 hover:text-orange-600'
-                }`}
+                  }`}
               >
                 Our Products
               </button>
@@ -182,11 +287,10 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
               {/* Men Dedicated Clothes Page */}
               <button
                 onClick={() => handleNavClick('men')}
-                className={`text-xs xl:text-sm font-bold uppercase tracking-wider transition ${
-                  currentPage === 'men'
+                className={`text-xs xl:text-sm font-bold uppercase tracking-wider transition ${currentPage === 'men'
                     ? 'text-teal-600 font-black'
                     : 'text-stone-700 hover:text-teal-600'
-                }`}
+                  }`}
               >
                 Men
               </button>
@@ -194,11 +298,10 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
               {/* Women Dedicated Clothes Page */}
               <button
                 onClick={() => handleNavClick('women')}
-                className={`text-xs xl:text-sm font-bold uppercase tracking-wider transition ${
-                  currentPage === 'women'
+                className={`text-xs xl:text-sm font-bold uppercase tracking-wider transition ${currentPage === 'women'
                     ? 'text-rose-600 font-black'
                     : 'text-stone-700 hover:text-rose-600'
-                }`}
+                  }`}
               >
                 Women
               </button>
@@ -206,11 +309,10 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
               {/* Kids Dedicated Clothes Page */}
               <button
                 onClick={() => handleNavClick('kids')}
-                className={`text-xs xl:text-sm font-bold uppercase tracking-wider transition ${
-                  currentPage === 'kids'
+                className={`text-xs xl:text-sm font-bold uppercase tracking-wider transition ${currentPage === 'kids'
                     ? 'text-amber-600 font-black'
                     : 'text-stone-700 hover:text-amber-600'
-                }`}
+                  }`}
               >
                 Kids
               </button>
@@ -218,11 +320,10 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
               {/* Bedding Dedicated Home Page */}
               <button
                 onClick={() => handleNavClick('bedding')}
-                className={`text-xs xl:text-sm font-bold uppercase tracking-wider transition ${
-                  currentPage === 'bedding'
+                className={`text-xs xl:text-sm font-bold uppercase tracking-wider transition ${currentPage === 'bedding'
                     ? 'text-emerald-600 font-black'
                     : 'text-stone-700 hover:text-emerald-600'
-                }`}
+                  }`}
               >
                 Bedding
               </button>
@@ -230,11 +331,10 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
               {/* Sportswear Dedicated Page */}
               <button
                 onClick={() => handleNavClick('sportswear')}
-                className={`text-xs xl:text-sm font-bold uppercase tracking-wider transition ${
-                  currentPage === 'sportswear'
+                className={`text-xs xl:text-sm font-bold uppercase tracking-wider transition ${currentPage === 'sportswear'
                     ? 'text-blue-600 font-black'
                     : 'text-stone-700 hover:text-blue-600'
-                }`}
+                  }`}
               >
                 Sportswear
               </button>
@@ -249,7 +349,7 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
 
             {/* End of Navbar Content: Search Bar, Account Button, Wishlist, Cart Page, WhatsApp */}
             <div className="flex items-center space-x-2.5 sm:space-x-3.5 shrink-0">
-              
+
               {/* Search Bar (Moved to the end of the navbar content) */}
               <div className="hidden md:flex relative w-40 lg:w-48 xl:w-56">
                 <input
@@ -297,11 +397,10 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
               {/* Cart Page Button at the end */}
               <button
                 onClick={() => handleNavClick('cart')}
-                className={`relative flex items-center space-x-1.5 py-2 px-3 sm:px-4 rounded-full text-xs font-bold transition duration-200 ${
-                  currentPage === 'cart'
+                className={`relative flex items-center space-x-1.5 py-2 px-3 sm:px-4 rounded-full text-xs font-bold transition duration-200 ${currentPage === 'cart'
                     ? 'bg-orange-600 text-white shadow-md'
                     : 'bg-stone-900 hover:bg-stone-800 text-white shadow-sm'
-                }`}
+                  }`}
                 title="Open Cart Page"
               >
                 <ShoppingBag className="w-4 h-4" />
@@ -340,7 +439,7 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
         {/* Mobile Navigation Drawer */}
         {mobileMenuOpen && (
           <div className="lg:hidden bg-white border-b border-stone-200 px-6 pt-4 pb-6 space-y-4 shadow-xl animate-in slide-in-from-top duration-300 max-h-[85vh] overflow-y-auto">
-            
+
             {/* Mobile Search input */}
             <div className="relative">
               <input
@@ -363,21 +462,19 @@ export default function Navbar({ currentPage, onNavigate, onScrollTo, onOpenAcco
               <div className="grid grid-cols-2 gap-2">
                 <button
                   onClick={() => setBranch('nairobi')}
-                  className={`py-2 px-3 text-xs rounded-lg font-bold text-center transition ${
-                    selectedBranchId === 'nairobi'
+                  className={`py-2 px-3 text-xs rounded-lg font-bold text-center transition ${selectedBranchId === 'nairobi'
                       ? 'bg-teal-600 text-white shadow-sm'
                       : 'bg-white text-stone-700 border border-stone-200'
-                  }`}
+                    }`}
                 >
                   Nairobi (Diamond Plaza)
                 </button>
                 <button
                   onClick={() => setBranch('eldoret')}
-                  className={`py-2 px-3 text-xs rounded-lg font-bold text-center transition ${
-                    selectedBranchId === 'eldoret'
+                  className={`py-2 px-3 text-xs rounded-lg font-bold text-center transition ${selectedBranchId === 'eldoret'
                       ? 'bg-teal-600 text-white shadow-sm'
                       : 'bg-white text-stone-700 border border-stone-200'
-                  }`}
+                    }`}
                 >
                   Eldoret (Seven Sunday)
                 </button>
