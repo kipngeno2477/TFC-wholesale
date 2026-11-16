@@ -84,11 +84,32 @@ const INITIAL_INQUIRIES = [
   }
 ];
 
+const CATALOG_STORAGE_KEY = 'tfc_products_catalog_v5';
+const CATALOG_VERSION_KEY = 'tfc_catalog_build_version';
+const CURRENT_VERSION = '2026_11_v5_206_items';
+
 export const ProductProvider = ({ children }) => {
   const [products, setProducts] = useState(() => {
     try {
-      const saved = localStorage.getItem('tfc_products_catalog_v4');
-      return saved ? JSON.parse(saved) : INITIAL_PRODUCTS;
+      // Clear legacy storage keys if present
+      localStorage.removeItem('tfc_products_catalog_v4');
+      localStorage.removeItem('tfc_products_catalog_v3');
+      localStorage.removeItem('tfc_products_catalog_v2');
+
+      const savedVersion = localStorage.getItem(CATALOG_VERSION_KEY);
+      const saved = localStorage.getItem(CATALOG_STORAGE_KEY);
+
+      if (savedVersion === CURRENT_VERSION && saved) {
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed) && parsed.length >= INITIAL_PRODUCTS.length) {
+          return parsed;
+        }
+      }
+
+      // If version mismatch or incomplete catalog, re-sync with INITIAL_PRODUCTS
+      localStorage.setItem(CATALOG_VERSION_KEY, CURRENT_VERSION);
+      localStorage.setItem(CATALOG_STORAGE_KEY, JSON.stringify(INITIAL_PRODUCTS));
+      return INITIAL_PRODUCTS;
     } catch {
       return INITIAL_PRODUCTS;
     }
@@ -120,7 +141,8 @@ export const ProductProvider = ({ children }) => {
 
   useEffect(() => {
     try {
-      localStorage.setItem('tfc_products_catalog_v4', JSON.stringify(products));
+      localStorage.setItem(CATALOG_STORAGE_KEY, JSON.stringify(products));
+      localStorage.setItem(CATALOG_VERSION_KEY, CURRENT_VERSION);
     } catch (e) {
       console.error(e);
     }
@@ -197,6 +219,12 @@ export const ProductProvider = ({ children }) => {
     if (selectedCategory !== 'all') {
       if (selectedCategory === 'new-arrivals') {
         if (!product.isNewArrival) return false;
+      } else if (selectedCategory === 'buggy-jeans') {
+        if (
+          product.subCategory !== 'buggy-jeans' &&
+          !product.name.toLowerCase().includes('buggy') &&
+          !product.name.toLowerCase().includes('baggy')
+        ) return false;
       } else if (selectedCategory === 'wholesale-packages' || selectedCategory === 'bales') {
         if (product.category !== 'bales' && product.parentCategory !== 'bales' && product.category !== 'wholesale-packages') return false;
       } else if (

@@ -260,11 +260,22 @@ export default function OurProductsPage({ onNavigateHome, onOpenCart }) {
                           loading="lazy"
                         />
 
-                        {/* Orange Discount Badge (from reference image -58%, -80%) */}
-                        <div className="absolute top-3 left-3 z-10">
+                        {/* Orange Discount Badge & Custom Product Badge */}
+                        <div className="absolute top-3 left-3 z-10 flex flex-col gap-1 items-start">
                           <span className="bg-[#EA580C] text-white text-xs font-black px-2.5 py-1 rounded-md shadow-md">
                             -{discountPct > 0 ? discountPct : 35}%
                           </span>
+                          {product.badge && (
+                            <span className={`text-[10px] font-black px-2 py-0.5 rounded-md shadow-md uppercase tracking-wider ${
+                              product.retailPrice === 1450
+                                ? 'bg-emerald-600 text-white'
+                                : product.retailPrice === 1500
+                                ? 'bg-purple-700 text-white'
+                                : 'bg-stone-900 text-amber-400'
+                            }`}>
+                              {product.badge}
+                            </span>
+                          )}
                         </div>
 
                         {/* Floating Wishlist Heart */}

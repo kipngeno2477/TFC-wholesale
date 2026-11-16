@@ -7,6 +7,17 @@ import { useProducts } from '../context/ProductContext';
 const HERO_SLIDES = [
   {
     id: 1,
+    image: '/products-img/Buggy Jeans (2).jpeg',
+    badge: 'NEW ARRIVALS 2026',
+    title: "MEN'S BUGGY JEANS",
+    subtitle: 'PLAIN KES 1,450 • PATTERNED KES 1,500',
+    tagline: 'Authentic 14oz wide-leg skater buggy jeans. Plain classic cuts at KES 1,450 & designer graphic/monogram prints at KES 1,500 with belts.',
+    buttonText: "SHOP MEN'S BUGGY JEANS",
+    buttonColor: 'bg-amber-500 hover:bg-amber-600 text-stone-950 font-black',
+    category: 'mens-wear',
+  },
+  {
+    id: 2,
     image: '/products-img/2000 jkt.jpeg',
     badge: 'KENYA BESTSELLERS',
     title: 'TRENDY MEN\'S JACKETS',
@@ -17,7 +28,7 @@ const HERO_SLIDES = [
     category: 'mens-wear',
   },
   {
-    id: 2,
+    id: 3,
     image: '/products-img/smart dress.jpeg',
     badge: 'WOMEN\'S FASHION 2026',
     title: 'ELEGANT LADIES\' DRESSES',
@@ -28,7 +39,7 @@ const HERO_SLIDES = [
     category: 'ladies-wear',
   },
   {
-    id: 3,
+    id: 4,
     image: '/products-img/duvet.jpeg',
     badge: 'BEDDING & HOME LUXURY',
     title: '6X6 HEAVYWEIGHT DUVETS',
@@ -39,7 +50,7 @@ const HERO_SLIDES = [
     category: 'bedding-home',
   },
   {
-    id: 4,
+    id: 5,
     image: '/products-img/arsenal jersry.jpeg',
     badge: 'SPORTSWEAR & JERSEYS',
     title: 'OFFICIAL MATCHDAY KITS',
@@ -50,7 +61,7 @@ const HERO_SLIDES = [
     category: 'sportswear',
   },
   {
-    id: 5,
+    id: 6,
     image: '/products-img/duve bales.jpeg',
     badge: 'DIRECT FACTORY IMPORTS',
     title: 'BUY MORE. SAVE MORE.',
@@ -65,11 +76,11 @@ const HERO_SLIDES = [
 // 4 Category Showcase Cards using Real Store Images
 const SHOWCASE_CARDS = [
   {
-    id: 'new-releases',
-    title: 'NEW RELEASES',
-    subtitle: 'Vintage Biker Leather & Hoodies',
-    image: '/products-img/leather jkt.jpeg',
-    category: 'new-arrivals',
+    id: 'new-buggy-jeans',
+    title: 'BUGGY JEANS 2026',
+    subtitle: 'Plain KES 1,450 • Patterned KES 1,500',
+    image: '/products-img/Buggy Jeans (2).jpeg',
+    category: 'mens-wear',
     bgColor: 'bg-[#F4EFEA]',
   },
   {
@@ -84,7 +95,7 @@ const SHOWCASE_CARDS = [
     id: 'mens-collection',
     title: "MEN'S COLLECTION",
     subtitle: 'Executive Stretch Khakis & Denims',
-    image: '/products-img/khaki.jpeg',
+    image: '/products-img/Buggy Jeans (4).jpeg',
     category: 'mens-wear',
     bgColor: 'bg-[#EAEFF2]',
   },

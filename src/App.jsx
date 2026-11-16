@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import TrustBadges from './components/TrustBadges';
 import ProductGrid from './components/ProductGrid';
+import BuggyJeansSpotlight from './components/BuggyJeansSpotlight';
 import OurProductsPage from './components/OurProductsPage';
 import DepartmentPage from './components/DepartmentPage';
 import CartPage from './components/CartPage';
@@ -157,6 +158,9 @@ function MainShopContent() {
 
             {/* Value Proposition & Trust Badges */}
             <TrustBadges />
+
+            {/* Featured Collection Spotlight: Men's Buggy Jeans (Plain KES 1,450 / Patterned KES 1,500) */}
+            <BuggyJeansSpotlight onExploreMen={handleNavigate} />
 
             {/* Product Catalog ("TRENDING NOW" with Left Sidebar Filter & 4-Column Grid) */}
             <ProductGrid />

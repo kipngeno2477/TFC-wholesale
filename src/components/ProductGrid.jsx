@@ -27,6 +27,7 @@ const SIZE_OPTIONS = ['All', 'S', 'M', 'L', 'XL', '2XL'];
 
 const CATEGORY_SIDEBAR_ITEMS = [
   { id: 'all', name: 'All Collections' },
+  { id: 'buggy-jeans', name: 'Buggy Jeans (New 36 Styles)' },
   { id: 'mens-wear', name: "Men's Fashion" },
   { id: 'ladies-wear', name: "Women's Boutique" },
   { id: 'childrens-wear', name: "Children's Wear" },

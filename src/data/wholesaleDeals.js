@@ -43,6 +43,32 @@ export const WHOLESALE_TIERS = [
 
 export const WHOLESALE_PACKAGES = [
   {
+    id: 'bale-buggy-plain',
+    title: 'Plain Buggy Jeans Retailer Lot (20 Pcs)',
+    tag: 'NEW 2026 TOP SELLER',
+    price: 19000,
+    regularValue: 29000,
+    resalePotential: 'KES 29,000 (KES 1,450 / pc)',
+    profitEstimate: 'KES 10,000 Net Profit',
+    image: '/products-img/Buggy Jeans (4).jpeg',
+    breakdown: 'Plain wide-leg buggy denim (Washed Onyx, Vintage Black, Classic Blue, Indigo, Mud Acid)',
+    sizesIncluded: 'Waist 30 to 40',
+    moq: '1 Bundle (20 items)'
+  },
+  {
+    id: 'bale-buggy-patterned',
+    title: 'Patterned & Graphic Buggy Jeans Lot (20 Pcs)',
+    tag: 'STREETWEAR VIRAL HIT',
+    price: 20000,
+    regularValue: 30000,
+    resalePotential: 'KES 30,000 (KES 1,500 / pc)',
+    profitEstimate: 'KES 10,000 Net Profit',
+    image: '/products-img/Buggy Jeans (2).jpeg',
+    breakdown: 'Designer graphic, monogram, lightning bolt, crosshatch & acid wash buggy jeans with belts',
+    sizesIncluded: 'Waist 30 to 40',
+    moq: '1 Bundle (20 items)'
+  },
+  {
     id: 'bale-tees',
     title: 'Streetwear Graphic Tee Lot (30 Pcs)',
     tag: 'FASTEST SELLING',
