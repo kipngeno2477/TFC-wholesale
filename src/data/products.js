@@ -1,4 +1,6 @@
-// AUTO-GENERATED COMPLETE CATALOG FOR TFC WHOLESALERS (ALL 170 PRODUCTS)
+// AUTO-GENERATED COMPLETE CATALOG FOR TFC WHOLESALERS (ALL 206 PRODUCTS)
+// INCLUDES ALL 170 ORIGINAL STORE PRODUCTS + 36 BUGGY JEANS (PLAIN KES 1,450 | PATTERNED KES 1,500)
+
 export const MEGA_CATEGORIES = [
   {
     id: 'mens-wear',
@@ -8,7 +10,16 @@ export const MEGA_CATEGORIES = [
     headerIconBg: 'bg-stone-900 text-white',
     columns: [
       {
-        title: 'Trousers & Pants',
+        title: 'Buggy Jeans (New)',
+        categoryId: 'mens-wear',
+        items: [
+          { name: 'Plain Buggy Jeans (KES 1,450)', filter: 'plain buggy' },
+          { name: 'Patterned Buggy (KES 1,500)', filter: 'patterned buggy' },
+          { name: 'All Buggy & Baggy Denim', filter: 'buggy' },
+        ],
+      },
+      {
+        title: 'Trousers & Khakis',
         categoryId: 'mens-wear',
         items: [
           { name: 'Executive Khakis & Chinos', filter: 'khakis' },
@@ -17,21 +28,12 @@ export const MEGA_CATEGORIES = [
         ],
       },
       {
-        title: 'Tops & Shirts',
+        title: 'Tops & Outerwear',
         categoryId: 'mens-wear',
         items: [
           { name: 'Heavy Cotton T-Shirts', filter: 't-shirts' },
-          { name: 'Cuban Vacation Shirts', filter: 'shirts' },
-          { name: 'Long Sleeve Sweaters', filter: 'sweaters' },
-        ],
-      },
-      {
-        title: 'Jackets & Outerwear',
-        categoryId: 'mens-wear',
-        items: [
-          { name: 'Vintage Biker Leather Jackets', filter: 'jackets' },
+          { name: 'Vintage Biker Leather', filter: 'jackets' },
           { name: 'Fleece Lined Hoodies', filter: 'hoodies' },
-          { name: 'Winter Puffer Down Jackets', filter: 'jackets' },
         ],
       },
     ],
@@ -180,6 +182,1710 @@ export const CATEGORIES = [
 ];
 
 export const INITIAL_PRODUCTS = [
+  {
+    "id": "tfc-bj-01",
+    "name": "Men's Cloud-Bleach Washed Graphic Buggy Jeans (Style 1)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": false,
+    "retailPrice": 1500,
+    "wholesalePrice": 1000,
+    "wholesaleMoq": 6,
+    "badge": "PATTERNED BUGGY (KES 1,500)",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.7,
+    "reviewsCount": 65,
+    "image": "/products-img/Buggy Jeans (1).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (1).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Designer Wash/Pattern",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Graphic Blue",
+        "hex": "#2563EB"
+      }
+    ],
+    "stock": {
+      "nairobi": 40,
+      "eldoret": 30
+    },
+    "description": "Designer graphic / patterned / textured edition in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,500 for designer patterned & graphic styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-02",
+    "name": "Men's Monogram 'B' Patterned Buggy Jeans with Belt",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": false,
+    "retailPrice": 1500,
+    "wholesalePrice": 1000,
+    "wholesaleMoq": 6,
+    "badge": "PATTERNED BUGGY (KES 1,500)",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.8,
+    "reviewsCount": 76,
+    "image": "/products-img/Buggy Jeans (2).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (2).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Designer Wash/Pattern",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Graphic Blue",
+        "hex": "#2563EB"
+      }
+    ],
+    "stock": {
+      "nairobi": 47,
+      "eldoret": 35
+    },
+    "description": "Designer graphic / patterned / textured edition in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,500 for designer patterned & graphic styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-03",
+    "name": "Men's Geometric Crosshatch Textured Buggy Jeans with Belt",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": false,
+    "retailPrice": 1500,
+    "wholesalePrice": 1000,
+    "wholesaleMoq": 6,
+    "badge": "PATTERNED BUGGY (KES 1,500)",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.9,
+    "reviewsCount": 87,
+    "image": "/products-img/Buggy Jeans (3).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (3).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Designer Wash/Pattern",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Graphic Blue",
+        "hex": "#2563EB"
+      }
+    ],
+    "stock": {
+      "nairobi": 54,
+      "eldoret": 40
+    },
+    "description": "Designer graphic / patterned / textured edition in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,500 for designer patterned & graphic styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-04",
+    "name": "Men's Washed Onyx Black Plain Buggy Jeans (1689#)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 5,
+    "reviewsCount": 98,
+    "image": "/products-img/Buggy Jeans (4).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (4).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 61,
+      "eldoret": 45
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-05",
+    "name": "Men's Flared Wide-Leg Plain Black Buggy Denim",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.7,
+    "reviewsCount": 109,
+    "image": "/products-img/Buggy Jeans (5).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (5).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 68,
+      "eldoret": 50
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-06",
+    "name": "Men's 5-Color Plain Baggy Denim Streetwear Edition (Style 6)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.8,
+    "reviewsCount": 120,
+    "image": "/products-img/Buggy Jeans (6).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (6).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 75,
+      "eldoret": 55
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-07",
+    "name": "Men's Vintage Dark Indigo Plain Wide-Leg Buggy Jeans",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.9,
+    "reviewsCount": 131,
+    "image": "/products-img/Buggy Jeans (7).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (7).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 82,
+      "eldoret": 60
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-08",
+    "name": "Men's Jacquard Paisley Embossed Black Buggy Jeans",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": false,
+    "retailPrice": 1500,
+    "wholesalePrice": 1000,
+    "wholesaleMoq": 6,
+    "badge": "PATTERNED BUGGY (KES 1,500)",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 5,
+    "reviewsCount": 142,
+    "image": "/products-img/Buggy Jeans (8).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (8).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Designer Wash/Pattern",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Graphic Blue",
+        "hex": "#2563EB"
+      }
+    ],
+    "stock": {
+      "nairobi": 89,
+      "eldoret": 65
+    },
+    "description": "Designer graphic / patterned / textured edition in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,500 for designer patterned & graphic styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-09",
+    "name": "Men's Acid Wash Grey Plain Buggy Jeans (Style 9)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.7,
+    "reviewsCount": 153,
+    "image": "/products-img/Buggy Jeans (9).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (9).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 96,
+      "eldoret": 30
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-10",
+    "name": "Men's Monogram 'D' Graphic Print Buggy Jeans with Belt",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": false,
+    "retailPrice": 1500,
+    "wholesalePrice": 1000,
+    "wholesaleMoq": 6,
+    "badge": "PATTERNED BUGGY (KES 1,500)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.8,
+    "reviewsCount": 164,
+    "image": "/products-img/Buggy Jeans (10).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (10).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Designer Wash/Pattern",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Graphic Blue",
+        "hex": "#2563EB"
+      }
+    ],
+    "stock": {
+      "nairobi": 43,
+      "eldoret": 35
+    },
+    "description": "Designer graphic / patterned / textured edition in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,500 for designer patterned & graphic styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-11",
+    "name": "Men's Lightning & Tribal Embroidered Buggy Jeans",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": false,
+    "retailPrice": 1500,
+    "wholesalePrice": 1000,
+    "wholesaleMoq": 6,
+    "badge": "PATTERNED BUGGY (KES 1,500)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.9,
+    "reviewsCount": 175,
+    "image": "/products-img/Buggy Jeans (11).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (11).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Designer Wash/Pattern",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Graphic Blue",
+        "hex": "#2563EB"
+      }
+    ],
+    "stock": {
+      "nairobi": 50,
+      "eldoret": 40
+    },
+    "description": "Designer graphic / patterned / textured edition in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,500 for designer patterned & graphic styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-12",
+    "name": "Men's Light Blue Flared Plain Buggy Jeans (Style 12)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 5,
+    "reviewsCount": 186,
+    "image": "/products-img/Buggy Jeans (12).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (12).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 57,
+      "eldoret": 45
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-13",
+    "name": "Men's Skater Heavy Metal Chain & Studded Belt Buggy Jeans",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": false,
+    "retailPrice": 1500,
+    "wholesalePrice": 1000,
+    "wholesaleMoq": 6,
+    "badge": "PATTERNED BUGGY (KES 1,500)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.7,
+    "reviewsCount": 197,
+    "image": "/products-img/Buggy Jeans (13).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (13).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Designer Wash/Pattern",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Graphic Blue",
+        "hex": "#2563EB"
+      }
+    ],
+    "stock": {
+      "nairobi": 64,
+      "eldoret": 50
+    },
+    "description": "Designer graphic / patterned / textured edition in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,500 for designer patterned & graphic styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-14",
+    "name": "Men's Classic Washed Blue Plain Buggy Jeans (Style 14)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.8,
+    "reviewsCount": 208,
+    "image": "/products-img/Buggy Jeans (14).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (14).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 71,
+      "eldoret": 55
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-15",
+    "name": "Men's Pagi Jean's Plain 3-Color Series (Style 15)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.9,
+    "reviewsCount": 69,
+    "image": "/products-img/Buggy Jeans (15).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (15).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 78,
+      "eldoret": 60
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-16",
+    "name": "Men's Royal Cobalt Blue Plain Buggy Jeans (Style 16)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 5,
+    "reviewsCount": 80,
+    "image": "/products-img/Buggy Jeans (16).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (16).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 85,
+      "eldoret": 65
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-17",
+    "name": "Men's Charcoal Acid Wash Plain Buggy Jeans (Style 17)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.7,
+    "reviewsCount": 91,
+    "image": "/products-img/Buggy Jeans (17).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (17).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 92,
+      "eldoret": 30
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-18",
+    "name": "Men's Vintage Fade Black Plain Buggy Jeans",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.8,
+    "reviewsCount": 102,
+    "image": "/products-img/Buggy Jeans (18).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (18).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 99,
+      "eldoret": 35
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-19",
+    "name": "Men's Graphic Lightning Bolt Flared Buggy Jeans",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": false,
+    "retailPrice": 1500,
+    "wholesalePrice": 1000,
+    "wholesaleMoq": 6,
+    "badge": "PATTERNED BUGGY (KES 1,500)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.9,
+    "reviewsCount": 113,
+    "image": "/products-img/Buggy Jeans (19).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (19).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Designer Wash/Pattern",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Graphic Blue",
+        "hex": "#2563EB"
+      }
+    ],
+    "stock": {
+      "nairobi": 46,
+      "eldoret": 40
+    },
+    "description": "Designer graphic / patterned / textured edition in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,500 for designer patterned & graphic styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-20",
+    "name": "Men's Slub Splatter Textured Pattern Buggy Jeans with Belt",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": false,
+    "retailPrice": 1500,
+    "wholesalePrice": 1000,
+    "wholesaleMoq": 6,
+    "badge": "PATTERNED BUGGY (KES 1,500)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 5,
+    "reviewsCount": 124,
+    "image": "/products-img/Buggy Jeans (20).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (20).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Designer Wash/Pattern",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Graphic Blue",
+        "hex": "#2563EB"
+      }
+    ],
+    "stock": {
+      "nairobi": 53,
+      "eldoret": 45
+    },
+    "description": "Designer graphic / patterned / textured edition in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,500 for designer patterned & graphic styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-21",
+    "name": "Men's Light Blue Flared Plain Buggy Jeans (Style 21)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.7,
+    "reviewsCount": 135,
+    "image": "/products-img/Buggy Jeans (21).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (21).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 60,
+      "eldoret": 50
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-22",
+    "name": "Men's Dark Indigo Washed Plain Buggy Jeans (68123#)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.8,
+    "reviewsCount": 146,
+    "image": "/products-img/Buggy Jeans (22).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (22).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 67,
+      "eldoret": 55
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-23",
+    "name": "Men's Electric Lightning Cracked Marble Acid Wash Buggy Jeans",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": false,
+    "retailPrice": 1500,
+    "wholesalePrice": 1000,
+    "wholesaleMoq": 6,
+    "badge": "PATTERNED BUGGY (KES 1,500)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.9,
+    "reviewsCount": 157,
+    "image": "/products-img/Buggy Jeans (23).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (23).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Designer Wash/Pattern",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Graphic Blue",
+        "hex": "#2563EB"
+      }
+    ],
+    "stock": {
+      "nairobi": 74,
+      "eldoret": 60
+    },
+    "description": "Designer graphic / patterned / textured edition in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,500 for designer patterned & graphic styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-24",
+    "name": "Men's Starburst Geometric Printed Buggy Jeans with Belt",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": false,
+    "retailPrice": 1500,
+    "wholesalePrice": 1000,
+    "wholesaleMoq": 6,
+    "badge": "PATTERNED BUGGY (KES 1,500)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 5,
+    "reviewsCount": 168,
+    "image": "/products-img/Buggy Jeans (24).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (24).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Designer Wash/Pattern",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Graphic Blue",
+        "hex": "#2563EB"
+      }
+    ],
+    "stock": {
+      "nairobi": 81,
+      "eldoret": 65
+    },
+    "description": "Designer graphic / patterned / textured edition in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,500 for designer patterned & graphic styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-25",
+    "name": "Men's Constellation Star All-Over Print Buggy Jeans with Belt",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": false,
+    "retailPrice": 1500,
+    "wholesalePrice": 1000,
+    "wholesaleMoq": 6,
+    "badge": "PATTERNED BUGGY (KES 1,500)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.7,
+    "reviewsCount": 179,
+    "image": "/products-img/Buggy Jeans (25).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (25).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Designer Wash/Pattern",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Graphic Blue",
+        "hex": "#2563EB"
+      }
+    ],
+    "stock": {
+      "nairobi": 88,
+      "eldoret": 30
+    },
+    "description": "Designer graphic / patterned / textured edition in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,500 for designer patterned & graphic styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-26",
+    "name": "Men's Honeycomb Hexagon Acid Wash Pattern Buggy Jeans",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": false,
+    "retailPrice": 1500,
+    "wholesalePrice": 1000,
+    "wholesaleMoq": 6,
+    "badge": "PATTERNED BUGGY (KES 1,500)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.8,
+    "reviewsCount": 190,
+    "image": "/products-img/Buggy Jeans (26).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (26).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Designer Wash/Pattern",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Graphic Blue",
+        "hex": "#2563EB"
+      }
+    ],
+    "stock": {
+      "nairobi": 95,
+      "eldoret": 35
+    },
+    "description": "Designer graphic / patterned / textured edition in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,500 for designer patterned & graphic styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-27",
+    "name": "Men's Celine-Style Monogram Print Buggy Jeans with Belt",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": false,
+    "retailPrice": 1500,
+    "wholesalePrice": 1000,
+    "wholesaleMoq": 6,
+    "badge": "PATTERNED BUGGY (KES 1,500)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.9,
+    "reviewsCount": 201,
+    "image": "/products-img/Buggy Jeans (27).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (27).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Designer Wash/Pattern",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Graphic Blue",
+        "hex": "#2563EB"
+      }
+    ],
+    "stock": {
+      "nairobi": 42,
+      "eldoret": 40
+    },
+    "description": "Designer graphic / patterned / textured edition in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,500 for designer patterned & graphic styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-28",
+    "name": "Men's Pagi Jean's Plain 3-Color Series (Style 28)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 5,
+    "reviewsCount": 212,
+    "image": "/products-img/Buggy Jeans (28).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (28).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 49,
+      "eldoret": 45
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-29",
+    "name": "Men's Royal Blue Washed Plain Buggy Denim",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.7,
+    "reviewsCount": 73,
+    "image": "/products-img/Buggy Jeans (29).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (29).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 56,
+      "eldoret": 50
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-30",
+    "name": "Men's Acid Wash Grey Plain Buggy Jeans (Style 30)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.8,
+    "reviewsCount": 84,
+    "image": "/products-img/Buggy Jeans (30).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (30).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 63,
+      "eldoret": 55
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-31",
+    "name": "Men's Bronze Mud Acid Washed Plain Buggy Jeans",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.9,
+    "reviewsCount": 95,
+    "image": "/products-img/Buggy Jeans (31).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (31).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 70,
+      "eldoret": 60
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-32",
+    "name": "Men's Royal Cobalt Blue Plain Buggy Jeans (Style 32)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 5,
+    "reviewsCount": 106,
+    "image": "/products-img/Buggy Jeans (32).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (32).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 77,
+      "eldoret": 65
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-33",
+    "name": "Men's Charcoal Acid Wash Plain Buggy Jeans (Style 33)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.7,
+    "reviewsCount": 117,
+    "image": "/products-img/Buggy Jeans (33).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (33).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 84,
+      "eldoret": 30
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-34",
+    "name": "Men's Cloud-Bleach Washed Graphic Buggy Jeans (Style 34)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": false,
+    "retailPrice": 1500,
+    "wholesalePrice": 1000,
+    "wholesaleMoq": 6,
+    "badge": "PATTERNED BUGGY (KES 1,500)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.8,
+    "reviewsCount": 128,
+    "image": "/products-img/Buggy Jeans (34).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (34).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Designer Wash/Pattern",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Graphic Blue",
+        "hex": "#2563EB"
+      }
+    ],
+    "stock": {
+      "nairobi": 91,
+      "eldoret": 35
+    },
+    "description": "Designer graphic / patterned / textured edition in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,500 for designer patterned & graphic styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-35",
+    "name": "Men's Classic Washed Blue Plain Buggy Jeans (Style 35)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 4.9,
+    "reviewsCount": 139,
+    "image": "/products-img/Buggy Jeans (35).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (35).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 98,
+      "eldoret": 40
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
+  {
+    "id": "tfc-bj-36",
+    "name": "Men's 5-Color Plain Baggy Denim Streetwear Edition (Style 36)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "buggy-jeans",
+    "isPlainBuggy": true,
+    "retailPrice": 1450,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "PLAIN BUGGY (KES 1,450)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": false,
+    "fabric": "100% Heavyweight 14 oz Ring-Spun Cotton Denim",
+    "rating": 5,
+    "reviewsCount": 150,
+    "image": "/products-img/Buggy Jeans (36).jpeg",
+    "gallery": [
+      "/products-img/Buggy Jeans (36).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Plain Denim Blue",
+        "hex": "#3B82F6"
+      },
+      {
+        "name": "Plain Washed Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Acid Grey",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 45,
+      "eldoret": 45
+    },
+    "description": "Plain classic cut in heavy authentic 14 oz denim. Engineered with a relaxed wide-leg skater fit, reinforced pockets, and clean drape. Price: KES 1,450 for plain styles. Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday) branches."
+  },
   {
     "id": "tfc-001",
     "name": "Vintage Double-Rider Biker Leather Jacket (1600 jkt)",
@@ -1240,7 +2946,7 @@ export const INITIAL_PRODUCTS = [
     "parentCategory": "clothing",
     "subCategory": "sweaters",
     "retailPrice": 1400,
-    "wholesalePrice": 900,
+    "wholesalePrice": 1000,
     "wholesaleMoq": 6,
     "badge": "NEW ARRIVAL",
     "isNewArrival": false,

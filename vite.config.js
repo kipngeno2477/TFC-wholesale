@@ -15,7 +15,13 @@ export default defineConfig({
             const rawUrl = req.url ? req.url.split('?')[0] : ''
             const decodedUrl = decodeURIComponent(rawUrl.replace(/^\//, ''))
             const baseDir = import.meta.dirname || process.cwd()
-            const filePath = path.join(baseDir, 'Products', decodedUrl)
+            let filePath = path.join(baseDir, 'Products', decodedUrl)
+            if (!fs.existsSync(filePath)) {
+              filePath = path.join(baseDir, 'PRODUCTS P', decodedUrl)
+            }
+            if (!fs.existsSync(filePath)) {
+              filePath = path.join(baseDir, 'public', 'products-img', decodedUrl)
+            }
             if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
               const ext = path.extname(filePath).toLowerCase()
               const mimeMap = {

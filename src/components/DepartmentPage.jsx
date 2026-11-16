@@ -22,14 +22,17 @@ const DEPT_CONFIGS = {
     navKey: 'men',
     title: "Men's Fashion & Streetwear",
     badge: "MEN'S COLLECTION 2026",
-    subtitle: "Executive stretch khakis, tactical cargos, raw denim jeans, Cuban shirts, 380 GSM heavyweight hoodies, and biker leather jackets.",
+    subtitle: "Plain Buggy Jeans (KES 1,450), Patterned & Graphic Buggy Jeans (KES 1,500), executive stretch khakis, tactical cargos, raw denim jeans, Cuban shirts, 380 GSM heavyweight hoodies, and biker leather jackets.",
     gradient: "from-stone-900 via-stone-850 to-stone-950",
     accentColor: "text-amber-400",
     borderAccent: "border-amber-500/30",
     subcategories: [
       { id: 'all', label: 'All Men' },
+      { id: 'plain-buggy', label: 'Plain Buggy (KES 1,450)', filter: (p) => p.subCategory === 'buggy-jeans' && p.retailPrice === 1450 },
+      { id: 'patterned-buggy', label: 'Patterned Buggy (KES 1,500)', filter: (p) => p.subCategory === 'buggy-jeans' && p.retailPrice === 1500 },
+      { id: 'all-buggy', label: 'Buggy Jeans (All 36)', filter: (p) => p.subCategory === 'buggy-jeans' || p.name?.toLowerCase().includes('buggy') || p.name?.toLowerCase().includes('baggy') },
       { id: 'khakis', label: 'Khakis & Cargos', match: ['khakis', 'cargo', 'trao', 'gagis'] },
-      { id: 'jeans', label: 'Denim Jeans', match: ['jeans', 'denim', 'g star'] },
+      { id: 'jeans', label: 'Denim Jeans (All)', match: ['jeans', 'denim', 'g star'] },
       { id: 'shirts', label: 'Shirts & Cubans', match: ['shirts', 'cuban', 'official'] },
       { id: 't-shirts', label: 'Heavyweight Tees', match: ['t-shirts', 'tsh', 'tisho', 'longsleeve'] },
       { id: 'hoodies', label: 'Hoodies & Fleeces', match: ['hoodies', 'fleece', 'flece', 'alo'] },
@@ -137,9 +140,10 @@ export default function DepartmentPage({ department, onNavigate }) {
     config.subcategories.forEach(sub => {
       if (sub.id === 'all') return;
       const count = deptProducts.filter(p => {
-        return sub.match.some(m => 
+        if (sub.filter) return sub.filter(p);
+        return sub.match?.some(m => 
           p.subCategory?.toLowerCase().includes(m) || 
-          p.name.toLowerCase().includes(m) || 
+          p.name?.toLowerCase().includes(m) || 
           p.description?.toLowerCase().includes(m)
         );
       }).length;
@@ -160,13 +164,17 @@ export default function DepartmentPage({ department, onNavigate }) {
       // Subcategory filter
       if (activeSubcategory !== 'all') {
         const sub = config.subcategories.find(s => s.id === activeSubcategory);
-        if (sub && sub.match) {
-          const matches = sub.match.some(m => 
-            p.subCategory?.toLowerCase().includes(m) || 
-            p.name.toLowerCase().includes(m) || 
-            p.description?.toLowerCase().includes(m)
-          );
-          if (!matches) return false;
+        if (sub) {
+          if (sub.filter) {
+            if (!sub.filter(p)) return false;
+          } else if (sub.match) {
+            const matches = sub.match.some(m => 
+              p.subCategory?.toLowerCase().includes(m) || 
+              p.name?.toLowerCase().includes(m) || 
+              p.description?.toLowerCase().includes(m)
+            );
+            if (!matches) return false;
+          }
         }
       }
 
@@ -431,11 +439,22 @@ export default function DepartmentPage({ department, onNavigate }) {
                       loading="lazy"
                     />
 
-                    {/* Discount Badge */}
-                    <div className="absolute top-3 left-3 z-10">
+                    {/* Discount & Custom Badges */}
+                    <div className="absolute top-3 left-3 z-10 flex flex-col gap-1 items-start">
                       <span className="bg-[#EA580C] text-white text-xs font-black px-2.5 py-1 rounded-md shadow-md">
                         -{discountPct > 0 ? discountPct : 30}%
                       </span>
+                      {product.badge && (
+                        <span className={`text-[10px] font-black px-2 py-0.5 rounded-md shadow-md tracking-wider ${
+                          product.retailPrice === 1450
+                            ? 'bg-emerald-600 text-white'
+                            : product.retailPrice === 1500
+                            ? 'bg-purple-700 text-white'
+                            : 'bg-stone-900/90 text-amber-400'
+                        }`}>
+                          {product.badge}
+                        </span>
+                      )}
                     </div>
 
                     {/* Wishlist Heart */}

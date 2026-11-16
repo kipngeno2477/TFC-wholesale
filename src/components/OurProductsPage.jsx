@@ -15,6 +15,7 @@ import { useCart } from '../context/CartContext';
 import { useBranch } from '../context/BranchContext';
 
 const FILTER_CATEGORIES = [
+  { id: 'buggy', label: 'BUGGY JEANS (Plain / Patterned)', parentMatch: ['buggy-jeans', 'buggy', 'baggy'] },
   { id: 'male', label: 'MALE', parentMatch: ['mens-wear'] },
   { id: 'dresses', label: 'Dresses & Ladies', parentMatch: ['ladies-wear'] },
   { id: 'bedding', label: 'Bedding & Duvets', parentMatch: ['bedding-home'] },
@@ -22,7 +23,7 @@ const FILTER_CATEGORIES = [
   { id: 'sportswear', label: 'Sportswear & Jerseys', parentMatch: ['sportswear'] },
   { id: 'accessories', label: 'Accessories & Bags', parentMatch: ['bags-luggage'] },
   { id: 'bales', label: 'Mixed Bales', parentMatch: ['bales'] },
-  { id: 'pallazos', label: 'PALLAZOS & Cargos', parentMatch: ['khakis', 'cargo', 'jeans'] },
+  { id: 'pallazos', label: 'PALLAZOS & Cargos', parentMatch: ['khakis', 'cargo'] },
 ];
 
 export default function OurProductsPage({ onNavigateHome, onOpenCart }) {

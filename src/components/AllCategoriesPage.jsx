@@ -32,9 +32,9 @@ const DEPARTMENTS = [
     name: "Men's Fashion & Streetwear",
     icon: '👔',
     badge: 'TOP MENSWEAR KENYA',
-    description: 'Executive stretch khakis, raw straight-cut denim, Egyptian cotton & Cuban shirts, heavy 380 GSM hoodies, polar fleeces & biker leather jackets.',
+    description: 'Plain Buggy Jeans (KES 1,450), Patterned Buggy Jeans (KES 1,500), executive stretch khakis, raw straight-cut denim, Egyptian cotton & Cuban shirts, heavy 380 GSM hoodies, polar fleeces & biker leather jackets.',
     categoryFilter: 'mens-wear',
-    subcategories: ['All Men', 'Khakis', 'Jeans', 'Shirts', 'Jackets & Leather', 'Hoodies & Fleeces', 'T-Shirts'],
+    subcategories: ['All Men', 'Plain Buggy (KES 1,450)', 'Patterned Buggy (KES 1,500)', 'Buggy Jeans (All 36)', 'Khakis', 'Jeans', 'Shirts', 'Jackets & Leather', 'Hoodies & Fleeces', 'T-Shirts'],
   },
   {
     id: 'dept-kids',
