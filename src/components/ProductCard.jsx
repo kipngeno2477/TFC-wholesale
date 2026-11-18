@@ -119,6 +119,16 @@ Is this in stock at ${currentBranch.mall}?`;
               ({product.reviewsCount || 42})
             </span>
           </div>
+
+          {/* Sizes Tag */}
+          {product.sizes && product.sizes.length > 0 && (
+            <div className="flex items-center gap-1.5 mt-1.5 text-[11px] text-stone-600">
+              <span className="text-[9px] font-bold uppercase tracking-wider text-stone-400">Sizes:</span>
+              <span className="font-semibold text-stone-700 bg-stone-100 px-1.5 py-0.5 rounded text-[10px] truncate">
+                {product.sizes.join(', ')}
+              </span>
+            </div>
+          )}
         </div>
 
         {/* 3. Bottom Button Row (Solid Black ADD TO CART button + Heart) */}

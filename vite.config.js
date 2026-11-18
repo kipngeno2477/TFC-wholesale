@@ -17,6 +17,12 @@ export default defineConfig({
             const baseDir = import.meta.dirname || process.cwd()
             let filePath = path.join(baseDir, 'Products', decodedUrl)
             if (!fs.existsSync(filePath)) {
+              filePath = path.join(baseDir, 'Pro.shirts', decodedUrl)
+            }
+            if (!fs.existsSync(filePath)) {
+              filePath = path.join(baseDir, 'PRODUCTS P', 'Gagi tros', decodedUrl)
+            }
+            if (!fs.existsSync(filePath)) {
               filePath = path.join(baseDir, 'PRODUCTS P', decodedUrl)
             }
             if (!fs.existsSync(filePath)) {

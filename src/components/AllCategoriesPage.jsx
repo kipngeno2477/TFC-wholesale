@@ -32,9 +32,9 @@ const DEPARTMENTS = [
     name: "Men's Fashion & Streetwear",
     icon: '👔',
     badge: 'TOP MENSWEAR KENYA',
-    description: 'Plain Buggy Jeans (KES 1,450), Patterned Buggy Jeans (KES 1,500), executive stretch khakis, raw straight-cut denim, Egyptian cotton & Cuban shirts, heavy 380 GSM hoodies, polar fleeces & biker leather jackets.',
+    description: 'Executive Polo Shirts (KES 1,200 - 1,250), Nathan Roman & Black Morton Gagi Trousers (KES 1,500), Plain & Patterned Buggy Jeans, raw denim jeans, and streetwear.',
     categoryFilter: 'mens-wear',
-    subcategories: ['All Men', 'Plain Buggy (KES 1,450)', 'Patterned Buggy (KES 1,500)', 'Buggy Jeans (All 36)', 'Khakis', 'Jeans', 'Shirts', 'Jackets & Leather', 'Hoodies & Fleeces', 'T-Shirts'],
+    subcategories: ['All Men', 'Polo Shirts (KES 1,200)', 'Gagi Trousers (KES 1,500)', 'Plain Buggy (KES 1,450)', 'Patterned Buggy (KES 1,500)', 'Khakis & Cargos', 'Jeans', 'Shirts', 'Jackets & Leather', 'Hoodies & Fleeces', 'T-Shirts'],
   },
   {
     id: 'dept-kids',

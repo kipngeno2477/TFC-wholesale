@@ -22,18 +22,20 @@ const DEPT_CONFIGS = {
     navKey: 'men',
     title: "Men's Fashion & Streetwear",
     badge: "MEN'S COLLECTION 2026",
-    subtitle: "Plain Buggy Jeans (KES 1,450), Patterned & Graphic Buggy Jeans (KES 1,500), executive stretch khakis, tactical cargos, raw denim jeans, Cuban shirts, 380 GSM heavyweight hoodies, and biker leather jackets.",
+    subtitle: "Polo Shirts (KES 1,200 - 1,250), Executive Stretch Gagi Trousers (KES 1,500), Plain Buggy Jeans (KES 1,450), Patterned Buggy Jeans (KES 1,500), tactical cargos, Cuban shirts, and heavyweight streetwear.",
     gradient: "from-stone-900 via-stone-850 to-stone-950",
     accentColor: "text-amber-400",
     borderAccent: "border-amber-500/30",
     subcategories: [
       { id: 'all', label: 'All Men' },
+      { id: 'polo-shirts', label: 'Polo Shirts (KES 1,200 - 1,250)', match: ['polo'] },
+      { id: 'gagi-tros', label: 'Gagi Trousers (KES 1,500)', match: ['gagi', 'gagis', 'black morton', 'black newton', 'nathan roman'] },
       { id: 'plain-buggy', label: 'Plain Buggy (KES 1,450)', filter: (p) => p.subCategory === 'buggy-jeans' && p.retailPrice === 1450 },
       { id: 'patterned-buggy', label: 'Patterned Buggy (KES 1,500)', filter: (p) => p.subCategory === 'buggy-jeans' && p.retailPrice === 1500 },
       { id: 'all-buggy', label: 'Buggy Jeans (All 36)', filter: (p) => p.subCategory === 'buggy-jeans' || p.name?.toLowerCase().includes('buggy') || p.name?.toLowerCase().includes('baggy') },
-      { id: 'khakis', label: 'Khakis & Cargos', match: ['khakis', 'cargo', 'trao', 'gagis'] },
+      { id: 'khakis', label: 'Khakis & Cargos', match: ['khakis', 'cargo', 'trao', 'gagi', 'gagis'] },
+      { id: 'shirts', label: 'Shirts & Cubans', match: ['shirts', 'cuban', 'official', 'polo'] },
       { id: 'jeans', label: 'Denim Jeans (All)', match: ['jeans', 'denim', 'g star'] },
-      { id: 'shirts', label: 'Shirts & Cubans', match: ['shirts', 'cuban', 'official'] },
       { id: 't-shirts', label: 'Heavyweight Tees', match: ['t-shirts', 'tsh', 'tisho', 'longsleeve'] },
       { id: 'hoodies', label: 'Hoodies & Fleeces', match: ['hoodies', 'fleece', 'flece', 'alo'] },
       { id: 'jackets', label: 'Jackets & Leather', match: ['jackets', 'leather', 'jkt', 'jaket'] },
@@ -490,6 +492,16 @@ export default function DepartmentPage({ department, onNavigate }) {
                         <p className="text-xs text-stone-500 font-medium mt-1">
                           Wholesale: <strong className="text-teal-700 font-bold">KES {product.wholesalePrice.toLocaleString()}</strong> (Min {product.wholesaleMoq || 6} pcs)
                         </p>
+                      )}
+
+                      {/* Sizes Display */}
+                      {product.sizes && product.sizes.length > 0 && (
+                        <div className="flex items-center gap-1.5 mt-2 pt-1.5 border-t border-stone-100/80 text-[11px]">
+                          <span className="font-bold text-stone-500 uppercase text-[9px] tracking-wider">Sizes:</span>
+                          <span className="font-semibold text-stone-800 bg-stone-100 px-2 py-0.5 rounded text-[10px] tracking-wide">
+                            {product.sizes.join(', ')}
+                          </span>
+                        </div>
                       )}
                     </div>
 

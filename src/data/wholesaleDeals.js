@@ -43,6 +43,32 @@ export const WHOLESALE_TIERS = [
 
 export const WHOLESALE_PACKAGES = [
   {
+    id: 'bale-polos',
+    title: 'Executive Pique & Ice Silk Polo Shirt Lot (24 Pcs)',
+    tag: 'FAST TURNOVER',
+    price: 18000,
+    regularValue: 28800,
+    resalePotential: 'KES 28,800 - 30,000 (KES 1,200 - 1,250 / pc)',
+    profitEstimate: 'KES 10,800 - 12,000 Net Profit',
+    image: '/products-img/Polo (2).jpeg',
+    breakdown: 'Styles 277#, Z11#, W1-001#, Z88#, S10#, S14# in assorted colors & sizes',
+    sizesIncluded: 'M, L, XL, 2XL, 3XL, 4XL',
+    moq: '1 Bundle (24 items)'
+  },
+  {
+    id: 'bale-gagi-tros',
+    title: 'Nathan Roman & Black Morton Gagi Chino Lot (20 Pcs)',
+    tag: 'KENYA BESTSELLER',
+    price: 19000,
+    regularValue: 30000,
+    resalePotential: 'KES 30,000 (KES 1,500 / pc)',
+    profitEstimate: 'KES 11,000 Net Profit',
+    image: '/products-img/Gagi (1).jpeg',
+    breakdown: 'Nathan Roman NR, Black Morton, and Black Newton stretch gagi chinos (18 official shades)',
+    sizesIncluded: 'Waist 30 to 40',
+    moq: '1 Bundle (20 items)'
+  },
+  {
     id: 'bale-buggy-plain',
     title: 'Plain Buggy Jeans Retailer Lot (20 Pcs)',
     tag: 'NEW 2026 TOP SELLER',

@@ -15,8 +15,10 @@ import { useCart } from '../context/CartContext';
 import { useBranch } from '../context/BranchContext';
 
 const FILTER_CATEGORIES = [
+  { id: 'polos', label: 'POLO SHIRTS (New)', parentMatch: ['polo'] },
+  { id: 'gagis', label: 'GAGI TROUSERS & Khakis', parentMatch: ['gagi', 'khakis'] },
   { id: 'buggy', label: 'BUGGY JEANS (Plain / Patterned)', parentMatch: ['buggy-jeans', 'buggy', 'baggy'] },
-  { id: 'male', label: 'MALE', parentMatch: ['mens-wear'] },
+  { id: 'male', label: 'MALE (All Men)', parentMatch: ['mens-wear'] },
   { id: 'dresses', label: 'Dresses & Ladies', parentMatch: ['ladies-wear'] },
   { id: 'bedding', label: 'Bedding & Duvets', parentMatch: ['bedding-home'] },
   { id: 'kids', label: 'KIDS SHOES & Wear', parentMatch: ['childrens-wear'] },
@@ -310,6 +312,16 @@ export default function OurProductsPage({ onNavigateHome, onOpenCart }) {
                             <p className="text-xs text-stone-500 font-medium mt-1">
                               Wholesale: <strong className="text-teal-700">KES {product.wholesalePrice.toLocaleString()}</strong> (Min {product.wholesaleMoq || 6} pcs)
                             </p>
+                          )}
+
+                          {/* Sizes Label */}
+                          {product.sizes && product.sizes.length > 0 && (
+                            <div className="flex items-center gap-1.5 mt-2 pt-1 border-t border-stone-100 text-[11px]">
+                              <span className="font-bold text-stone-500 uppercase text-[9px] tracking-wider">Sizes:</span>
+                              <span className="font-semibold text-stone-800 bg-stone-100 px-2 py-0.5 rounded text-[10px]">
+                                {product.sizes.join(', ')}
+                              </span>
+                            </div>
                           )}
                         </div>
 

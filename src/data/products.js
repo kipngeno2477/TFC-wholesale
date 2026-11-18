@@ -1,187 +1,969 @@
-// AUTO-GENERATED COMPLETE CATALOG FOR TFC WHOLESALERS (ALL 206 PRODUCTS)
-// INCLUDES ALL 170 ORIGINAL STORE PRODUCTS + 36 BUGGY JEANS (PLAIN KES 1,450 | PATTERNED KES 1,500)
+// AUTO-GENERATED COMPLETE CATALOG FOR TFC WHOLESALERS (ALL 216 PRODUCTS)
+// INCLUDES 6 POLO SHIRTS (KES 1,200 - 1,250), 4 GAGI TROUSERS (KES 1,500), 36 BUGGY JEANS, AND 170 ORIGINAL STORE PRODUCTS
 
 export const MEGA_CATEGORIES = [
   {
-    id: 'mens-wear',
-    name: "Men's Fashion",
-    icon: 'Shirt',
-    accentColor: 'text-stone-900 bg-stone-100 border-stone-300',
-    headerIconBg: 'bg-stone-900 text-white',
-    columns: [
+    "id": "mens-wear",
+    "name": "Men's Fashion",
+    "icon": "Shirt",
+    "accentColor": "text-stone-900 bg-stone-100 border-stone-300",
+    "headerIconBg": "bg-stone-900 text-white",
+    "columns": [
       {
-        title: 'Buggy Jeans (New)',
-        categoryId: 'mens-wear',
-        items: [
-          { name: 'Plain Buggy Jeans (KES 1,450)', filter: 'plain buggy' },
-          { name: 'Patterned Buggy (KES 1,500)', filter: 'patterned buggy' },
-          { name: 'All Buggy & Baggy Denim', filter: 'buggy' },
-        ],
+        "title": "Buggy Jeans (New)",
+        "categoryId": "mens-wear",
+        "items": [
+          {
+            "name": "Plain Buggy Jeans (KES 1,450)",
+            "filter": "plain buggy"
+          },
+          {
+            "name": "Patterned Buggy (KES 1,500)",
+            "filter": "patterned buggy"
+          },
+          {
+            "name": "All Buggy & Baggy Denim",
+            "filter": "buggy"
+          }
+        ]
       },
       {
-        title: 'Trousers & Khakis',
-        categoryId: 'mens-wear',
-        items: [
-          { name: 'Executive Khakis & Chinos', filter: 'khakis' },
-          { name: 'Tactical Cargo Pants', filter: 'cargo' },
-          { name: 'Heavy Denim Jeans', filter: 'jeans' },
-        ],
+        "title": "Trousers & Khakis",
+        "categoryId": "mens-wear",
+        "items": [
+          {
+            "name": "Executive Khakis & Chinos",
+            "filter": "khakis"
+          },
+          {
+            "name": "Tactical Cargo Pants",
+            "filter": "cargo"
+          },
+          {
+            "name": "Heavy Denim Jeans",
+            "filter": "jeans"
+          }
+        ]
       },
       {
-        title: 'Tops & Outerwear',
-        categoryId: 'mens-wear',
-        items: [
-          { name: 'Heavy Cotton T-Shirts', filter: 't-shirts' },
-          { name: 'Vintage Biker Leather', filter: 'jackets' },
-          { name: 'Fleece Lined Hoodies', filter: 'hoodies' },
-        ],
-      },
+        "title": "Tops & Outerwear",
+        "categoryId": "mens-wear",
+        "items": [
+          {
+            "name": "Heavy Cotton T-Shirts",
+            "filter": "t-shirts"
+          },
+          {
+            "name": "Vintage Biker Leather",
+            "filter": "jackets"
+          },
+          {
+            "name": "Fleece Lined Hoodies",
+            "filter": "hoodies"
+          }
+        ]
+      }
     ],
-    viewAllText: "View All Men's Collection",
+    "viewAllText": "View All Men's Collection"
   },
   {
-    id: 'ladies-wear',
-    name: "Women's Fashion",
-    icon: 'Shirt',
-    accentColor: 'text-rose-600 bg-rose-50 border-rose-200',
-    headerIconBg: 'bg-rose-100 text-rose-600',
-    columns: [
+    "id": "ladies-wear",
+    "name": "Women's Fashion",
+    "icon": "Shirt",
+    "accentColor": "text-rose-600 bg-rose-50 border-rose-200",
+    "headerIconBg": "bg-rose-100 text-rose-600",
+    "columns": [
       {
-        title: 'Dresses & Outfits',
-        categoryId: 'ladies-wear',
-        items: [
-          { name: 'Floral Midi Boutique Dresses', filter: 'dresses' },
-          { name: 'Belted Wide-Leg Jumpsuits', filter: 'jumpsuits' },
-          { name: 'Curvy Plus-Size Gowns', filter: 'plus-size' },
-        ],
+        "title": "Dresses & Outfits",
+        "categoryId": "ladies-wear",
+        "items": [
+          {
+            "name": "Floral Midi Boutique Dresses",
+            "filter": "dresses"
+          },
+          {
+            "name": "Belted Wide-Leg Jumpsuits",
+            "filter": "jumpsuits"
+          },
+          {
+            "name": "Curvy Plus-Size Gowns",
+            "filter": "plus-size"
+          }
+        ]
       },
       {
-        title: 'Denim & Tops',
-        categoryId: 'ladies-wear',
-        items: [
-          { name: 'Vintage High-Waist Mom Jeans', filter: 'ladies-jeans' },
-          { name: 'Cable-Knit Cozy Sweaters', filter: 'ladies-sweaters' },
-          { name: 'Tailored Leather Jackets', filter: 'ladies-jackets' },
-        ],
-      },
+        "title": "Denim & Tops",
+        "categoryId": "ladies-wear",
+        "items": [
+          {
+            "name": "Vintage High-Waist Mom Jeans",
+            "filter": "ladies-jeans"
+          },
+          {
+            "name": "Cable-Knit Cozy Sweaters",
+            "filter": "ladies-sweaters"
+          },
+          {
+            "name": "Tailored Leather Jackets",
+            "filter": "ladies-jackets"
+          }
+        ]
+      }
     ],
-    viewAllText: "View All Women's Boutique",
+    "viewAllText": "View All Women's Boutique"
   },
   {
-    id: 'childrens-wear',
-    name: "Children's Wear",
-    icon: 'Package',
-    accentColor: 'text-amber-600 bg-amber-50 border-amber-200',
-    headerIconBg: 'bg-amber-100 text-amber-700',
-    columns: [
+    "id": "childrens-wear",
+    "name": "Children's Wear",
+    "icon": "Package",
+    "accentColor": "text-amber-600 bg-amber-50 border-amber-200",
+    "headerIconBg": "bg-amber-100 text-amber-700",
+    "columns": [
       {
-        title: 'Warm Layers',
-        categoryId: 'childrens-wear',
-        items: [
-          { name: 'Skin-Friendly Polar Fleeces', filter: 'kids-fleece' },
-          { name: 'Puffer Winter Jackets', filter: 'kids-jackets' },
-          { name: 'Fleece Hooded Sweatshirts', filter: 'kids-hoodies' },
-        ],
+        "title": "Warm Layers",
+        "categoryId": "childrens-wear",
+        "items": [
+          {
+            "name": "Skin-Friendly Polar Fleeces",
+            "filter": "kids-fleece"
+          },
+          {
+            "name": "Puffer Winter Jackets",
+            "filter": "kids-jackets"
+          },
+          {
+            "name": "Fleece Hooded Sweatshirts",
+            "filter": "kids-hoodies"
+          }
+        ]
       },
       {
-        title: 'Sports & Play',
-        categoryId: 'childrens-wear',
-        items: [
-          { name: 'Athletic Jogger Trackpants', filter: 'kids-tracksuits' },
-          { name: 'Junior Club Matchday Jerseys', filter: 'kids-jerseys' },
-        ],
-      },
+        "title": "Sports & Play",
+        "categoryId": "childrens-wear",
+        "items": [
+          {
+            "name": "Athletic Jogger Trackpants",
+            "filter": "kids-tracksuits"
+          },
+          {
+            "name": "Junior Club Matchday Jerseys",
+            "filter": "kids-jerseys"
+          }
+        ]
+      }
     ],
-    viewAllText: "View All Children's Wear",
+    "viewAllText": "View All Children's Wear"
   },
   {
-    id: 'bedding-home',
-    name: 'Bedding & Home',
-    icon: 'Home',
-    accentColor: 'text-emerald-600 bg-emerald-50 border-emerald-200',
-    headerIconBg: 'bg-emerald-100 text-emerald-700',
-    columns: [
+    "id": "bedding-home",
+    "name": "Bedding & Home",
+    "icon": "Home",
+    "accentColor": "text-emerald-600 bg-emerald-50 border-emerald-200",
+    "headerIconBg": "bg-emerald-100 text-emerald-700",
+    "columns": [
       {
-        title: 'Duvets & Blankets',
-        categoryId: 'bedding-home',
-        items: [
-          { name: '6x6 Microfiber Siliconized Duvets', filter: 'duvets-6x6' },
-          { name: 'Heavy Korean Mink Blankets', filter: 'heavy-blankets' },
-          { name: 'Original Kenyan Maasai Shukas', filter: 'maasai-shuka' },
-        ],
+        "title": "Duvets & Blankets",
+        "categoryId": "bedding-home",
+        "items": [
+          {
+            "name": "6x6 Microfiber Siliconized Duvets",
+            "filter": "duvets-6x6"
+          },
+          {
+            "name": "Heavy Korean Mink Blankets",
+            "filter": "heavy-blankets"
+          },
+          {
+            "name": "Original Kenyan Maasai Shukas",
+            "filter": "maasai-shuka"
+          }
+        ]
       },
       {
-        title: 'Bedsheets & Pillows',
-        categoryId: 'bedding-home',
-        items: [
-          { name: 'Pure Cotton Bedsheet Sets', filter: 'bedsheet-sets' },
-          { name: 'Hotel Siliconized Pillows', filter: 'hotel-pillows' },
-          { name: 'Cotton Coastal Printed Lesos', filter: 'lesos' },
-        ],
-      },
+        "title": "Bedsheets & Pillows",
+        "categoryId": "bedding-home",
+        "items": [
+          {
+            "name": "Pure Cotton Bedsheet Sets",
+            "filter": "bedsheet-sets"
+          },
+          {
+            "name": "Hotel Siliconized Pillows",
+            "filter": "hotel-pillows"
+          },
+          {
+            "name": "Cotton Coastal Printed Lesos",
+            "filter": "lesos"
+          }
+        ]
+      }
     ],
-    viewAllText: 'View All Bedding & Home',
+    "viewAllText": "View All Bedding & Home"
   },
   {
-    id: 'sportswear',
-    name: 'Sportswear',
-    icon: 'Zap',
-    accentColor: 'text-blue-600 bg-blue-50 border-blue-200',
-    headerIconBg: 'bg-blue-100 text-blue-700',
-    columns: [
+    "id": "sportswear",
+    "name": "Sportswear",
+    "icon": "Zap",
+    "accentColor": "text-blue-600 bg-blue-50 border-blue-200",
+    "headerIconBg": "bg-blue-100 text-blue-700",
+    "columns": [
       {
-        title: 'Official Club Kits',
-        categoryId: 'sportswear',
-        items: [
-          { name: 'Arsenal FC Thai-Grade Jersey', filter: 'arsenal' },
-          { name: 'Chelsea FC Matchday Jersey', filter: 'chelsea' },
-          { name: 'Manchester City Matchday Kit', filter: 'city' },
-          { name: 'Manchester United FC Kit', filter: 'united' },
-        ],
+        "title": "Official Club Kits",
+        "categoryId": "sportswear",
+        "items": [
+          {
+            "name": "Arsenal FC Thai-Grade Jersey",
+            "filter": "arsenal"
+          },
+          {
+            "name": "Chelsea FC Matchday Jersey",
+            "filter": "chelsea"
+          },
+          {
+            "name": "Manchester City Matchday Kit",
+            "filter": "city"
+          },
+          {
+            "name": "Manchester United FC Kit",
+            "filter": "united"
+          }
+        ]
       },
       {
-        title: 'Activewear & Outerwear',
-        categoryId: 'sportswear',
-        items: [
-          { name: 'Athletic Training Tracksuits', filter: 'sports' },
-          { name: 'Varsity Baseball Snap Jackets', filter: 'baseball' },
-        ],
-      },
+        "title": "Activewear & Outerwear",
+        "categoryId": "sportswear",
+        "items": [
+          {
+            "name": "Athletic Training Tracksuits",
+            "filter": "sports"
+          },
+          {
+            "name": "Varsity Baseball Snap Jackets",
+            "filter": "baseball"
+          }
+        ]
+      }
     ],
-    viewAllText: 'View All Sportswear',
+    "viewAllText": "View All Sportswear"
   },
   {
-    id: 'bales',
-    name: 'Wholesale Bales',
-    icon: 'Package',
-    accentColor: 'text-purple-600 bg-purple-50 border-purple-200',
-    headerIconBg: 'bg-purple-100 text-purple-700',
-    columns: [
+    "id": "bales",
+    "name": "Wholesale Bales",
+    "icon": "Package",
+    "accentColor": "text-purple-600 bg-purple-50 border-purple-200",
+    "headerIconBg": "bg-purple-100 text-purple-700",
+    "columns": [
       {
-        title: 'Direct Factory Bales',
-        categoryId: 'bales',
-        items: [
-          { name: '50kg 6x6 Duvet Factory Bales', filter: 'duve-bales' },
-          { name: '45kg Velvet Curtains Drapes Bale', filter: 'velvet-bales' },
-        ],
-      },
+        "title": "Direct Factory Bales",
+        "categoryId": "bales",
+        "items": [
+          {
+            "name": "50kg 6x6 Duvet Factory Bales",
+            "filter": "duve-bales"
+          },
+          {
+            "name": "45kg Velvet Curtains Drapes Bale",
+            "filter": "velvet-bales"
+          }
+        ]
+      }
     ],
-    viewAllText: 'View All Wholesale Deals',
-  },
+    "viewAllText": "View All Wholesale Deals"
+  }
 ];
 
 export const CATEGORIES = [
-  { id: 'all', name: 'All Collections' },
-  { id: 'mens-wear', name: "Men's Fashion" },
-  { id: 'ladies-wear', name: "Women's Boutique" },
-  { id: 'childrens-wear', name: "Children's Wear" },
-  { id: 'bedding-home', name: 'Bedding & Home' },
-  { id: 'sportswear', name: 'Sportswear & Jerseys' },
-  { id: 'bags-luggage', name: 'Bags & Accessories' },
-  { id: 'bales', name: 'Mixed Bales & Wholesale' },
+  {
+    "id": "all",
+    "name": "All Collections"
+  },
+  {
+    "id": "mens-wear",
+    "name": "Men's Fashion"
+  },
+  {
+    "id": "ladies-wear",
+    "name": "Women's Boutique"
+  },
+  {
+    "id": "childrens-wear",
+    "name": "Children's Wear"
+  },
+  {
+    "id": "bedding-home",
+    "name": "Bedding & Home"
+  },
+  {
+    "id": "sportswear",
+    "name": "Sportswear & Jerseys"
+  },
+  {
+    "id": "bags-luggage",
+    "name": "Bags & Accessories"
+  },
+  {
+    "id": "bales",
+    "name": "Mixed Bales & Wholesale"
+  }
 ];
 
 export const INITIAL_PRODUCTS = [
+  {
+    "id": "tfc-polo-01",
+    "name": "Men's Striped Collar Pique Knit Polo Shirt (Style 277#)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "shirts",
+    "itemType": "polo-shirt",
+    "retailPrice": 750,
+    "wholesalePrice": 600,
+    "wholesaleMoq": 6,
+    "badge": "NEW POLO (KES 750)",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "100% Breathable Pique Knit Cotton with Engineered Striped Collar",
+    "rating": 4.8,
+    "reviewsCount": 88,
+    "image": "/products-img/Polo (1).jpeg",
+    "gallery": [
+      "/products-img/Polo (1).jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Mint Green",
+        "hex": "#A7D7C5"
+      },
+      {
+        "name": "Onyx Black",
+        "hex": "#18181B"
+      },
+      {
+        "name": "Clean White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Sand Beige",
+        "hex": "#D2B48C"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#7EC8E3"
+      },
+      {
+        "name": "Coffee Brown",
+        "hex": "#4A2E18"
+      }
+    ],
+    "stock": {
+      "nairobi": 45,
+      "eldoret": 35
+    },
+    "description": "Style 277# premium men's executive polo shirt with contrast ribbed collar and 3-button placket. Available in 6 versatile office & smart-casual shades. Sizes: M, L, XL, 2XL, 3XL. Price: KES 1,200 retail, KES 750 wholesale (MOQ 6 pcs). Direct factory import available at Nairobi (Diamond Plaza) and Eldoret (Seven Sunday)."
+  },
+  {
+    "id": "tfc-polo-02",
+    "name": "Men's Contrast Piping Luxury Pique Polo Shirt (Style Z11#)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "shirts",
+    "itemType": "polo-shirt",
+    "retailPrice": 750,
+    "wholesalePrice": 600,
+    "wholesaleMoq": 6,
+    "badge": "NEW POLO (KES 1,200)",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "Mercerized Soft-Combed Pique Cotton",
+    "rating": 4.9,
+    "reviewsCount": 94,
+    "image": "/products-img/Polo (2).jpeg",
+    "gallery": [
+      "/products-img/Polo (2).jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Cream / Green Trim",
+        "hex": "#FDFBF7"
+      },
+      {
+        "name": "Black / Cream Trim",
+        "hex": "#111827"
+      },
+      {
+        "name": "Beige / Hunter Trim",
+        "hex": "#D6C7B2"
+      },
+      {
+        "name": "Crisp White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Mocha Brown",
+        "hex": "#5C4033"
+      },
+      {
+        "name": "Teal Green",
+        "hex": "#006666"
+      },
+      {
+        "name": "Forest Green",
+        "hex": "#1E3F20"
+      }
+    ],
+    "stock": {
+      "nairobi": 50,
+      "eldoret": 40
+    },
+    "description": "Style Z11# luxury men's collar polo featuring subtle contrast border piping along the collar edge, sleeve cuffs, and button placket. Sizes: M, L, XL, 2XL, 3XL. Price: KES 1,200 retail, KES 750 wholesale (MOQ 6 pcs). Nairobi & Eldoret stores."
+  },
+  {
+    "id": "tfc-polo-03",
+    "name": "Men's Premium Solid Pique Executive Polo Shirt (Style W1-001#)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "shirts",
+    "itemType": "polo-shirt",
+    "retailPrice": 750,
+    "wholesalePrice": 500,
+    "wholesaleMoq": 6,
+    "badge": "NEW POLO (KES 1,200)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% Ring-Spun Pique Cotton with Anti-Shrink Weave",
+    "rating": 4.8,
+    "reviewsCount": 79,
+    "image": "/products-img/Polo (3).jpeg",
+    "gallery": [
+      "/products-img/Polo (3).jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "Crisp White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Slate Green",
+        "hex": "#2E4A3E"
+      },
+      {
+        "name": "Sage Khaki",
+        "hex": "#C2C5AA"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Dark Chocolate",
+        "hex": "#3B2219"
+      },
+      {
+        "name": "Pitch Black",
+        "hex": "#0A0A0A"
+      }
+    ],
+    "stock": {
+      "nairobi": 48,
+      "eldoret": 38
+    },
+    "description": "Style W1-001# classic minimalist executive polo shirt. Clean unadorned solid color palette ideal for official workwear, corporate embroidery, and smart-casual weekend looks. Sizes: M, L, XL, 2XL, 3XL. Price: KES 1,200 retail, KES 750 wholesale."
+  },
+  {
+    "id": "tfc-polo-04",
+    "name": "Men's Triple Pinstripe Collar & Placket Polo Shirt (Style Z88#)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "shirts",
+    "itemType": "polo-shirt",
+    "retailPrice": 750,
+    "wholesalePrice": 500,
+    "wholesaleMoq": 6,
+    "badge": "NEW POLO (KES 1,200)",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "Double-Knit Soft Air-Pique Cotton",
+    "rating": 4.7,
+    "reviewsCount": 62,
+    "image": "/products-img/Polo (4).jpeg",
+    "gallery": [
+      "/products-img/Polo (4).jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL"
+    ],
+    "colors": [
+      {
+        "name": "White / Slate Stripe",
+        "hex": "#F8FAFC"
+      },
+      {
+        "name": "Black / White Stripe",
+        "hex": "#0F172A"
+      },
+      {
+        "name": "Chocolate Brown",
+        "hex": "#452211"
+      },
+      {
+        "name": "Camel Khaki",
+        "hex": "#C19A6B"
+      },
+      {
+        "name": "Powder Blue",
+        "hex": "#93C5FD"
+      },
+      {
+        "name": "Mint Sage",
+        "hex": "#D1E7DD"
+      }
+    ],
+    "stock": {
+      "nairobi": 42,
+      "eldoret": 36
+    },
+    "description": "Style Z88# tailored men's smart-casual polo shirt with distinguished triple micro-pinstripe ribbing on the collar and button placket. Sizes: M, L, XL, 2XL, 3XL. Price: KES 1,200 retail, KES 750 wholesale."
+  },
+  {
+    "id": "tfc-polo-05",
+    "name": "Men's Ice Silk Two-Tone Block Polo Shirt (Style S10#)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "shirts",
+    "itemType": "polo-shirt",
+    "retailPrice": 1250,
+    "wholesalePrice": 800,
+    "wholesaleMoq": 6,
+    "badge": "ICE SILK POLO (M-4XL)",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "Nylon Spandex Ice Silk Mini-Grid (锦氨米尼格) - Cool-Touch Quick-Dry",
+    "rating": 5,
+    "reviewsCount": 112,
+    "image": "/products-img/Polo (5).jpeg",
+    "gallery": [
+      "/products-img/Polo (5).jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "colors": [
+      {
+        "name": "Light Grey / White",
+        "hex": "#D1D5DB"
+      },
+      {
+        "name": "Black / Grey",
+        "hex": "#1F2937"
+      },
+      {
+        "name": "White / Beige",
+        "hex": "#F3F4F6"
+      },
+      {
+        "name": "Beige / Navy",
+        "hex": "#D2B48C"
+      },
+      {
+        "name": "Navy / Grey",
+        "hex": "#1E3A8A"
+      },
+      {
+        "name": "Grey / Navy",
+        "hex": "#4B5563"
+      }
+    ],
+    "stock": {
+      "nairobi": 55,
+      "eldoret": 45
+    },
+    "description": "Style S10# high-end cool-touch ice silk (锦氨米尼格) colorblock polo shirt. Super breathable, sweat-wicking with 4-way elastic stretch. Extended size range: M, L, XL, 2XL, 3XL, 4XL (Sizes 48-58). Price: KES 1,250 retail, KES 800 wholesale (MOQ 6 pcs)."
+  },
+  {
+    "id": "tfc-polo-06",
+    "name": "Men's Ice Silk Chest-Stripe Luxury Polo Shirt (Style S14#)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "shirts",
+    "itemType": "polo-shirt",
+    "retailPrice": 750,
+    "wholesalePrice": 500,
+    "wholesaleMoq": 6,
+    "badge": "ICE SILK POLO (M-4XL)",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "Luxury Ice Silk Mini-Grid Spandex Blend (锦氨米尼格)",
+    "rating": 4.9,
+    "reviewsCount": 105,
+    "image": "/products-img/Polo (6).jpeg",
+    "gallery": [
+      "/products-img/Polo (6).jpeg"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL",
+      "3XL",
+      "4XL"
+    ],
+    "colors": [
+      {
+        "name": "Smoke Grey / Navy Band",
+        "hex": "#9CA3AF"
+      },
+      {
+        "name": "Charcoal / Light Grey",
+        "hex": "#374151"
+      },
+      {
+        "name": "Ivory Cream / Taupe Band",
+        "hex": "#FDFBF7"
+      },
+      {
+        "name": "Navy Blue / Grey Band",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Oatmeal Beige / White Band",
+        "hex": "#E5E7EB"
+      },
+      {
+        "name": "Pitch Black / Cream Band",
+        "hex": "#111827"
+      }
+    ],
+    "stock": {
+      "nairobi": 50,
+      "eldoret": 42
+    },
+    "description": "Style S14# horizontal chest-stripe executive polo shirt crafted in cool-touch polyamide-spandex (锦氨米尼格). Non-wrinkling, smooth drape, perfect for warm Kenyan weather. Extended sizes: M, L, XL, 2XL, 3XL, 4XL (Sizes 48-58). Price: KES 1,250 retail, KES 800 wholesale."
+  },
+  {
+    "id": "tfc-gagi-01",
+    "name": "Men's Nathan Roman & Spysse Executive Stretch Gagi Trousers (18 Colors)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "khakis",
+    "itemType": "gagi-trousers",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "GAGI TROUSERS (KES 1,500)",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "98% Heavy Cotton Twill + 2% Spandex Elastic Stretch (Nathan Roman Greatest Performance NR)",
+    "rating": 4.9,
+    "reviewsCount": 148,
+    "image": "/products-img/Gagi (1).jpeg",
+    "gallery": [
+      "/products-img/Gagi (1).jpeg",
+      "/products-img/Gagi (4).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Classic Khaki Tan",
+        "hex": "#C3B091"
+      },
+      {
+        "name": "Sand Beige",
+        "hex": "#E6D7B8"
+      },
+      {
+        "name": "Light Ivory Cream",
+        "hex": "#FAF0E6"
+      },
+      {
+        "name": "Stone Grey",
+        "hex": "#9E9E9E"
+      },
+      {
+        "name": "Olive Green",
+        "hex": "#556B2F"
+      },
+      {
+        "name": "Military Army Green",
+        "hex": "#4B5320"
+      },
+      {
+        "name": "Chocolate Mocha",
+        "hex": "#3E2723"
+      },
+      {
+        "name": "Slate Grey",
+        "hex": "#708090"
+      },
+      {
+        "name": "Dark Charcoal",
+        "hex": "#2F4F4F"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Deep Navy Blue",
+        "hex": "#000080"
+      },
+      {
+        "name": "Royal Cobalt",
+        "hex": "#27408B"
+      },
+      {
+        "name": "Wine Maroon",
+        "hex": "#800000"
+      }
+    ],
+    "stock": {
+      "nairobi": 65,
+      "eldoret": 55
+    },
+    "description": "Authentic Kenyan executive stretch Gagi Trousers / Chinos by Nathan Roman (NR) and Spysse Collection. Tailored slim-straight fit, reinforced double-stitched back welt pockets, belt loops, and smooth flex comfort. Available in 18 official shades. Sizes: Waist 30, 32, 34, 36, 38, 40. Price: KES 1,500 retail, KES 950 wholesale MOQ 6 pcs."
+  },
+  {
+    "id": "tfc-gagi-02",
+    "name": "Men's Black Morton Slim-Fit Stretch Khaki Gagi Chinos (15 Colors)",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "khakis",
+    "itemType": "gagi-trousers",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "GAGI TROUSERS (KES 1,500)",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": true,
+    "fabric": "Premium Glazed Cotton Twill with Comfort Stretch",
+    "rating": 4.8,
+    "reviewsCount": 132,
+    "image": "/products-img/Gagi (2).jpeg",
+    "gallery": [
+      "/products-img/Gagi (2).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Off-White Cream",
+        "hex": "#F5F5DC"
+      },
+      {
+        "name": "Steel Blue",
+        "hex": "#4682B4"
+      },
+      {
+        "name": "Olive Green",
+        "hex": "#6B8E23"
+      },
+      {
+        "name": "Golden Khaki",
+        "hex": "#DAA520"
+      },
+      {
+        "name": "Midnight Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Light Grey",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#FFFFF0"
+      },
+      {
+        "name": "Charcoal Grey",
+        "hex": "#36454F"
+      },
+      {
+        "name": "Dark Navy",
+        "hex": "#191970"
+      },
+      {
+        "name": "Plum Burgundy",
+        "hex": "#4A0E17"
+      }
+    ],
+    "stock": {
+      "nairobi": 60,
+      "eldoret": 50
+    },
+    "description": "Black Morton signature stretch khaki chino trousers (gagis). Anti-fade reactive dye, executive tapered cut, crease-resistant office & smart-casual trousers. Sizes: Waist 30, 32, 34, 36, 38, 40. Price: KES 1,500 retail, KES 950 wholesale MOQ 6 pcs."
+  },
+  {
+    "id": "tfc-gagi-03",
+    "name": "Men's Black Newton Tailored Executive Gagi Chino Pants",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "khakis",
+    "itemType": "gagi-trousers",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "GAGI TROUSERS (KES 1,500)",
+    "isNewArrival": true,
+    "isFeatured": false,
+    "isBestseller": true,
+    "fabric": "100% High-Density Compact Weave Cotton Twill",
+    "rating": 4.8,
+    "reviewsCount": 95,
+    "image": "/products-img/Gagi (3).jpeg",
+    "gallery": [
+      "/products-img/Gagi (3).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Navy Blue",
+        "hex": "#0B1D3A"
+      },
+      {
+        "name": "Coffee Brown",
+        "hex": "#4A2C11"
+      },
+      {
+        "name": "Stone Beige",
+        "hex": "#DCD0C0"
+      },
+      {
+        "name": "Steel Grey",
+        "hex": "#5C6B73"
+      },
+      {
+        "name": "Mustard Tan",
+        "hex": "#C29B38"
+      },
+      {
+        "name": "Pitch Black",
+        "hex": "#111111"
+      },
+      {
+        "name": "Olive Green",
+        "hex": "#475B3D"
+      }
+    ],
+    "stock": {
+      "nairobi": 55,
+      "eldoret": 45
+    },
+    "description": "Black Newton tailored stretch gagi trousers. Direct factory import featured on our wholesale display counter. Soft-touch brushed finish, heavy-duty metal YKK zipper, reinforced crotch and pocket seams. Sizes: Waist 30, 32, 34, 36, 38, 40. Price: KES 1,500 retail, KES 950 wholesale MOQ 6 pcs."
+  },
+  {
+    "id": "tfc-gagi-04",
+    "name": "Men's Nathan Roman NR Premium Quality Stone Khaki Gagi Detail",
+    "category": "mens-wear",
+    "parentCategory": "clothing",
+    "subCategory": "khakis",
+    "itemType": "gagi-trousers",
+    "retailPrice": 1500,
+    "wholesalePrice": 950,
+    "wholesaleMoq": 6,
+    "badge": "GAGI TROUSERS (KES 1,500)",
+    "isNewArrival": true,
+    "isFeatured": true,
+    "isBestseller": false,
+    "fabric": "Authentic Nathan Roman Embossed Leather Patch + Diagonal Cotton Twill",
+    "rating": 4.9,
+    "reviewsCount": 84,
+    "image": "/products-img/Gagi (4).jpeg",
+    "gallery": [
+      "/products-img/Gagi (4).jpeg",
+      "/products-img/Gagi (1).jpeg"
+    ],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "colors": [
+      {
+        "name": "Stone Cream Khaki",
+        "hex": "#EBE3D5"
+      },
+      {
+        "name": "Classic Tan Khaki",
+        "hex": "#C3B091"
+      },
+      {
+        "name": "Pitch Black",
+        "hex": "#171717"
+      },
+      {
+        "name": "Dark Navy",
+        "hex": "#1E293B"
+      },
+      {
+        "name": "Olive Green",
+        "hex": "#3D4F38"
+      }
+    ],
+    "stock": {
+      "nairobi": 50,
+      "eldoret": 40
+    },
+    "description": "Close-up detail edition of the famous Nathan Roman (NR) Greatest Performance Premium Quality Gagi Trousers. Showcasing the genuine embossed leather waistband badge, single-welt buttoned rear pocket, and fine diagonal cotton twill weave. Sizes: Waist 30, 32, 34, 36, 38, 40. Price: KES 1,500 retail, KES 950 wholesale MOQ 6 pcs."
+  },
   {
     "id": "tfc-bj-01",
     "name": "Men's Cloud-Bleach Washed Graphic Buggy Jeans (Style 1)",

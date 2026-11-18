@@ -84,14 +84,15 @@ const INITIAL_INQUIRIES = [
   }
 ];
 
-const CATALOG_STORAGE_KEY = 'tfc_products_catalog_v5';
+const CATALOG_STORAGE_KEY = 'tfc_products_catalog_v6';
 const CATALOG_VERSION_KEY = 'tfc_catalog_build_version';
-const CURRENT_VERSION = '2026_11_v5_206_items';
+const CURRENT_VERSION = '2026_11_v6_216_items';
 
 export const ProductProvider = ({ children }) => {
   const [products, setProducts] = useState(() => {
     try {
       // Clear legacy storage keys if present
+      localStorage.removeItem('tfc_products_catalog_v5');
       localStorage.removeItem('tfc_products_catalog_v4');
       localStorage.removeItem('tfc_products_catalog_v3');
       localStorage.removeItem('tfc_products_catalog_v2');
@@ -224,6 +225,17 @@ export const ProductProvider = ({ children }) => {
           product.subCategory !== 'buggy-jeans' &&
           !product.name.toLowerCase().includes('buggy') &&
           !product.name.toLowerCase().includes('baggy')
+        ) return false;
+      } else if (selectedCategory === 'polo-shirts') {
+        if (
+          product.itemType !== 'polo-shirt' &&
+          !product.name.toLowerCase().includes('polo')
+        ) return false;
+      } else if (selectedCategory === 'gagi-tros') {
+        if (
+          product.itemType !== 'gagi-trousers' &&
+          !product.name.toLowerCase().includes('gagi') &&
+          !product.name.toLowerCase().includes('khaki')
         ) return false;
       } else if (selectedCategory === 'wholesale-packages' || selectedCategory === 'bales') {
         if (product.category !== 'bales' && product.parentCategory !== 'bales' && product.category !== 'wholesale-packages') return false;
